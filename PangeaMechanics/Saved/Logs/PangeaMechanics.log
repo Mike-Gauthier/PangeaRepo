@@ -886,3 +886,47 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.08-15.40.00:434][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.04.08-15.40.04:204][ 35]LogAssetRegistry: Asset discovery search completed in 291.7253 seconds
 [2020.04.08-15.40.04:207][ 35]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.04.08-15.58.39:410][360]LogSlate: Window 'New Level' being destroyed
+[2020.04.08-15.58.42:520][360]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-15.58.43:303][360]LogSlate: Took 0.123928 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.08-15.58.43:480][360]LightingResults: New page: Lighting Build
+[2020.04.08-15.58.44:109][360]LoadErrors: New page: Loading map: Template_Default.umap
+[2020.04.08-15.58.45:476][360]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-15.58.45:765][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.08-15.58.45:841][360]MapCheck: New page: Map Check
+[2020.04.08-15.58.45:883][360]LightingResults: New page: Lighting Build
+[2020.04.08-15.58.48:491][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.04.08-15.58.51:414][360]LogAIModule: Creating AISystem for world Untitled_1
+[2020.04.08-15.58.53:407][360]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.08-15.58.53:663][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2020.04.08-15.58.53:702][360]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-15.58.53:924][360]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 15.405ms to complete.
+[2020.04.08-15.58.53:924][360]LogFileHelpers: Loading map 'Template_Default' took 12.457
+[2020.04.08-16.02.04:248][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.08-16.02.22:867][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.08-16.02.28:387][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.08-16.03.06:611][377]LogSlate: Took 0.042318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.08-16.03.26:444][891]LogSlate: Window 'Save Level As' being destroyed
+[2020.04.08-16.03.27:172][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MikesLevel" FILE="../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/MikesLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.08-16.03.27:382][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.04.08-16.03.27:763][891]LogSavePackage: Moving '../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/MikesLevel86FA1D484765AEC18476BDBDB13D819A.tmp' to '../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/MikesLevel.umap'
+[2020.04.08-16.03.28:343][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MikesLevel_BuiltData" FILE="../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/MikesLevel_BuiltData.uasset" SILENT=true
+[2020.04.08-16.03.28:757][891]LogSavePackage: Moving '../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/MikesLevel_BuiltDataDEF3E88B4FDE57E957D77E926E07BBA8.tmp' to '../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/MikesLevel_BuiltData.uasset'
+[2020.04.08-16.03.28:800][891]LogFileHelpers: Saving map 'MikesLevel' took 1.761
+[2020.04.08-16.03.28:824][891]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/MikesLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-16.03.28:914][891]LightingResults: New page: Lighting Build
+[2020.04.08-16.03.28:936][891]LoadErrors: New page: Loading map: MikesLevel.umap
+[2020.04.08-16.03.28:937][891]LogWorld: UWorld::CleanupWorld for MikesLevel, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-16.03.28:961][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.08-16.03.29:045][891]MapCheck: New page: Map Check
+[2020.04.08-16.03.29:045][891]LightingResults: New page: Lighting Build
+[2020.04.08-16.03.29:335][891]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.04.08-16.03.29:566][891]LogAIModule: Creating AISystem for world MikesLevel
+[2020.04.08-16.03.29:768][891]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.08-16.03.29:828][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.04.08-16.03.29:918][891]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-16.03.29:919][891]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.513ms to complete.
+[2020.04.08-16.03.29:945][891]LogFileHelpers: Loading map 'MikesLevel' took 1.145
+[2020.04.08-16.03.31:851][891]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.08-16.03.31:851][891]LogContentValidation: Display: Validating World /Game/MikesLevel.MikesLevel
+[2020.04.08-16.03.31:851][891]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MikesLevel_BuiltData.MikesLevel_BuiltData
