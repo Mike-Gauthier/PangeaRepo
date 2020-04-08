@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PangeaMechanics.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{131C698B-1482-4D32-8BFF-7E159E10418E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PangeaMechanics.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PangeaMechanicsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FE656189-F8DF-4976-B1FA-2B4308825364}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PangeaMechanics">
+      <UniqueIdentifier>{A064D920-8B25-4499-A194-7462581F762F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs">
+      <Filter>Source\PangeaMechanics</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PangeaMechanics\PangeaMechanics.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanics.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PangeaMechanics\PangeaMechanicsCharacter.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanicsCharacter.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PangeaMechanics\PangeaMechanicsGameMode.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanicsGameMode.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
