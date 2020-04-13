@@ -930,4 +930,3 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.08-16.03.31:851][891]AssetCheck: New page: Asset Save: multiple assets
 [2020.04.08-16.03.31:851][891]LogContentValidation: Display: Validating World /Game/MikesLevel.MikesLevel
 [2020.04.08-16.03.31:851][891]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MikesLevel_BuiltData.MikesLevel_BuiltData
-[2020.04.08-20.28.40:420][107]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
