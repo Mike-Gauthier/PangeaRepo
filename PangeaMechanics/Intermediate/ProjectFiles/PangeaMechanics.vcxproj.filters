@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PangeaMechanics.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{131C698B-1482-4D32-8BFF-7E159E10418E}</UniqueIdentifier>
+      <UniqueIdentifier>{2213A3E2-EA05-428A-9C13-F6A41C904DD4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PangeaMechanics.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FE656189-F8DF-4976-B1FA-2B4308825364}</UniqueIdentifier>
+      <UniqueIdentifier>{B43F2531-6832-4596-A38E-547F4632F915}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PangeaMechanics">
-      <UniqueIdentifier>{A064D920-8B25-4499-A194-7462581F762F}</UniqueIdentifier>
+      <UniqueIdentifier>{EB0E4D3A-26C7-47B1-A4A5-0C7C31CC503C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs">
       <Filter>Source\PangeaMechanics</Filter>

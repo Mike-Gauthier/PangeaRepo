@@ -1,2 +1,2 @@
-C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
-c:\users\mike\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanics.h
+C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+c:\users\mcdel\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanics.h
