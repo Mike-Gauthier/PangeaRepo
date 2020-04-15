@@ -813,3 +813,45 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.15-02.45.47:555][175]AssetCheck: New page: Asset Save: multiple assets
 [2020.04.15-02.45.47:652][175]LogContentValidation: Display: Validating World /Game/MikesLevel.MikesLevel
 [2020.04.15-02.45.47:652][175]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MikesLevel_BuiltData.MikesLevel_BuiltData
+[2020.04.15-02.49.19:018][991]LogHttp: Warning: 000001AC5D366980: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45DAE04F-4800-ACC1-553F-95B26011D8BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=ac11e328453c58ed7d285db5b046bf9c%7C475b618faf124090b3647cf9c9f763da%7Ca8fde830-ea07-46e6-b7b8-3c567e99270f&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: request failed, libcurl error: 28 (Timeout was reached)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 0 (Connection 24 seems to be dead!)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 1 (Closing connection 24)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 3 (  Trying 3.226.93.173...)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 4 (TCP_NODELAY set)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (3.226.93.173) port 443 (#25))
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 8 (SSL re-using session ID)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 10 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2020.04.15-02.49.19:031][991]LogHttp: Warning: 000001AC5D366980: libcurl info message cache 11 (Closing connection 25)
+[2020.04.15-02.49.19:353][992]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45DAE04F-4800-ACC1-553F-95B26011D8BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=ac11e328453c58ed7d285db5b046bf9c%7C475b618faf124090b3647cf9c9f763da%7Ca8fde830-ea07-46e6-b7b8-3c567e99270f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.04.15-02.49.21:587][998]LogSlate: Took 0.032093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.15-02.52.19:674][529]LogHttp: Warning: 000001AC5D367740: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45DAE04F-4800-ACC1-553F-95B26011D8BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=ac11e328453c58ed7d285db5b046bf9c%7C475b618faf124090b3647cf9c9f763da%7Ca8fde830-ea07-46e6-b7b8-3c567e99270f&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: request failed, libcurl error: 28 (Timeout was reached)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 1 (  Trying 34.238.237.214...)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 2 (TCP_NODELAY set)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.238.237.214) port 443 (#26))
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 6 (SSL re-using session ID)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 8 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2020.04.15-02.52.19:675][529]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 9 (Closing connection 26)
+[2020.04.15-02.52.20:007][530]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45DAE04F-4800-ACC1-553F-95B26011D8BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=ac11e328453c58ed7d285db5b046bf9c%7C475b618faf124090b3647cf9c9f763da%7Ca8fde830-ea07-46e6-b7b8-3c567e99270f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45DAE04F-4800-ACC1-553F-95B26011D8BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=ac11e328453c58ed7d285db5b046bf9c%7C475b618faf124090b3647cf9c9f763da%7Ca8fde830-ea07-46e6-b7b8-3c567e99270f&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: request failed, libcurl error: 28 (Timeout was reached)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 0 (  Trying 52.87.92.96...)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 1 (TCP_NODELAY set)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.87.92.96) port 443 (#27))
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 5 (SSL re-using session ID)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 8 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2020.04.15-02.55.20:218][ 67]LogHttp: Warning: 000001AC5D367740: libcurl info message cache 9 (Closing connection 27)
+[2020.04.15-02.55.20:549][ 68]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B45DAE04F-4800-ACC1-553F-95B26011D8BC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=ac11e328453c58ed7d285db5b046bf9c%7C475b618faf124090b3647cf9c9f763da%7Ca8fde830-ea07-46e6-b7b8-3c567e99270f&AppEnvironment=datacollector-binary&UploadType=eteventstream
