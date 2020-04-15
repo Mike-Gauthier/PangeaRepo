@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PangeaMechanics.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{131C698B-1482-4D32-8BFF-7E159E10418E}</UniqueIdentifier>
+      <UniqueIdentifier>{D1A7C992-0F8A-4A81-9239-EAAB3CF045EB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PangeaMechanics.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FE656189-F8DF-4976-B1FA-2B4308825364}</UniqueIdentifier>
+      <UniqueIdentifier>{9361325D-6AB5-43AC-B414-89A942F1ED1D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PangeaMechanics">
-      <UniqueIdentifier>{A064D920-8B25-4499-A194-7462581F762F}</UniqueIdentifier>
+      <UniqueIdentifier>{ED5F4496-D474-4922-B8C4-B63B0279BE37}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PangeaMechanics\DinoTestsPawn.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PangeaMechanics\DinoTestsPawn.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
     <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs">
       <Filter>Source\PangeaMechanics</Filter>
     </None>
@@ -53,5 +59,15 @@
     <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanicsGameMode.h">
       <Filter>Source\PangeaMechanics</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PangeaMechanics\BehaviorTests.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PangeaMechanics\BehaviorTests.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

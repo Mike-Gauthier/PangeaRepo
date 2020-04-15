@@ -1,0 +1,5 @@
+C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Source\PangeaMechanics/DinoTestsPawn.h
+c:\users\mike\documents\github\pangearepo\pangeamechanics\intermediate\build\win64\ue4editor\inc\pangeamechanics\DinoTestsPawn.generated.h

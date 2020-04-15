@@ -7,9 +7,13 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\BehaviorTests.cpp.obj"
+"C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\DinoTestsPawn.cpp.obj"
 "C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanics.cpp.obj"
 "C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsCharacter.cpp.obj"
 "C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsGameMode.cpp.obj"
+"C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\BehaviorTests.gen.cpp.obj"
+"C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\DinoTestsPawn.gen.cpp.obj"
 "C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanics.init.gen.cpp.obj"
 "C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsCharacter.gen.cpp.obj"
 "C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsGameMode.gen.cpp.obj"
