@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PANGEAMECHANICS_TameAnimal_generated_h
 
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_SPARSE_DATA
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_RPC_WRAPPERS
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_INCLASS_NO_PURE_DECLS \
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_SPARSE_DATA
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_RPC_WRAPPERS
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTameAnimal(); \
 	friend struct Z_Construct_UClass_UTameAnimal_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UTameAnimal)
 
 
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_INCLASS \
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesUTameAnimal(); \
 	friend struct Z_Construct_UClass_UTameAnimal_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UTameAnimal)
 
 
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_STANDARD_CONSTRUCTORS \
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTameAnimal(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTameAnimal) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_ENHANCED_CONSTRUCTORS \
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTameAnimal(UTameAnimal&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTameAnimal); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTameAnimal)
 
 
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_PRIVATE_PROPERTY_OFFSET
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_14_PROLOG
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_GENERATED_BODY_LEGACY \
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_PRIVATE_PROPERTY_OFFSET
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_16_PROLOG
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_PRIVATE_PROPERTY_OFFSET \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_SPARSE_DATA \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_RPC_WRAPPERS \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_INCLASS \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_STANDARD_CONSTRUCTORS \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_PRIVATE_PROPERTY_OFFSET \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_SPARSE_DATA \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_RPC_WRAPPERS \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_INCLASS \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_GENERATED_BODY \
+#define PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_PRIVATE_PROPERTY_OFFSET \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_SPARSE_DATA \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_INCLASS_NO_PURE_DECLS \
-	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_17_ENHANCED_CONSTRUCTORS \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_PRIVATE_PROPERTY_OFFSET \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_SPARSE_DATA \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_INCLASS_NO_PURE_DECLS \
+	PangeaMechanics_Source_PangeaMechanics_TameAnimal_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

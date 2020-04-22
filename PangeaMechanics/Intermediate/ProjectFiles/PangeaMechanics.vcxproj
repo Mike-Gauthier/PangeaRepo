@@ -364,9 +364,9 @@
     <NMakeOutput>..\..\Binaries\IOS\PangeaMechanics-IOS-Shipping</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\PangeaMechanics\ProximityTrigger.cpp" />
+    <ClCompile Include="..\..\Source\PangeaMechanics\AnimalSight.cpp" />
     <ClCompile Include="..\..\Source\PangeaMechanics\TameAnimal.cpp" />
-    <ClInclude Include="..\..\Source\PangeaMechanics\ProximityTrigger.h" />
+    <ClInclude Include="..\..\Source\PangeaMechanics\AnimalSight.h" />
     <ClInclude Include="..\..\Source\PangeaMechanics\TameAnimal.h" />
     <None Include="..\..\PangeaMechanics.uproject" />
     <None Include="..\..\Source\PangeaMechanics.Target.cs" />
@@ -376,20 +376,10 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
-    <ClCompile Include="..\..\Source\PangeaMechanics\AnimalInteract.cpp" />
-    <ClCompile Include="..\..\Source\PangeaMechanics\AnimalTaming.cpp" />
-    <ClInclude Include="..\..\Source\PangeaMechanics\AnimalInteract.h" />
-    <ClInclude Include="..\..\Source\PangeaMechanics\AnimalTaming.h" />
     <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs" />
     <ClCompile Include="..\..\Source\PangeaMechanics\AnimalTriggerBox.cpp" />
-    <ClCompile Include="..\..\Source\PangeaMechanics\AnimInter.cpp" />
-    <ClCompile Include="..\..\Source\PangeaMechanics\ObjectInteract.cpp" />
-    <ClCompile Include="..\..\Source\PangeaMechanics\ObjectInteraction.cpp" />
     <ClCompile Include="..\..\Source\PangeaMechanics\PangeaMechanics.cpp" />
     <ClInclude Include="..\..\Source\PangeaMechanics\AnimalTriggerBox.h" />
-    <ClInclude Include="..\..\Source\PangeaMechanics\AnimInter.h" />
-    <ClInclude Include="..\..\Source\PangeaMechanics\ObjectInteract.h" />
-    <ClInclude Include="..\..\Source\PangeaMechanics\ObjectInteraction.h" />
     <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanics.h" />
     <ClCompile Include="..\..\Source\PangeaMechanics\PangeaMechanicsCharacter.cpp" />
     <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanicsCharacter.h" />

@@ -30,6 +30,7 @@ void AAnimalTriggerBox::OnOverlapEnd(class AActor* OverlappedActor, class AActor
 	}
 }
 
+//Getters
 bool AAnimalTriggerBox::GetIsInAnimalTriggerBox()
 {
 	return IsInAnimalTriggerBox;

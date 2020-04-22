@@ -1,0 +1,836 @@
+﻿Log file open, 04/20/20 14:16:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PangeaMechanics
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.089538
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.20-13.16.02:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.20-13.16.02:006][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.20-13.16.02:006][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.20-13.16.02:009][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.20-13.16.02:009][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.20-13.16.02:010][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.20-13.16.02:010][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.20-13.16.02:010][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.20-13.16.02:013][  0]LogHAL: Display: Platform has ~ 8 GB [8416038912 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.20-13.16.02:013][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.20-13.16.02:013][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.04.20-13.16.02:013][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.20-13.16.02:014][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.20-13.16.02:015][  0]LogInit: Computer: DESKTOP-B76AR38
+[2020.04.20-13.16.02:015][  0]LogInit: User: Tom
+[2020.04.20-13.16.02:015][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.20-13.16.02:015][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.20-13.16.02:015][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.04.20-13.16.02:015][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.20-13.16.02:015][  0]LogMemory: Process Physical Memory: 105.43 MB used, 105.44 MB peak
+[2020.04.20-13.16.02:015][  0]LogMemory: Process Virtual Memory: 100.43 MB used, 100.43 MB peak
+[2020.04.20-13.16.02:015][  0]LogMemory: Physical Memory: 5812.93 MB used,  2213.23 MB free, 8026.16 MB total
+[2020.04.20-13.16.02:015][  0]LogMemory: Virtual Memory: 5137.57 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.04.20-13.16.02:019][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.20-13.16.02:035][  0]LogInit: Using OS detected language (en-GB).
+[2020.04.20-13.16.02:035][  0]LogInit: Using OS detected locale (en-GB).
+[2020.04.20-13.16.02:036][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.04.20-13.16.02:203][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.20-13.16.02:245][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.20-13.16.02:245][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.20-13.16.02:399][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.20-13.16.02:399][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.20-13.16.02:399][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.20-13.16.02:399][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.20-13.16.02:436][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.04.20-13.16.02:436][  0]LogD3D11RHI:       128/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.04.20-13.16.02:438][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.20-13.16.02:438][  0]LogD3D11RHI:       0/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.20-13.16.02:438][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.20-13.16.02:446][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.20-13.16.02:446][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.20-13.16.02:446][  0]LogWindows: EnumDisplayDevices:
+[2020.04.20-13.16.02:447][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.04.20-13.16.02:447][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.04.20-13.16.02:447][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.04.20-13.16.02:447][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.04.20-13.16.02:447][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2020.04.20-13.16.02:448][  0]LogD3D11RHI:   Driver Version: 25.20.100.6446 (internal:25.20.100.6446, unified:25.20.100.6446)
+[2020.04.20-13.16.02:448][  0]LogD3D11RHI:      Driver Date: 11-19-2018
+[2020.04.20-13.16.02:448][  0]LogRHI: Texture pool is 1494 MB (70% of 2134 MB)
+[2020.04.20-13.16.02:494][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.04.20-13.16.02:494][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.04.20-13.16.02:494][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.20-13.16.02:499][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.04.20-13.16.02:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.20-13.16.02:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.20-13.16.02:866][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.20-13.16.02:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.20-13.16.02:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.20-13.16.02:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.20-13.16.02:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.20-13.16.02:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.20-13.16.02:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.20-13.16.02:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.20-13.16.02:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.20-13.16.02:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.20-13.16.02:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.20-13.16.02:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.20-13.16.02:975][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.20-13.16.02:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.20-13.16.02:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.20-13.16.03:005][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.20-13.16.03:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.20-13.16.03:012][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.20-13.16.03:016][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.20-13.16.03:043][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/8812/).
+[2020.04.20-13.16.03:043][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/F7CEC1BE4EBA83B23CD0D8891F1C5F2C/'.
+[2020.04.20-13.16.03:044][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.20-13.16.03:044][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.20-13.16.03:044][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.20-13.16.03:767][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.20-13.16.03:833][  0]LogDerivedDataCache: Loaded boot cache 0.07s 82MB C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.20-13.16.03:833][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.20-13.16.03:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.20-13.16.03:833][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.20-13.16.03:833][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.20-13.16.03:833][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.20-13.16.03:843][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.20-13.16.03:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.20-13.16.03:843][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.20-13.16.03:845][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.20-13.16.03:845][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.20-13.16.03:845][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.20-13.16.03:869][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.20-13.16.03:871][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.20-13.16.03:872][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.20-13.16.03:926][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
+[2020.04.20-13.16.04:243][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.20-13.16.04:397][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.20-13.16.04:397][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.20-13.16.04:397][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.20-13.16.04:397][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.20-13.16.04:397][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.20-13.16.04:408][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
+[2020.04.20-13.16.05:511][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052133 seconds
+[2020.04.20-13.16.05:519][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.20-13.16.05:519][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.20-13.16.05:519][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.20-13.16.05:913][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.20-13.16.05:915][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.20-13.16.06:118][  0]SourceControl: Source control is disabled
+[2020.04.20-13.16.06:118][  0]SourceControl: Source control is disabled
+[2020.04.20-13.16.06:119][  0]SourceControl: Source control is disabled
+[2020.04.20-13.16.06:120][  0]SourceControl: Source control is disabled
+[2020.04.20-13.16.06:121][  0]SourceControl: Source control is disabled
+[2020.04.20-13.16.06:208][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.20-13.16.06:218][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.20-13.16.06:218][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.20-13.16.06:305][  0]LogOcInput: OculusInput pre-init called
+[2020.04.20-13.16.06:313][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.20-13.16.06:313][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.20-13.16.06:388][  0]LogEngine: Initializing Engine...
+[2020.04.20-13.16.06:389][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.20-13.16.06:390][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.20-13.16.06:758][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.20-13.16.06:774][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.20-13.16.06:945][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.20-13.16.06:945][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.20-13.16.06:945][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.20-13.16.06:945][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.20-13.16.06:945][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.20-13.16.06:945][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.20-13.16.06:945][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.20-13.16.06:945][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.20-13.16.06:946][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.20-13.16.06:946][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: Name: Speaker/Headphone (Realtek(R) Audio)
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.20-13.16.06:967][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.20-13.16.07:077][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.04.20-13.16.07:082][  0]LogInit: FAudioDevice initialized.
+[2020.04.20-13.16.07:083][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.20-13.16.07:245][  0]LogDerivedDataCache: Saved boot cache 0.16s 82MB C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.20-13.16.07:245][  0]LogInit: Texture streaming: Enabled
+[2020.04.20-13.16.07:256][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.20-13.16.07:256][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.20-13.16.07:265][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.20-13.16.07:327][  0]LogInit: Transaction tracking system initialized
+[2020.04.20-13.16.07:339][  0]BlueprintLog: New page: Editor Load
+[2020.04.20-13.16.07:370][  0]LocalizationService: Localization service is disabled
+[2020.04.20-13.16.08:557][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/' took 0.00s
+[2020.04.20-13.16.08:558][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.20-13.16.08:558][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.20-13.16.09:261][  0]SourceControl: Source control is disabled
+[2020.04.20-13.16.09:262][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.20-13.16.09:262][  0]LightingResults: New page: Lighting Build
+[2020.04.20-13.16.09:263][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.20-13.16.09:263][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.20-13.16.09:263][  0]MapCheck: New page: Map Check
+[2020.04.20-13.16.09:263][  0]LightingResults: New page: Lighting Build
+[2020.04.20-13.16.09:291][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.04.20-13.16.09:396][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.20-13.16.09:403][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.20-13.16.09:435][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.04.20-13.16.09:436][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.20-13.16.09:436][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.2ms to complete.
+[2020.04.20-13.16.09:436][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.174
+[2020.04.20-13.16.09:578][  0]LogCollectionManager: Loaded 0 collections in 0.002179 seconds
+[2020.04.20-13.16.09:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Collections/' took 0.00s
+[2020.04.20-13.16.09:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Developers/Tom/Collections/' took 0.00s
+[2020.04.20-13.16.09:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Collections/' took 0.00s
+[2020.04.20-13.16.09:593][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3023 classes and 722 folders.
+[2020.04.20-13.16.09:597][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.20-13.16.09:693][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.20-13.16.09:717][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-13.16.09:725][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-13.16.09:732][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-13.16.09:740][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-13.16.09:783][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.20-13.16.09:790][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.20-13.16.09:792][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.20-13.16.09:792][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.20-13.16.09:927][  0]LogRenderer: Reallocating scene render targets to support 952x312 Format 9 NumSamples 1 (Frame:1).
+[2020.04.20-13.16.10:243][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.20-13.16.10:243][  0]LogLoad: (Engine Initialization) Total time: 9.77 seconds
+[2020.04.20-13.16.10:243][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.20-13.16.10:314][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.04.20-13.16.10:349][  1]LogAssetRegistry: Asset discovery search completed in 6.4240 seconds
+[2020.04.20-13.16.10:353][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2020.04.20-13.16.13:944][135]LogSlate: Took 0.001613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.20-13.16.15:319][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.04.20-13.16.15:323][176]Cmd: MAP LOAD FILE="../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/TamingPrototypeTG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.20-13.16.15:334][176]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.20-13.16.15:386][176]LightingResults: New page: Lighting Build
+[2020.04.20-13.16.15:389][176]LoadErrors: New page: Loading map: TamingPrototypeTG.umap
+[2020.04.20-13.16.15:390][176]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.20-13.16.15:390][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.20-13.16.15:390][176]MapCheck: New page: Map Check
+[2020.04.20-13.16.15:390][176]LightingResults: New page: Lighting Build
+[2020.04.20-13.16.15:420][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.04.20-13.16.15:452][176]LogAIModule: Creating AISystem for world TamingPrototypeTG
+[2020.04.20-13.16.15:475][176]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.20-13.16.15:509][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.04.20-13.16.15:548][176]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.20-13.16.15:548][176]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.193ms to complete.
+[2020.04.20-13.16.15:548][176]LogFileHelpers: Loading map 'TamingPrototypeTG' took 0.226
+[2020.04.20-13.16.15:549][176]LogSlate: Window 'Open Level' being destroyed
+[2020.04.20-13.16.33:156][840]Cmd: DELETE
+[2020.04.20-13.16.33:160][840]Cmd: ACTOR DELETE
+[2020.04.20-13.16.33:272][840]LogEditorActor: Deleted Actor: AnimalTriggerBox
+[2020.04.20-13.16.33:301][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.04.20-13.16.33:304][840]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2020.04.20-13.16.36:006][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.04.20-13.16.36:181][941]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/TamingPrototypeTGFF0B0889461B99397A126CAF677D8E13.tmp' to '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/TamingPrototypeTG.umap'
+[2020.04.20-13.16.36:322][941]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/TamingPrototypeTG_BuiltData6942E90B4F9D91942F2707BDE20FDC94.tmp' to '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/TamingPrototypeTG_BuiltData.uasset'
+[2020.04.20-13.16.36:343][941]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.20-13.16.36:343][941]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG
+[2020.04.20-13.16.36:343][941]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/TamingPrototypeTG_BuiltData.TamingPrototypeTG_BuiltData
+[2020.04.20-13.16.40:910][129]LogEditorViewport: Clicking on Actor (LMB): Pawn (AnimalPawn)
+[2020.04.20-13.16.51:967][578]LogSlate: Took 0.002523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.20-13.31.00:597][274]Candidate modules for hot reload:
+[2020.04.20-13.31.00:598][274]  PangeaMechanics
+[2020.04.20-13.31.00:598][274]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,5272 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.04.20-13.31.00:618][274]Warning: Starting HotReload took  0.1s.
+[2020.04.20-13.31.39:034][ 80]CompilerResultsLog: New page: Compilation - 20 Apr 2020, 15:31:39
+[2020.04.20-13.31.39:035][ 80]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog: Parsing headers for PangeaMechanicsEditor
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\PangeaMechanics.uproject" "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\PangeaMechanicsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog: Reflection code generated for PangeaMechanicsEditor in 20.4760024 seconds
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:   [1/6] PangeaMechanics.init.gen.cpp
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:   [2/6] TameAnimal.cpp
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:   [3/6] TameAnimal.gen.cpp
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:   [4/6] UE4Editor-PangeaMechanics-5272.lib
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5272.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5272.exp
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:   [5/6] UE4Editor-PangeaMechanics-5272.dll
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5272.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5272.suppressed.exp
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog:   [6/6] PangeaMechanicsEditor.target
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog: Total time in Parallel executor: 11.08 seconds
+[2020.04.20-13.31.39:036][ 80]CompilerResultsLog: Total execution time: 38.18 seconds
+[2020.04.20-13.31.39:036][ 80]LogMainFrame: MainFrame: Module compiling took 38.453 seconds
+[2020.04.20-13.31.39:118][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2020.04.20-13.31.39:686][ 80]LogClass: Could not find existing class TameAnimal in package /Script/PangeaMechanics for HotReload, assuming new class
+[2020.04.20-13.31.39:698][ 80]LogHotReload: Re-instancing AnimalTriggerBox after hot-reload.
+[2020.04.20-13.31.39:960][ 80]LogHotReload: Re-instancing TameAnimal after hot-reload.
+[2020.04.20-13.31.40:200][ 80]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0034 seconds. Added 6 classes and 2 folders.
+[2020.04.20-13.31.40:205][ 80]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.04.20-13.31.40:315][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.04.20-13.31.40:400][ 80]LogContentBrowser: Native class hierarchy populated in 0.0208 seconds. Added 3023 classes and 722 folders.
+[2020.04.20-13.31.40:401][ 80]Display: HotReload took 39.8s.
+[2020.04.20-13.32.20:826][ 14]Candidate modules for hot reload:
+[2020.04.20-13.32.20:826][ 14]  PangeaMechanics
+[2020.04.20-13.32.20:826][ 14]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,2015 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.04.20-13.32.20:835][ 14]Warning: Starting HotReload took  0.0s.
+[2020.04.20-13.32.59:073][219]CompilerResultsLog: New page: Compilation - 20 Apr 2020, 15:32:59
+[2020.04.20-13.32.59:073][219]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.04.20-13.32.59:073][219]CompilerResultsLog: Parsing headers for PangeaMechanicsEditor
+[2020.04.20-13.32.59:073][219]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\PangeaMechanics.uproject" "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\PangeaMechanicsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-13.32.59:073][219]CompilerResultsLog: Reflection code generated for PangeaMechanicsEditor in 21.3699433 seconds
+[2020.04.20-13.32.59:073][219]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.04.20-13.32.59:073][219]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-13.32.59:073][219]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.04.20-13.32.59:073][219]CompilerResultsLog:   [1/6] PangeaMechanics.init.gen.cpp
+[2020.04.20-13.32.59:073][219]CompilerResultsLog:   [2/6] TameAnimal.cpp
+[2020.04.20-13.32.59:073][219]CompilerResultsLog:   [3/6] TameAnimal.gen.cpp
+[2020.04.20-13.32.59:074][219]CompilerResultsLog:   [4/6] UE4Editor-PangeaMechanics-2015.lib
+[2020.04.20-13.32.59:074][219]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-2015.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-2015.exp
+[2020.04.20-13.32.59:074][219]CompilerResultsLog:   [5/6] UE4Editor-PangeaMechanics-2015.dll
+[2020.04.20-13.32.59:074][219]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-2015.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-2015.suppressed.exp
+[2020.04.20-13.32.59:074][219]CompilerResultsLog:   [6/6] PangeaMechanicsEditor.target
+[2020.04.20-13.32.59:074][219]CompilerResultsLog: Total time in Parallel executor: 12.33 seconds
+[2020.04.20-13.32.59:074][219]CompilerResultsLog: Total execution time: 37.88 seconds
+[2020.04.20-13.32.59:074][219]LogMainFrame: MainFrame: Module compiling took 38.252 seconds
+[2020.04.20-13.32.59:104][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.04.20-13.32.59:873][219]LogClass: Could not find existing class TameAnimal in package /Script/PangeaMechanics for HotReload, assuming new class
+[2020.04.20-13.32.59:876][219]LogHotReload: Re-instancing AnimalTriggerBox after hot-reload.
+[2020.04.20-13.33.00:013][219]LogHotReload: Re-instancing TameAnimal after hot-reload.
+[2020.04.20-13.33.00:129][219]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 6 classes and 2 folders.
+[2020.04.20-13.33.00:132][219]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.04.20-13.33.00:223][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.04.20-13.33.00:236][219]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3023 classes and 722 folders.
+[2020.04.20-13.33.00:237][219]Display: HotReload took 39.4s.
+[2020.04.20-13.33.12:249][663]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.20-13.36.43:826][859]Candidate modules for hot reload:
+[2020.04.20-13.36.43:826][859]  PangeaMechanics
+[2020.04.20-13.36.43:826][859]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,352 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.04.20-13.36.43:833][859]Warning: Starting HotReload took  0.0s.
+[2020.04.20-13.37.11:349][819]CompilerResultsLog: New page: Compilation - 20 Apr 2020, 15:37:11
+[2020.04.20-13.37.11:349][819]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.04.20-13.37.11:349][819]CompilerResultsLog: Parsing headers for PangeaMechanicsEditor
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\PangeaMechanics.uproject" "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\PangeaMechanicsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-13.37.11:350][819]CompilerResultsLog: Reflection code generated for PangeaMechanicsEditor in 19.6115226 seconds
+[2020.04.20-13.37.11:350][819]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.04.20-13.37.11:350][819]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-13.37.11:350][819]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:   [1/6] PangeaMechanics.init.gen.cpp
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:   [2/6] TameAnimal.cpp
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:   [3/6] TameAnimal.gen.cpp
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:   [4/6] UE4Editor-PangeaMechanics-0352.lib
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0352.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0352.exp
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:   [5/6] UE4Editor-PangeaMechanics-0352.dll
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0352.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0352.suppressed.exp
+[2020.04.20-13.37.11:350][819]CompilerResultsLog:   [6/6] PangeaMechanicsEditor.target
+[2020.04.20-13.37.11:350][819]CompilerResultsLog: Total time in Parallel executor: 4.84 seconds
+[2020.04.20-13.37.11:350][819]CompilerResultsLog: Total execution time: 27.36 seconds
+[2020.04.20-13.37.11:350][819]LogMainFrame: MainFrame: Module compiling took 27.528 seconds
+[2020.04.20-13.37.11:389][819]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.04.20-13.37.11:421][819]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 3023 classes and 722 folders.
+[2020.04.20-13.37.11:421][819]Display: HotReload took 27.6s.
+[2020.04.20-13.37.28:498][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.04.20-13.37.28:796][370]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/TamingPrototypeTGDF40D1864A837852C54B5CA5F20DA005.tmp' to '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/TamingPrototypeTG.umap'
+[2020.04.20-13.37.28:958][370]LogSavePackage: Moving '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/TamingPrototypeTG_BuiltDataE06A509C4D7E8D612B2D288AB500A74F.tmp' to '../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/TamingPrototypeTG_BuiltData.uasset'
+[2020.04.20-13.37.28:985][370]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.20-13.37.28:985][370]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG
+[2020.04.20-13.37.28:985][370]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/TamingPrototypeTG_BuiltData.TamingPrototypeTG_BuiltData
+[2020.04.20-13.37.34:667][601]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.20-13.37.39:845][894]Candidate modules for hot reload:
+[2020.04.20-13.37.39:845][894]  PangeaMechanics
+[2020.04.20-13.37.39:846][894]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,6658 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.04.20-13.37.39:854][894]Warning: Starting HotReload took  0.0s.
+[2020.04.20-13.37.43:733][957]CompilerResultsLog: New page: Compilation - 20 Apr 2020, 15:37:43
+[2020.04.20-13.37.43:733][957]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.04.20-13.37.43:733][957]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.04.20-13.37.43:733][957]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-13.37.43:733][957]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.04.20-13.37.43:733][957]CompilerResultsLog:   [1/3] UE4Editor-PangeaMechanics-6658.lib
+[2020.04.20-13.37.43:733][957]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6658.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6658.exp
+[2020.04.20-13.37.43:733][957]CompilerResultsLog:   [2/3] UE4Editor-PangeaMechanics-6658.dll
+[2020.04.20-13.37.43:733][957]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6658.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6658.suppressed.exp
+[2020.04.20-13.37.43:733][957]CompilerResultsLog:   [3/3] PangeaMechanicsEditor.target
+[2020.04.20-13.37.43:733][957]CompilerResultsLog: Total time in Parallel executor: 0.99 seconds
+[2020.04.20-13.37.43:733][957]CompilerResultsLog: Total execution time: 3.35 seconds
+[2020.04.20-13.37.43:733][957]LogMainFrame: MainFrame: Module compiling took 3.896 seconds
+[2020.04.20-13.37.43:766][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.04.20-13.37.44:283][957]LogClass: Could not find existing class TameAnimal in package /Script/PangeaMechanics for HotReload, assuming new class
+[2020.04.20-13.37.44:286][957]LogHotReload: Re-instancing AnimalTriggerBox after hot-reload.
+[2020.04.20-13.37.44:397][957]LogHotReload: Re-instancing TameAnimal after hot-reload.
+[2020.04.20-13.37.44:515][957]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2020.04.20-13.37.44:519][957]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.04.20-13.37.44:620][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.04.20-13.37.44:634][957]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3023 classes and 722 folders.
+[2020.04.20-13.37.44:634][957]Display: HotReload took  4.8s.
+[2020.04.20-13.39.35:817][399]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.20-13.45.20:958][840]Candidate modules for hot reload:
+[2020.04.20-13.45.20:958][840]  PangeaMechanics
+[2020.04.20-13.45.20:958][840]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,9944 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.04.20-13.45.20:981][840]Warning: Starting HotReload took  0.1s.
+[2020.04.20-13.45.29:788][  9]CompilerResultsLog: New page: Compilation - 20 Apr 2020, 15:45:29
+[2020.04.20-13.45.29:789][  9]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.04.20-13.45.29:789][  9]CompilerResultsLog: Creating makefile for PangeaMechanicsEditor (game project files are newer)
+[2020.04.20-13.45.29:789][  9]CompilerResultsLog: Parsing headers for PangeaMechanicsEditor
+[2020.04.20-13.45.29:789][  9]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\PangeaMechanics.uproject" "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\PangeaMechanicsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-13.45.29:790][  9]CompilerResultsLog: Error: C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Source/PangeaMechanics/TameAnimal.h(1) : Error: Missing 'class' in Class declaration
+[2020.04.20-13.45.29:791][  9]LogMainFrame: MainFrame: Module compiling took 8.837 seconds
+[2020.04.20-13.45.29:791][  9]Warning: HotReload failed, recompile failed
+[2020.04.20-13.55.26:595][152]Candidate modules for hot reload:
+[2020.04.20-13.55.26:595][152]  PangeaMechanics
+[2020.04.20-13.55.26:596][152]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,385 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.04.20-13.55.26:609][152]Warning: Starting HotReload took  0.1s.
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: New page: Compilation - 20 Apr 2020, 15:55:49
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Creating makefile for PangeaMechanicsEditor (game project files are newer)
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Parsing headers for PangeaMechanicsEditor
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\PangeaMechanics.uproject" "C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\PangeaMechanicsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Reflection code generated for PangeaMechanicsEditor in 11.3359164 seconds
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:   [1/6] PangeaMechanics.init.gen.cpp
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:   [2/6] TameAnimal.cpp
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:   [3/6] TameAnimal.gen.cpp
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:   [4/6] UE4Editor-PangeaMechanics-0385.lib
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0385.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0385.exp
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:   [5/6] UE4Editor-PangeaMechanics-0385.dll
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0385.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0385.suppressed.exp
+[2020.04.20-13.55.49:335][497]CompilerResultsLog:   [6/6] PangeaMechanicsEditor.target
+[2020.04.20-13.55.49:335][497]CompilerResultsLog: Total time in Parallel executor: 5.48 seconds
+[2020.04.20-13.55.49:336][497]CompilerResultsLog: Total execution time: 22.53 seconds
+[2020.04.20-13.55.49:336][497]LogMainFrame: MainFrame: Module compiling took 22.752 seconds
+[2020.04.20-13.55.49:382][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.04.20-13.55.49:408][497]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 3023 classes and 722 folders.
+[2020.04.20-13.55.49:410][497]Display: HotReload took 22.9s.
+[2020.04.20-13.55.52:338][505]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.20-13.55.52:362][505]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.20-13.55.52:382][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.04.20-13.55.52:387][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.20-13.55.52:389][505]PIE: New page: PIE session: TamingPrototypeTG (20 Apr 2020, 15:55:52)
+[2020.04.20-13.55.52:404][505]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.20-13.55.52:408][505]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.20-13.55.52:412][505]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG
+[2020.04.20-13.55.52:463][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048570s)
+[2020.04.20-13.55.52:486][505]LogAIModule: Creating AISystem for world TamingPrototypeTG
+[2020.04.20-13.55.52:497][505]LogPlayLevel: PIE: World Init took: (0.033420s)
+[2020.04.20-13.55.52:499][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG (0.086868s)
+[2020.04.20-13.55.52:524][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.04.20-13.55.52:537][505]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.20-13.55.52:537][505]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.20-13.55.52:537][505]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.20-13.55.52:537][505]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.20-13.55.52:537][505]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.20-13.55.52:537][505]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.20-13.55.52:537][505]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.20-13.55.52:537][505]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.20-13.55.52:540][505]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.20-13.55.52:540][505]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: Name: Speaker/Headphone (Realtek(R) Audio)
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: Is Default: Yes
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: Channel Order:
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.20-13.55.52:554][505]LogAudioMixer: Display: 1: FrontRight
+[2020.04.20-13.55.52:576][505]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.04.20-13.55.52:609][505]LogInit: FAudioDevice initialized.
+[2020.04.20-13.55.52:673][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-13.55.52:679][505]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.20-13.55.52:723][505]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG up for play (max tick rate 60) at 2020.04.20-14.55.52
+[2020.04.20-13.55.52:731][505]LogWorld: Bringing up level for play took: 0.035404
+[2020.04.20-13.55.52:733][505]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.04.20-13.55.52:793][505]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2020.04.20-13.55.52:823][505]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG 0.537
+[2020.04.20-13.55.52:825][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.04.20-13.55.52:982][506]LogRenderer: Reallocating scene render targets to support 952x344 Format 9 NumSamples 1 (Frame:1).

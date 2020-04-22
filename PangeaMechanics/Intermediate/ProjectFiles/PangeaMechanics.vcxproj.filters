@@ -32,12 +32,6 @@
     <Filter Include="Source\PangeaMechanics">
       <UniqueIdentifier>{63DC5FF1-1EBF-4ACD-B657-25EDF8B1144E}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\PangeaMechanics\AnimalTaming.cpp">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PangeaMechanics\AnimalTaming.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
     <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs">
       <Filter>Source\PangeaMechanics</Filter>
     </None>
@@ -61,48 +55,24 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\PangeaMechanics\ObjectInteract.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PangeaMechanics\AnimInter.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PangeaMechanics\AnimalInteract.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PangeaMechanics\ObjectInteraction.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\PangeaMechanics\AnimalTriggerBox.h">
       <Filter>Source\PangeaMechanics</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PangeaMechanics\TameAnimal.h">
       <Filter>Source\PangeaMechanics</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\PangeaMechanics\ProximityTrigger.h">
+    <ClInclude Include="..\..\Source\PangeaMechanics\AnimalSight.h">
       <Filter>Source\PangeaMechanics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\PangeaMechanics\ObjectInteract.cpp">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\PangeaMechanics\AnimInter.cpp">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\PangeaMechanics\AnimalInteract.cpp">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\PangeaMechanics\ObjectInteraction.cpp">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\PangeaMechanics\AnimalTriggerBox.cpp">
       <Filter>Source\PangeaMechanics</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PangeaMechanics\TameAnimal.cpp">
       <Filter>Source\PangeaMechanics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PangeaMechanics\ProximityTrigger.cpp">
+    <ClCompile Include="..\..\Source\PangeaMechanics\AnimalSight.cpp">
       <Filter>Source\PangeaMechanics</Filter>
     </ClCompile>
   </ItemGroup>
