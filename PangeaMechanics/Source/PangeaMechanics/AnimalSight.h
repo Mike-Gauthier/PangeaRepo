@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "Components/ActorComponent.h"
-#include "TameAnimal.h"
+#include "AnimalMotion.h"
 #include "AnimalSight.generated.h"
 
 
@@ -23,14 +23,23 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-	bool IsAlerted = false;
-
+	float PlayerAngleFromSightCentre;
 	float HalfSightWidthAngle = 30.0f;
-	float TargetFleeDistance = 800.0f;
+	float AnimalSightReach = 500.0f;
 
-	UTameAnimal* TameAnimal;
+	UAnimalMotion* AnimalMotion;
 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	
+	//General
+	float CalcPlayerAngleFromSightCentre();
+
+	//Behaviour separated by animal alertness state
+	void SetStatesToTamedSetup();
+	void IfJustUntamed();
+	void IfInUnawareState();
+	void IfInAlertedState();
+	void IfInExhaustedState();
 };
