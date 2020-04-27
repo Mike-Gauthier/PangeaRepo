@@ -24,41 +24,11 @@ void UAnimalSight::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	//Exhaustion level output log
-	UE_LOG(LogTemp, Log, TEXT("Exhaustion level: %.1f/%.1f"),
-		AnimalMotion->GetExhaustion(), AnimalMotion->GetMaxExhaustion());
-
-	UE_LOG(LogTemp, Log, TEXT("AnimalPlayerDistance: %f"), AnimalMotion->GetAnimalToPlayerVector().Size());
-
-	//Print IsTamed
-	if (AnimalMotion->GetIsTamed())
-	{
-		UE_LOG(LogTemp, Log, TEXT("IsTamed: true"));
-	}
-	else
-	{
-		UE_LOG(LogTemp, Log, TEXT("IsTamed: false"));
-	}
-
-	//Print IsAlerted
-	if (AnimalMotion->GetIsAlerted())
-	{
-		UE_LOG(LogTemp, Log, TEXT("IsAlerted: true"));
-	}
-	else
-	{
-		UE_LOG(LogTemp, Log, TEXT("IsAlerted: false"));
-	}
-
-	//Print IsExhausted
-	if (AnimalMotion->GetIsExhausted())
-	{
-		UE_LOG(LogTemp, Log, TEXT("IsExhausted: true"));
-	}
-	else
-	{
-		UE_LOG(LogTemp, Log, TEXT("IsExhausted: false"));
-	}
+	//Output Exhaustion to log
+	UE_LOG(LogTemp, Log, TEXT("Exhaustion level: %.1f/%.1f"), AnimalMotion->GetExhaustion(), AnimalMotion->GetMaxExhaustion());
+	
+	//Output AnimalToPlayerDistance to log
+	UE_LOG(LogTemp, Log, TEXT("AnimalToPlayerDistance: %f"), AnimalMotion->GetAnimalToPlayerVector().Size());
 
 	PlayerAngleFromSightCentre = CalcPlayerAngleFromSightCentre();
 
@@ -68,7 +38,6 @@ void UAnimalSight::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	}
 	else
 	{
-		IfJustUntamed();
 		IfInUnawareState();
 		IfInAlertedState();
 		IfInExhaustedState();
@@ -92,14 +61,6 @@ void UAnimalSight::SetStatesToTamedSetup()
 	AnimalMotion->SetIsAlerted(false);
 	AnimalMotion->SetIsExhausted(false);
 	AnimalMotion->SetExhaustion(0.0f);
-}
-void UAnimalSight::IfJustUntamed()
-{
-	if (AnimalMotion->GetWasJustUntamed())
-	{
-		AnimalMotion->SetIsAlerted(true);
-		AnimalMotion->SetWasJustUntamed(false);
-	}
 }
 void UAnimalSight::IfInUnawareState()
 {
@@ -152,6 +113,7 @@ void UAnimalSight::IfInAlertedState()
 		if (AnimalMotion->GetAnimalToPlayerVector().Size() > AnimalMotion->GetAbandonHuntDistance())
 		{
 			AnimalMotion->SetIsAlerted(false);
+			AnimalMotion->SetExhaustion(0.0f);
 		}
 	}
 }
@@ -176,6 +138,7 @@ void UAnimalSight::IfInExhaustedState()
 		{
 			AnimalMotion->SetIsAlerted(false);
 			AnimalMotion->SetIsExhausted(false);
+			AnimalMotion->SetExhaustion(0.0f);
 		}
 	}
 }

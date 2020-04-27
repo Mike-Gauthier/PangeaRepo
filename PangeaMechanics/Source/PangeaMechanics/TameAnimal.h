@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-//#include "Engine/TriggerBox.h"
 #include "Engine/World.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "GameFramework/PlayerController.h"
 #include "Components/ActorComponent.h"
-//#include "Components/SceneComponent.h"
+#include "DrawDebugHelpers.h"
 #include "AnimalMotion.h"
 #include "AnimalTriggerBox.h"
 #include "TameAnimal.generated.h"
@@ -37,5 +37,8 @@ public:
 	void UpdateIsTamed();
 
 	UPROPERTY(EditAnywhere)
-	AAnimalTriggerBox* AnimalTriggerBox;
+	AAnimalTriggerBox* AnimalBodyExtentTriggerBox;
+
+	UPROPERTY(EditAnywhere)
+	AAnimalTriggerBox* TamingRegionTriggerBox;
 };

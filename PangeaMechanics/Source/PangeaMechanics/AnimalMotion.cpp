@@ -90,6 +90,10 @@ void UAnimalMotion::FleeingAnimalRotation()
 {
 	AnimalRotation(-1.0f);
 }
+bool UAnimalMotion::GetIsFinishedTurning()
+{
+	return IsFinishedTurning;
+}
 
 //Functions used to calculate Rotation
 void UAnimalMotion::AnimalRotation(float DirectionMultiplier)
@@ -191,10 +195,6 @@ bool UAnimalMotion::GetIsTamed()
 {
 	return IsTamed;
 }
-bool UAnimalMotion::GetWasJustUntamed()
-{
-	return WasJustUntamed;
-}
 bool UAnimalMotion::GetIsAlerted()
 {
 	return IsAlerted;
@@ -206,10 +206,6 @@ bool UAnimalMotion::GetIsExhausted()
 void UAnimalMotion::SetIsTamed(bool InputBool)
 {
 	IsTamed = InputBool;
-}
-void UAnimalMotion::SetWasJustUntamed(bool InputBool)
-{
-	WasJustUntamed = InputBool;
 }
 void UAnimalMotion::SetIsAlerted(bool InputBool)
 {

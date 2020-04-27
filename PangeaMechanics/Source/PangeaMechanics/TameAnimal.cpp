@@ -35,7 +35,10 @@ void UTameAnimal::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 		AnimalMotion->TamedAnimalMovement();
 
 		//Tamed Rotation
-		AnimalMotion->TamedAnimalRotation();
+		if(!AnimalBodyExtentTriggerBox->GetIsInAnimalTriggerBox())
+		{
+			AnimalMotion->TamedAnimalRotation();
+		}
 	}
 }
 
@@ -47,15 +50,10 @@ void UTameAnimal::UpdateIsTamed()
 		if ((!AnimalMotion->GetIsTamed() && !AnimalMotion->GetIsAlerted() && !AnimalMotion->GetIsExhausted()) ||
 			(!AnimalMotion->GetIsTamed() && AnimalMotion->GetIsAlerted() && AnimalMotion->GetIsExhausted()))
 		{
-			if (AnimalTriggerBox->GetIsInAnimalTriggerBox())
+			if (TamingRegionTriggerBox->GetIsInAnimalTriggerBox())
 			{
 				AnimalMotion->SetIsTamed(true);
 			}
-		}
-		else if (AnimalMotion->GetIsTamed())
-		{
-			AnimalMotion->SetIsTamed(false);
-			AnimalMotion->SetWasJustUntamed(true);
 		}
 	}
 

@@ -28,26 +28,26 @@ private:
 	FVector AnimalToPlayerVector;
 
 	//Movement
-	float AnimalMovementSpeed = 10.0f;
+	float AnimalMovementSpeed = 8.0f;
 	float TargetAnimalPlayerDistance = 250.0f;
 	
 	//Rotation
 	float AnimalRotationSpeed = 4.0f;
 	float AnimalRotationLeniency = 5.0f;
+	bool IsFinishedTurning = false;
 
 	//Animal States
 	bool IsTamed = false;
-	bool WasJustUntamed = false;
 	bool IsAlerted = false;
 	bool IsExhausted = false;
 
 	//Fleeing
-	float TargetFleeDistance = 1000.0f;
-	float AbandonHuntDistance = 3000.0f;
+	float TargetFleeDistance = 2000.0f;
+	float AbandonHuntDistance = 4000.0f;
 	float Exhaustion = 0.0f;
 	float ExhaustionIncrSpeed = 3.0f;
-	float ExhaustionDecrSpeed = 1.0f;
-	float MaxExhaustion = 500.0f;
+	float ExhaustionDecrSpeed = 2.0f;
+	float MaxExhaustion = 1000.0f;
 
 public:	
 	// Called every frame
@@ -68,6 +68,7 @@ public:
 	//Rotation
 	void TamedAnimalRotation();
 	void FleeingAnimalRotation();
+	bool GetIsFinishedTurning();
 
 	//Functions used to calculate Rotation
 	void AnimalRotation(float DirectionMultiplier);
@@ -84,11 +85,9 @@ public:
 
 	//Animal States
 	bool GetIsTamed();
-	bool GetWasJustUntamed();
 	bool GetIsAlerted();
 	bool GetIsExhausted();
 	void SetIsTamed(bool InputBool);
-	void SetWasJustUntamed(bool InputBool);
 	void SetIsAlerted(bool InputBool);
 	void SetIsExhausted(bool InputBool);
 

@@ -25,7 +25,7 @@ protected:
 private:
 	float PlayerAngleFromSightCentre;
 	float HalfSightWidthAngle = 30.0f;
-	float AnimalSightReach = 500.0f;
+	float AnimalSightReach = 1700.0f;
 
 	UAnimalMotion* AnimalMotion;
 
@@ -38,7 +38,6 @@ public:
 
 	//Behaviour separated by animal alertness state
 	void SetStatesToTamedSetup();
-	void IfJustUntamed();
 	void IfInUnawareState();
 	void IfInAlertedState();
 	void IfInExhaustedState();

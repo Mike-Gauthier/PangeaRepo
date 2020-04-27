@@ -33,9 +33,13 @@ void EmptyLinkFunctionForGeneratedCodeTameAnimal() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimalTriggerBox_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TamingRegionTriggerBox_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AnimalTriggerBox;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TamingRegionTriggerBox;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimalBodyExtentTriggerBox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AnimalBodyExtentTriggerBox;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -53,14 +57,22 @@ void EmptyLinkFunctionForGeneratedCodeTameAnimal() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalTriggerBox_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTameAnimal_Statics::NewProp_TamingRegionTriggerBox_MetaData[] = {
 		{ "Category", "TameAnimal" },
 		{ "ModuleRelativePath", "TameAnimal.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalTriggerBox = { "AnimalTriggerBox", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTameAnimal, AnimalTriggerBox), Z_Construct_UClass_AAnimalTriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalTriggerBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalTriggerBox_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTameAnimal_Statics::NewProp_TamingRegionTriggerBox = { "TamingRegionTriggerBox", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTameAnimal, TamingRegionTriggerBox), Z_Construct_UClass_AAnimalTriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTameAnimal_Statics::NewProp_TamingRegionTriggerBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTameAnimal_Statics::NewProp_TamingRegionTriggerBox_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalBodyExtentTriggerBox_MetaData[] = {
+		{ "Category", "TameAnimal" },
+		{ "ModuleRelativePath", "TameAnimal.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalBodyExtentTriggerBox = { "AnimalBodyExtentTriggerBox", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UTameAnimal, AnimalBodyExtentTriggerBox), Z_Construct_UClass_AAnimalTriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalBodyExtentTriggerBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalBodyExtentTriggerBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTameAnimal_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalTriggerBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTameAnimal_Statics::NewProp_TamingRegionTriggerBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTameAnimal_Statics::NewProp_AnimalBodyExtentTriggerBox,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UTameAnimal_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UTameAnimal>::IsAbstract,
@@ -89,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeTameAnimal() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTameAnimal, 586095080);
+	IMPLEMENT_CLASS(UTameAnimal, 2315988208);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<UTameAnimal>()
 	{
 		return UTameAnimal::StaticClass();
