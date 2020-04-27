@@ -1,10 +1,13 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "PangeaMechanicsCharacter.generated.h"
+
+#define MAX_INVENTORY_ITEMS 5
+
+class AItem;
 
 UCLASS(config=Game)
 class APangeaMechanicsCharacter : public ACharacter
@@ -18,8 +21,23 @@ class APangeaMechanicsCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
 public:
 	APangeaMechanicsCharacter();
+
+	virtual void BeginPlay() override;
+
+	TArray<FString> Inventory;
+
+	//The actual Inventory
+	UPROPERTY(VisibleAnywhere)
+	TArray<AItem*> Inventory2;
+
+	//void AddItem(AItem item);
+
+	bool isPickingUp = false;
+
+	
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -39,6 +57,15 @@ protected:
 
 	/** Called for side to side input */
 	void MoveRight(float Value);
+
+
+	void BeginPickup();
+	void EndPickup();
+	void ShowInventory();
+
+	// Use Functions
+	void Use1();
+	void Use2();
 
 	/** 
 	 * Called via input to turn at a given rate. 

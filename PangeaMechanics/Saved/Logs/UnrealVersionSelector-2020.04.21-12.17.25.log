@@ -1,0 +1,60 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community (Product=Microsoft.VisualStudio.Product.Community, Version=15.9.28307.1093, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023 (Version=14.16.27039)
+DynamicCompilation.RequiresCompilation: Compiling C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\BuildRules\PangeaMechanicsModuleRules.dll: Assembly does not exist
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 8.1 SDK at C:\Program Files (x86)\Windows Kits\8.1
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.10586.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.10586.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.14393.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.14393.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.16299.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.16299.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+UnrealBuildTool.Main: ERROR: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main: BuildException: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main:    en UnrealBuildTool.VCEnvironment.SetupEnvironment(UnrealTargetPlatform Platform) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:línea 463
+UnrealBuildTool.Main:    en UnrealBuildTool.VCEnvironment..ctor(UnrealTargetPlatform Platform, WindowsCompiler Compiler, DirectoryReference CompilerDir, VersionNumber CompilerVersion, WindowsArchitecture Architecture, WindowsCompiler ToolChain, DirectoryReference ToolChainDir, VersionNumber ToolChainVersion, DirectoryReference WindowsSdkDir, VersionNumber WindowsSdkVersion) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:línea 144
+UnrealBuildTool.Main:    en UnrealBuildTool.VCEnvironment.Create(WindowsCompiler Compiler, UnrealTargetPlatform Platform, WindowsArchitecture Architecture, String CompilerVersion, String WindowsSdkVersion) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:línea 544
+UnrealBuildTool.Main:    en UnrealBuildTool.WindowsPlatform.ValidateTarget(TargetRules Target) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\UEBuildWindows.cs:línea 714
+UnrealBuildTool.Main:    en UnrealBuildTool.RulesAssembly.CreateTargetRulesInstance(String TypeName, TargetInfo TargetInfo) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:línea 565
+UnrealBuildTool.Main:    en UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, String Architecture, FileReference ProjectFile, CommandLineArguments Arguments) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:línea 625
+UnrealBuildTool.Main:    en UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:línea 2224
+UnrealBuildTool.Main:    en UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:línea 720
+UnrealBuildTool.Main:    en UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:línea 176
+UnrealBuildTool.Main:    en UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) en D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:línea 517
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.058) <unknown>
+Timeline.Print: [ 0.058](+0.155) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.213](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.213](+0.112) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.215          [ 0.001](+0.053) Initializing InstalledPlatformInfo
+Timeline.Print:   0.268          [ 0.055](+0.000) Querying types
+Timeline.Print:   0.271          [ 0.057](+0.002) MacPlatformFactory
+Timeline.Print:   0.274          [ 0.060](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.274          [ 0.060](+0.016) AndroidPlatformFactory
+Timeline.Print:   0.290          [ 0.076](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.290          [ 0.077](+0.027) IOSPlatformFactory
+Timeline.Print:   0.318          [ 0.104](+0.004) LinuxPlatformFactory
+Timeline.Print:   0.322          [ 0.108](+0.000) LuminPlatformFactory
+Timeline.Print:   0.322          [ 0.108](+0.003) WindowsPlatformFactory
+Timeline.Print: [ 0.325](+0.728) <unknown>
+Timeline.Print: [ 1.053](+0.002) Finding engine modules
+Timeline.Print: [ 1.055](+0.005) Finding plugin modules
+Timeline.Print: [ 1.061](+0.063) <unknown>
+Timeline.Print: [ 1.124](+0.000) Finding program modules
+Timeline.Print: [ 1.124](+0.000) Finding program targets
+Timeline.Print: [ 1.130](+0.427) Compiling rules assembly (PangeaMechanicsModuleRules.dll)
+Timeline.Print: [ 1.558](+0.134) <unknown>
+Timeline.Print: [ 1.693](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 1.697]

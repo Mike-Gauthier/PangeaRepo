@@ -8,6 +8,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Engine.h"
+#include "Item.h"
 
 //////////////////////////////////////////////////////////////////////////
 // APangeaMechanicsCharacter
@@ -16,6 +18,7 @@ APangeaMechanicsCharacter::APangeaMechanicsCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+
 
 	// set our turn rates for input
 	BaseTurnRate = 45.f;
@@ -57,6 +60,18 @@ void APangeaMechanicsCharacter::SetupPlayerInputComponent(class UInputComponent*
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	// Pickup
+	PlayerInputComponent->BindAction("Pickup", IE_Pressed, this, &APangeaMechanicsCharacter::BeginPickup);
+	PlayerInputComponent->BindAction("Pickup", IE_Released, this, &APangeaMechanicsCharacter::EndPickup);
+
+	// Inventory
+	PlayerInputComponent->BindAction("ShowInventory", IE_Pressed, this, &APangeaMechanicsCharacter::ShowInventory);
+
+	// USE OBJECT
+	PlayerInputComponent->BindAction("Use1", IE_Pressed, this, &APangeaMechanicsCharacter::Use1);
+	PlayerInputComponent->BindAction("Use2", IE_Pressed, this, &APangeaMechanicsCharacter::Use2);
+
+	// Move
 	PlayerInputComponent->BindAxis("MoveForward", this, &APangeaMechanicsCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &APangeaMechanicsCharacter::MoveRight);
 
@@ -131,4 +146,45 @@ void APangeaMechanicsCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+// PICKUP
+
+void APangeaMechanicsCharacter::BeginPickup()
+{
+	isPickingUp = true;
+}
+
+void APangeaMechanicsCharacter::EndPickup()
+{
+	isPickingUp = false;
+}
+
+
+// INVENTORY
+void APangeaMechanicsCharacter::ShowInventory()
+{
+	for (auto& Item : Inventory) //auto figures out the type of the element
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Item: %s"), *Item));
+	}
+}
+
+// ITEMS 
+void APangeaMechanicsCharacter::Use1()
+{
+
+}
+
+void APangeaMechanicsCharacter::Use2()
+{
+
+}
+
+void APangeaMechanicsCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	//Initializing our Inventory
+	Inventory2.SetNum(MAX_INVENTORY_ITEMS);
 }

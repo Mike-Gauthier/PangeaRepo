@@ -1,0 +1,11 @@
+C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+c:\users\aleja\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\WeaponItem.h
+c:\users\aleja\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\Item.h
+c:\users\aleja\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanicsCharacter.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PangeaMechanicsCharacter.generated.h
+C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\Item.generated.h
+C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\WeaponItem.generated.h

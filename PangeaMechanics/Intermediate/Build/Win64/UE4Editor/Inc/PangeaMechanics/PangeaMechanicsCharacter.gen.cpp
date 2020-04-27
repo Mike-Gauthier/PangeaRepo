@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePangeaMechanicsCharacter() {}
 	PANGEAMECHANICS_API UClass* Z_Construct_UClass_APangeaMechanicsCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_PangeaMechanics();
+	PANGEAMECHANICS_API UClass* Z_Construct_UClass_AItem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -41,6 +42,11 @@ void EmptyLinkFunctionForGeneratedCodePangeaMechanicsCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Inventory2_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Inventory2;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Inventory2_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
@@ -83,6 +89,16 @@ void EmptyLinkFunctionForGeneratedCodePangeaMechanicsCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APangeaMechanicsCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_Inventory2_MetaData[] = {
+		{ "Category", "PangeaMechanicsCharacter" },
+		{ "Comment", "//The actual Inventory\n" },
+		{ "ModuleRelativePath", "PangeaMechanicsCharacter.h" },
+		{ "ToolTip", "The actual Inventory" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_Inventory2 = { "Inventory2", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APangeaMechanicsCharacter, Inventory2), METADATA_PARAMS(Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_Inventory2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_Inventory2_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_Inventory2_Inner = { "Inventory2", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AItem_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -107,6 +123,8 @@ void EmptyLinkFunctionForGeneratedCodePangeaMechanicsCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APangeaMechanicsCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_Inventory2,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_Inventory2_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_FollowCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APangeaMechanicsCharacter_Statics::NewProp_CameraBoom,
 	};
@@ -137,7 +155,7 @@ void EmptyLinkFunctionForGeneratedCodePangeaMechanicsCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APangeaMechanicsCharacter, 3385227048);
+	IMPLEMENT_CLASS(APangeaMechanicsCharacter, 1592407266);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<APangeaMechanicsCharacter>()
 	{
 		return APangeaMechanicsCharacter::StaticClass();
