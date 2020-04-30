@@ -6,6 +6,7 @@
 #include "PangeaMechanicsCharacter.h"
 #include "Item.generated.h"
 
+
 UCLASS()
 class PANGEAMECHANICS_API AItem : public AActor
 {
@@ -21,25 +22,34 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* SM_TBox;
 
+	UPROPERTY(EditAnywhere, Category = "Item Stats")
+		FString name;
+
+	UPROPERTY(EditAnywhere, Category = "Item Stats")
+		FString description;
+
+	UPROPERTY(EditAnywhere, Category = "Item Stats")
+		int weight;
+
+	bool ItemIsWithinRange = false;
+
 	APangeaMechanicsCharacter* MyPlayerController;
-
-	UPROPERTY(EditAnywhere)
-		FString ItemName = FString(TEXT(""));
-
-	UPROPERTY(EditAnywhere)
-		FString ItemDescription = FString(TEXT(""));
 
 	/*The Texture of the item in case we want to add it in the secrets or inventory*/
 	UPROPERTY(EditAnywhere)
 		UTexture2D* PickupTexture;
 
-	UPROPERTY(EditAnywhere)
-		int Weight = 1;
+	UFUNCTION(BlueprintCallable)
+		void DisableActor(bool hide);
 
-	void Pickup();
+	// FUNCTIONS
+
 	void GetPlayer(AActor* Player);
 
-	bool ItemIsWithinRange = false;
+	void Pickup();
+
+	UFUNCTION(BlueprintCallable)
+	virtual void Use();
 
 	UFUNCTION()
 		void TriggerEnter(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);

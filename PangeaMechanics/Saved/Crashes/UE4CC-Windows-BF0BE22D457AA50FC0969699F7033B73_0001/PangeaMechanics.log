@@ -1,0 +1,1624 @@
+﻿Log file open, 04/29/20 00:02:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PangeaMechanics
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.100827
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1803) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.28-22.02.56:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.28-22.02.56:316][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.28-22.02.56:317][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.28-22.02.56:317][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.28-22.02.56:319][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.28-22.02.56:319][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.28-22.02.56:320][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.28-22.02.56:321][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:321][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.28-22.02.56:321][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.28-22.02.56:321][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.28-22.02.56:321][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.28-22.02.56:321][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.28-22.02.56:323][  0]LogHAL: Display: Platform has ~ 32 GB [34238066688 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.28-22.02.56:323][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.28-22.02.56:323][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.28-22.02.56:323][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.28-22.02.56:324][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.28-22.02.56:325][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.04.28-22.02.56:325][  0]LogInit: Computer: DESKTOP-2O8I7OI
+[2020.04.28-22.02.56:326][  0]LogInit: User: aleja
+[2020.04.28-22.02.56:326][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.28-22.02.56:326][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2020.04.28-22.02.56:326][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.04.28-22.02.56:326][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.28-22.02.56:326][  0]LogMemory: Process Physical Memory: 104.77 MB used, 104.77 MB peak
+[2020.04.28-22.02.56:326][  0]LogMemory: Process Virtual Memory: 100.61 MB used, 100.61 MB peak
+[2020.04.28-22.02.56:326][  0]LogMemory: Physical Memory: 7991.05 MB used,  24660.91 MB free, 32651.96 MB total
+[2020.04.28-22.02.56:326][  0]LogMemory: Virtual Memory: 5150.22 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.04.28-22.02.56:329][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.28-22.02.56:357][  0]LogInit: Using OS detected language (es-ES).
+[2020.04.28-22.02.56:357][  0]LogInit: Using OS detected locale (es-ES).
+[2020.04.28-22.02.56:359][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2020.04.28-22.02.56:411][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.28-22.02.56:445][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.28-22.02.56:445][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.28-22.02.56:651][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.28-22.02.56:651][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.28-22.02.56:651][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.28-22.02.56:651][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.28-22.02.56:724][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.04.28-22.02.56:724][  0]LogD3D11RHI:       4021/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.28-22.02.56:743][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.04.28-22.02.56:744][  0]LogD3D11RHI:       128/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.28-22.02.56:746][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.28-22.02.56:746][  0]LogD3D11RHI:       0/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.28-22.02.56:746][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.28-22.02.56:789][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.28-22.02.56:789][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.04.28-22.02.56:789][  0]LogWindows: EnumDisplayDevices:
+[2020.04.28-22.02.56:790][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.04.28-22.02.56:790][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.28-22.02.56:790][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.04.28-22.02.56:791][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.04.28-22.02.56:791][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.04.28-22.02.56:791][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.04.28-22.02.56:791][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.04.28-22.02.56:791][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2020.04.28-22.02.56:839][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.28-22.02.56:840][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.28-22.02.56:853][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.28-22.02.57:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.28-22.02.57:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.28-22.02.57:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.28-22.02.57:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.28-22.02.57:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.28-22.02.57:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.28-22.02.57:277][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.28-22.02.57:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.28-22.02.57:293][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.28-22.02.57:299][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.28-22.02.57:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.28-22.02.57:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.28-22.02.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.28-22.02.57:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.28-22.02.57:347][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.28-22.02.57:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.28-22.02.57:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.28-22.02.57:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.28-22.02.57:370][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.28-22.02.57:374][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.28-22.02.57:400][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/7000/).
+[2020.04.28-22.02.57:401][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/5464FB1041B78375E26DF79D99FBB450/'.
+[2020.04.28-22.02.57:401][  0]LogXGEController: Cleaning working directory: C:/Users/aleja/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.28-22.02.57:401][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.28-22.02.57:401][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.28-22.02.57:401][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.28-22.02.58:315][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.28-22.02.58:373][  0]LogDerivedDataCache: Loaded boot cache 0.06s 82MB C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.28-22.02.58:373][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.28-22.02.58:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.28-22.02.58:373][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.28-22.02.58:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.28-22.02.58:374][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.28-22.02.58:385][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.28-22.02.58:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.28-22.02.58:385][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.28-22.02.58:386][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.28-22.02.58:386][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.28-22.02.58:386][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.28-22.02.58:425][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.28-22.02.58:429][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.28-22.02.58:429][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.28-22.02.58:496][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.04.28-22.02.58:853][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.28-22.02.59:017][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.28-22.02.59:017][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.28-22.02.59:017][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.28-22.02.59:017][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.28-22.02.59:017][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.28-22.02.59:032][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
+[2020.04.28-22.03.00:244][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.045367 seconds
+[2020.04.28-22.03.00:253][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.28-22.03.00:253][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.28-22.03.00:253][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.28-22.03.00:682][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.28-22.03.00:685][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.28-22.03.00:896][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.28-22.03.00:896][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.28-22.03.00:897][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.28-22.03.00:898][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.28-22.03.00:899][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.28-22.03.00:995][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.28-22.03.01:005][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.28-22.03.01:005][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.28-22.03.01:099][  0]LogOcInput: OculusInput pre-init called
+[2020.04.28-22.03.01:106][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.28-22.03.01:106][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.28-22.03.01:186][  0]LogEngine: Initializing Engine...
+[2020.04.28-22.03.01:188][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.28-22.03.01:190][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.28-22.03.01:616][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.28-22.03.01:625][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.03.01:640][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.03.01:640][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.03.01:640][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.03.01:652][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.03.01:653][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.03.01:714][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.03.01:720][  0]LogInit: FAudioDevice initialized.
+[2020.04.28-22.03.01:720][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.28-22.03.01:893][  0]LogDerivedDataCache: Saved boot cache 0.17s 82MB C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.28-22.03.01:907][  0]LogInit: Texture streaming: Enabled
+[2020.04.28-22.03.01:919][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.28-22.03.01:919][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.28-22.03.01:921][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.28-22.03.01:961][  0]LogInit: Transaction tracking system initialized
+[2020.04.28-22.03.01:970][  0]BlueprintLog: New page: Cargar el editor
+[2020.04.28-22.03.02:006][  0]LocalizationService: Localization service is disabled
+[2020.04.28-22.03.02:333][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/' took 0.01s
+[2020.04.28-22.03.02:333][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.28-22.03.02:333][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.28-22.03.03:170][  0]SourceControl: El control de código fuente está desactivado
+[2020.04.28-22.03.03:171][  0]Cmd: MAP LOAD FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.28-22.03.03:171][  0]LightingResults: New page: Diseñar la iluminación
+[2020.04.28-22.03.03:172][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.03.03:172][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.03.03:172][  0]MapCheck: New page: Revisión del mapa
+[2020.04.28-22.03.03:172][  0]LightingResults: New page: Diseñar la iluminación
+[2020.04.28-22.03.03:201][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.04.28-22.03.03:370][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.28-22.03.03:944][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.574 s
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: 
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: Ensure condition failed: InParent == nullptr || !InParent->IsAttachedTo(this) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/SceneComponent.cpp] [Line: 1729]
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: Setting up attachment would create a cycle.
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: Stack: 
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae41c3f49 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae2e20dcd UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae2985fbd UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafd37ba57 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafd39ba26 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafd37ba57 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafd438f11 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafd423177 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafd448e7c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffafd447dea UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae1453e87 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae144429f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae142bf75 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae1bf1892 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:944][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae1773950 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae177372b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae1c2fde4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ffae1becd49 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60785c260 UE4Editor.exe!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60785c4ca UE4Editor.exe!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60786ceae UE4Editor.exe!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ff60786fcbe UE4Editor.exe!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb4f0e4034 KERNEL32.DLL!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb51413691 ntdll.dll!UnknownFunction []
+[2020.04.28-22.03.03:945][  0]LogOutputDevice: Error: 
+[2020.04.28-22.03.03:958][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.04.28-22.03.05:303][  0]LogStats:                    SendNewReport -  1.346 s
+[2020.04.28-22.03.05:303][  0]LogStats:             FDebug::EnsureFailed -  1.934 s
+[2020.04.28-22.03.05:316][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.04.28-22.03.05:319][  0]LogLevel: Warning: Found loop in attachment hierarchy: BP_Item_2 -> BP_Item_2
+[2020.04.28-22.03.05:325][  0]PIE: Warning: AttachTo: '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Item_2.SM_TBox' root component cannot be attached to other components in the same actor. Aborting.
+[2020.04.28-22.03.05:327][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.28-22.03.05:360][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.04.28-22.03.05:361][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.28-22.03.05:361][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,14ms to complete.
+[2020.04.28-22.03.05:361][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.191
+[2020.04.28-22.03.05:494][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.03.05:501][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.03.05:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.03.05:522][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.03.05:530][  0]LogCollectionManager: Loaded 0 collections in 0.002995 seconds
+[2020.04.28-22.03.05:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Collections/' took 0.00s
+[2020.04.28-22.03.05:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Developers/aleja/Collections/' took 0.00s
+[2020.04.28-22.03.05:548][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Collections/' took 0.00s
+[2020.04.28-22.03.05:548][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 3020 classes and 719 folders.
+[2020.04.28-22.03.05:551][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.28-22.03.05:645][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.04.28-22.03.05:649][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.04.28-22.03.05:703][  0]LogSlate: Took 0.000477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.28-22.03.05:704][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.28-22.03.05:710][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.28-22.03.05:798][  0]LogRenderer: Reallocating scene render targets to support 988x572 Format 10 NumSamples 1 (Frame:1).
+[2020.04.28-22.03.05:928][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.28-22.03.05:928][  0]LogLoad: (Engine Initialization) Total time: 11.98 seconds
+[2020.04.28-22.03.05:928][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.28-22.03.05:947][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.28-22.03.05:992][  0]LogAssetRegistry: Asset discovery search completed in 7.4966 seconds
+[2020.04.28-22.03.05:996][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2020.04.28-22.03.05:997][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.28-22.03.05:998][  0]LogTemp: Resetting audio stream to device id 
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.03.06:008][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.03.06:105][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.28-22.03.09:985][222]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.28-22.03.10:057][222]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.03.10:060][222]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Cere.Cere
+[2020.04.28-22.03.10:090][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.04.28-22.03.10:092][222]Cmd: MAP LOAD FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Cere.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.28-22.03.10:092][222]LightingResults: New page: Diseñar la iluminación
+[2020.04.28-22.03.10:093][222]LoadErrors: New page: Cargando mapa: Cere.umap
+[2020.04.28-22.03.10:094][222]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.03.10:094][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.03.10:094][222]MapCheck: New page: Revisión del mapa
+[2020.04.28-22.03.10:094][222]LightingResults: New page: Diseñar la iluminación
+[2020.04.28-22.03.10:121][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.04.28-22.03.10:123][222]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.28-22.03.10:155][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.04.28-22.03.10:169][222]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.28-22.03.10:169][222]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,125ms to complete.
+[2020.04.28-22.03.10:169][222]LogFileHelpers: Loading map 'Cere' took 0.079
+[2020.04.28-22.03.12:691][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.28-22.03.16:295][570]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.03.16:532][570]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 121 classes and 0 folders.
+[2020.04.28-22.03.19:520][684]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.03.19:527][684]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.03.19:527][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.03.19:600][684]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.03.19:980][684]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.28-22.03.20:019][685]LogSlate: Took 0.000579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.28-22.03.30:350][286]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap2)
+[2020.04.28-22.03.33:853][491]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.28-22.03.42:885][ 23]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.03.42:892][ 23]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.03.42:893][ 23]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.03.42:893][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.03.44:147][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap2)
+[2020.04.28-22.03.45:125][151]Cmd: DELETE
+[2020.04.28-22.03.45:125][151]Cmd: ACTOR DELETE
+[2020.04.28-22.03.45:484][151]LogEditorActor: Deleted Actor: BP_BearTrap_C
+[2020.04.28-22.03.45:526][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.04.28-22.03.45:528][151]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2020.04.28-22.03.46:126][187]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon)
+[2020.04.28-22.03.46:436][203]Cmd: DELETE
+[2020.04.28-22.03.46:436][203]Cmd: ACTOR DELETE
+[2020.04.28-22.03.46:437][203]LogEditorActor: Deleted Actor: BP_Weapon_C
+[2020.04.28-22.03.46:473][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.04.28-22.03.46:474][203]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2020.04.28-22.03.46:889][228]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap)
+[2020.04.28-22.03.46:985][231]Cmd: DELETE
+[2020.04.28-22.03.46:985][231]Cmd: ACTOR DELETE
+[2020.04.28-22.03.46:986][231]LogEditorActor: Deleted Actor: BP_BearTrap_C
+[2020.04.28-22.03.47:024][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.04.28-22.03.47:024][231]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2020.04.28-22.03.47:889][283]LogEditorViewport: Clicking on Actor (LMB): BP_Item_C (BP_Item)
+[2020.04.28-22.03.47:962][285]Cmd: DELETE
+[2020.04.28-22.03.47:962][285]Cmd: ACTOR DELETE
+[2020.04.28-22.03.47:963][285]LogEditorActor: Deleted Actor: BP_Item_C
+[2020.04.28-22.03.47:997][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.04.28-22.03.47:997][285]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2020.04.28-22.03.58:736][922]Cmd: TRANSACTION UNDO
+[2020.04.28-22.03.58:736][922]LogEditorTransaction: Undo Move Actors
+[2020.04.28-22.04.05:584][313]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.04.36:963][113]BlueprintLog: New page: Compilar BP_BearTrap
+[2020.04.28-22.04.37:304][113]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2020.04.28-22.04.41:172][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_BearTrap" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset" SILENT=true
+[2020.04.28-22.04.41:197][340]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_BearTrapFB545B234F4C49588F70B09A9D3C0AA9.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset'
+[2020.04.28-22.04.41:218][340]AssetCheck: New page: Asset Save: BP_BearTrap
+[2020.04.28-22.04.41:218][340]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.04.44:817][554]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.04.44:822][554]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.04.44:822][554]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.04.44:822][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.05.23:847][837]LogEditorViewport: Clicking on Actor (LMB): BP_Item_C (BP_Item)
+[2020.04.28-22.05.24:693][887]Cmd: DELETE
+[2020.04.28-22.05.24:693][887]Cmd: ACTOR DELETE
+[2020.04.28-22.05.24:695][887]LogEditorActor: Deleted Actor: BP_Item_C
+[2020.04.28-22.05.24:729][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.04.28-22.05.24:733][887]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2020.04.28-22.05.34:224][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.04.28-22.05.40:931][365]LogSlate: Window 'Delete Assets' being destroyed
+[2020.04.28-22.05.41:792][365]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.05.43:201][365]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.04.28-22.05.43:519][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2020.04.28-22.05.43:559][365]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.04.28-22.05.43:592][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.04.28-22.05.59:102][497]LogSlate: Window 'Escoger clase padre' being destroyed
+[2020.04.28-22.06.07:095][968]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.06.29:599][155]BlueprintLog: New page: Compilar BP_BearTrap
+[2020.04.28-22.06.29:917][155]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.04.28-22.06.30:666][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_BearTrap" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset" SILENT=true
+[2020.04.28-22.06.30:684][196]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_BearTrap1808C04D4915EC2432720C91F5549D47.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset'
+[2020.04.28-22.06.30:705][196]AssetCheck: New page: Asset Save: BP_BearTrap
+[2020.04.28-22.06.30:705][196]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.06.33:399][354]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.06.33:404][354]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.06.33:405][354]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.06.33:405][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.06.41:282][813]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.06.45:083][993]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.06.45:092][993]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.06.45:092][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.06.45:176][993]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.07.13:736][598]BlueprintLog: New page: Compilar BP_BearTrap
+[2020.04.28-22.07.14:172][598]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.04.28-22.07.14:664][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_BearTrap" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset" SILENT=true
+[2020.04.28-22.07.14:685][623]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_BearTrap593F606D4FDC2BD1C2A3B8B3B0095124.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset'
+[2020.04.28-22.07.14:702][623]AssetCheck: New page: Asset Save: BP_BearTrap
+[2020.04.28-22.07.14:702][623]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.07.16:078][701]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.07.16:083][701]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.07.16:084][701]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.07.16:084][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.07.20:018][929]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.07.22:452][ 42]LogSlate: Window 'BP_Weapon' being destroyed
+[2020.04.28-22.07.22:461][ 42]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.07.22:462][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.07.22:541][ 42]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.07.40:463][ 49]BlueprintLog: New page: Compilar BP_Weapon
+[2020.04.28-22.07.40:877][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.04.28-22.07.41:399][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_Weapon" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset" SILENT=true
+[2020.04.28-22.07.41:419][ 75]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_Weapon8DB2212B443E4E703C325D91721B5E41.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset'
+[2020.04.28-22.07.41:436][ 75]AssetCheck: New page: Asset Save: BP_Weapon
+[2020.04.28-22.07.41:436][ 75]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.07.45:685][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_Weapon" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset" SILENT=true
+[2020.04.28-22.07.45:696][315]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_Weapon3D604B2F49A1CCAE322015825FE5B9FE.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset'
+[2020.04.28-22.07.45:715][315]AssetCheck: New page: Asset Save: BP_Weapon
+[2020.04.28-22.07.45:715][315]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.07.47:981][444]LogSlate: Window 'BP_Weapon' being destroyed
+[2020.04.28-22.07.47:986][444]LogSlate: Window 'BP_Weapon' being destroyed
+[2020.04.28-22.07.47:987][444]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.07.47:987][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.07.49:063][505]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon)
+[2020.04.28-22.09.04:914][932]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.09.25:710][123]BlueprintLog: New page: Compilar BP_Weapon
+[2020.04.28-22.09.26:033][123]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2020.04.28-22.09.27:842][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_Weapon" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset" SILENT=true
+[2020.04.28-22.09.27:869][222]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_WeaponBFFA062A442784BCE4AEE7AB019BB77F.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset'
+[2020.04.28-22.09.27:892][222]AssetCheck: New page: Asset Save: BP_Weapon
+[2020.04.28-22.09.27:892][222]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.09.52:992][692]BlueprintLog: New page: Compilar BP_Weapon
+[2020.04.28-22.09.53:321][692]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.04.28-22.09.54:093][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_Weapon" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset" SILENT=true
+[2020.04.28-22.09.54:113][730]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_WeaponD5B769F64228569A5BE7CB8407F3540F.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset'
+[2020.04.28-22.09.54:137][730]AssetCheck: New page: Asset Save: BP_Weapon
+[2020.04.28-22.09.54:137][730]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.09.55:508][807]LogSlate: Window 'BP_Weapon' being destroyed
+[2020.04.28-22.09.55:512][807]LogSlate: Window 'BP_Weapon' being destroyed
+[2020.04.28-22.09.55:514][807]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.09.55:514][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.10.00:291][ 71]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.10.15:832][950]BlueprintLog: New page: Compilar BP_BearTrap
+[2020.04.28-22.10.16:098][950]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2020.04.28-22.10.16:552][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_BearTrap" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset" SILENT=true
+[2020.04.28-22.10.16:576][972]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_BearTrapB3DAA13F4D62EFDA5281E88613F699CE.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset'
+[2020.04.28-22.10.16:595][972]AssetCheck: New page: Asset Save: BP_BearTrap
+[2020.04.28-22.10.16:595][972]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.10.17:848][ 42]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.10.17:853][ 42]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.10.17:853][ 42]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.10.17:853][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.11.34:180][ 34]Cmd: TRANSACTION UNDO
+[2020.04.28-22.11.34:180][ 34]LogEditorTransaction: Undo Eliminar grupo de asignación de acción
+[2020.04.28-22.12.04:284][742]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2020.04.28-22.12.04:287][742]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2020.04.28-22.13.10:602][580]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2020.04.28-22.13.10:609][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cere" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Autosaves/Game/Cere_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.04.28-22.13.10:627][580]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Cere_Auto17147F9394DD9BF6F78B631A3A3E60B14.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Autosaves/Game/Cere_Auto1.umap'
+[2020.04.28-22.13.10:631][580]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Cere' took 0.127
+[2020.04.28-22.13.10:631][580]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2020.04.28-22.14.01:480][732]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0001.dll
+[2020.04.28-22.14.02:844][737]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-22.14.02:954][737]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.04.28-22.14.02:983][737]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2020.04.28-22.14.02:989][737]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-22.14.03:121][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.04.28-22.14.03:139][737]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-22.14.03:149][737]Display: HotReload took  0.3s.
+[2020.04.28-22.21.42:387][323]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0003.dll
+[2020.04.28-22.21.44:078][329]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-22.21.44:183][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.04.28-22.21.44:209][329]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0007 seconds. Added 5 classes and 2 folders.
+[2020.04.28-22.21.44:214][329]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-22.21.44:380][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.04.28-22.21.44:398][329]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-22.21.44:407][329]Display: HotReload took  0.3s.
+[2020.04.28-22.28.54:337][610]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0007.dll
+[2020.04.28-22.28.55:694][615]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-22.28.55:820][615]LogUObjectHash: Compacting FUObjectHashTables data took   6.37ms
+[2020.04.28-22.28.55:860][615]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0009 seconds. Added 5 classes and 2 folders.
+[2020.04.28-22.28.55:864][615]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-22.28.56:034][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.04.28-22.28.56:052][615]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-22.28.56:062][615]Display: HotReload took  0.4s.
+[2020.04.28-22.29.04:748][912]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.29.04:757][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.29.04:757][912]PIE: New page: Sesión PIE (reproducción en el editor): Cere (29 abr. 2020 2:29:04)
+[2020.04.28-22.29.04:759][912]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.28-22.29.04:760][912]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.28-22.29.04:760][912]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.29.04:767][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006137s)
+[2020.04.28-22.29.04:769][912]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.29.04:769][912]LogPlayLevel: PIE: World Init took: (0.002304s)
+[2020.04.28-22.29.04:770][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.009238s)
+[2020.04.28-22.29.04:858][912]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.04.28-22.29.04:861][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.29.04:861][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.29.04:861][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.29.04:861][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.29.04:861][912]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.29.04:861][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.29.04:861][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.29.04:861][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.29.04:862][912]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.29.04:862][912]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.29.04:870][912]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.29.04:930][912]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.29.04:931][912]LogInit: FAudioDevice initialized.
+[2020.04.28-22.29.04:944][912]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.29.04:945][912]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.29.04
+[2020.04.28-22.29.04:946][912]LogWorld: Bringing up level for play took: 0.000761
+[2020.04.28-22.29.04:946][912]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.04.28-22.29.04:987][912]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.04.28-22.29.05:028][912]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_Cere -0,603
+[2020.04.28-22.29.33:906][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.29.33:907][623]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.28-22.29.33:926][623]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.28-22.29.33:927][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.29.33:927][623]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.29.33:927][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.29.33:927][623]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.29.33:927][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.29.33:933][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.29.33:940][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.29.33:998][623]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.29.34:004][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.29.34:061][623]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.04.28-22.29.34:081][624]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.28-22.31.43:157][103]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0008.dll
+[2020.04.28-22.31.44:514][108]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-22.31.44:586][108]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.04.28-22.31.44:618][108]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.04.28-22.31.44:623][108]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-22.31.44:738][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.04.28-22.31.44:757][108]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-22.31.44:766][108]Display: HotReload took  0.3s.
+[2020.04.28-22.31.52:809][232]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.31.52:821][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.31.52:821][232]PIE: New page: Sesión PIE (reproducción en el editor): Cere (29 abr. 2020 2:31:52)
+[2020.04.28-22.31.52:821][232]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.31.52:825][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003499s)
+[2020.04.28-22.31.52:827][232]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.31.52:827][232]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2020.04.28-22.31.52:827][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.005354s)
+[2020.04.28-22.31.52:903][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2020.04.28-22.31.52:903][232]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.31.52:903][232]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.31.52:903][232]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.31.52:903][232]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.31.52:904][232]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.31.52:904][232]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.31.52:904][232]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.31.52:904][232]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.31.52:904][232]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.31.52:904][232]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.31.52:910][232]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.31.52:966][232]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.31.52:968][232]LogInit: FAudioDevice initialized.
+[2020.04.28-22.31.52:979][232]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.31.52:981][232]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.31.52
+[2020.04.28-22.31.52:982][232]LogWorld: Bringing up level for play took: 0.001506
+[2020.04.28-22.31.52:982][232]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.04.28-22.31.52:986][232]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_Cere -0,645
+[2020.04.28-22.32.10:919][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.32.10:919][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.32.10:920][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.32.10:920][306]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.32.10:920][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.32.10:920][306]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.32.10:920][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.32.10:929][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.32.10:935][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.32.10:974][306]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.32.10:979][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.32.10:997][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.04.28-22.32.11:032][308]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.04.28-22.34.09:875][428]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap)
+[2020.04.28-22.34.19:938][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon2)
+[2020.04.28-22.34.23:010][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.28-22.34.23:834][256]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap)
+[2020.04.28-22.34.29:720][606]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon)
+[2020.04.28-22.34.32:686][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.28-22.35.01:483][493]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon)
+[2020.04.28-22.35.03:504][611]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap2)
+[2020.04.28-22.35.05:470][726]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap)
+[2020.04.28-22.35.08:020][876]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon2)
+[2020.04.28-22.35.13:934][226]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.35.13:946][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.35.13:946][226]PIE: New page: Sesión PIE (reproducción en el editor): Cere (29 abr. 2020 2:35:13)
+[2020.04.28-22.35.13:946][226]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.35.13:949][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002782s)
+[2020.04.28-22.35.13:951][226]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.35.13:951][226]LogPlayLevel: PIE: World Init took: (0.002029s)
+[2020.04.28-22.35.13:951][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.005073s)
+[2020.04.28-22.35.13:997][226]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2020.04.28-22.35.14:003][226]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.35.14:003][226]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.35.14:003][226]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.35.14:003][226]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.35.14:004][226]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.35.14:004][226]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.35.14:004][226]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.35.14:004][226]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.35.14:004][226]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.35.14:004][226]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.35.14:010][226]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.35.14:067][226]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.35.14:069][226]LogInit: FAudioDevice initialized.
+[2020.04.28-22.35.14:080][226]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.35.14:082][226]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.35.14
+[2020.04.28-22.35.14:082][226]LogWorld: Bringing up level for play took: 0.000820
+[2020.04.28-22.35.14:082][226]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.04.28-22.35.14:085][226]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_Cere 0,454
+[2020.04.28-22.35.36:192][549]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.35.36:192][549]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.35.36:192][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.35.36:192][549]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.35.36:192][549]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.35.36:192][549]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.35.36:193][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.35.36:203][549]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.35.36:209][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.35.36:239][549]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.35.36:244][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.35.36:248][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.04.28-22.35.36:306][552]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.04.28-22.36.03:531][185]LogEditorViewport: Clicking on Actor (LMB): BP_BearTrap_C (BP_BearTrap)
+[2020.04.28-22.36.11:212][640]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.36.26:947][500]BlueprintLog: New page: Compilar BP_BearTrap
+[2020.04.28-22.36.27:253][500]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.04.28-22.36.28:113][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_BearTrap" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset" SILENT=true
+[2020.04.28-22.36.28:131][547]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_BearTrapCE9CD5CE464A4BA177B9E2AE100FF57A.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset'
+[2020.04.28-22.36.28:149][547]AssetCheck: New page: Asset Save: BP_BearTrap
+[2020.04.28-22.36.28:149][547]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.36.30:287][672]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.36.30:292][672]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.36.30:293][672]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.36.30:293][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.37.15:050][353]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon2)
+[2020.04.28-22.37.17:358][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.04.28-22.37.19:428][611]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.04.28-22.39.18:556][750]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.39.18:563][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.39.18:564][750]PIE: New page: Sesión PIE (reproducción en el editor): Cere (29 abr. 2020 2:39:18)
+[2020.04.28-22.39.18:564][750]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.39.18:567][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003072s)
+[2020.04.28-22.39.18:568][750]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.39.18:568][750]LogPlayLevel: PIE: World Init took: (0.001378s)
+[2020.04.28-22.39.18:568][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.004602s)
+[2020.04.28-22.39.18:607][750]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.04.28-22.39.18:613][750]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.39.18:613][750]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.39.18:613][750]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.39.18:613][750]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.39.18:613][750]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.39.18:613][750]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.39.18:613][750]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.39.18:613][750]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.39.18:614][750]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.39.18:614][750]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.39.18:619][750]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.39.18:679][750]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.39.18:681][750]LogInit: FAudioDevice initialized.
+[2020.04.28-22.39.18:692][750]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.39.18:693][750]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.39.18
+[2020.04.28-22.39.18:694][750]LogWorld: Bringing up level for play took: 0.001032
+[2020.04.28-22.39.18:694][750]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.04.28-22.39.18:697][750]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_Cere 1,066
+[2020.04.28-22.39.38:493][936]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.39.38:493][936]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.39.38:493][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.39.38:493][936]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.39.38:493][936]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.39.38:493][936]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.39.38:494][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.39.38:500][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.39.38:504][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.39.38:542][936]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.39.38:546][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.39.38:550][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.04.28-22.39.38:604][939]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.04.28-22.39.40:720][ 66]LogEditorViewport: Clicking on Actor (LMB): BP_Weapon_C (BP_Weapon3)
+[2020.04.28-22.39.52:061][737]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.41.39:211][960]BlueprintLog: New page: Compilar BP_Weapon
+[2020.04.28-22.41.39:546][960]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.04.28-22.41.40:442][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_Weapon" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset" SILENT=true
+[2020.04.28-22.41.40:465][  7]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_Weapon1D8AD3A141075073A143B2A4531B5814.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_Weapon.uasset'
+[2020.04.28-22.41.40:488][  7]AssetCheck: New page: Asset Save: BP_Weapon
+[2020.04.28-22.41.40:488][  7]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_Weapon.BP_Weapon
+[2020.04.28-22.41.42:047][ 96]LogSlate: Window 'BP_Weapon' being destroyed
+[2020.04.28-22.41.42:052][ 96]LogSlate: Window 'BP_Weapon' being destroyed
+[2020.04.28-22.41.42:063][ 96]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.41.42:063][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.42.13:129][750]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2020.04.28-22.42.13:133][750]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2020.04.28-22.43.07:242][789]LogSlate: Took 0.072273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.04.28-22.43.07:322][790]LogSlate: Took 0.018777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2020.04.28-22.43.09:170][894]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.077503 seconds
+[2020.04.28-22.43.09:170][894]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.04.28-22.43.09:170][894]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.04.28-22.43.10:143][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.43.10:150][895]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.28-22.43.10:158][895]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.28-22.43.10:164][895]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.28-22.43.10:166][895]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.28-22.43.11:886][995]LogSlate: Took 0.002157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.04.28-22.43.11:886][995]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'አ (U+12a0)'
+[2020.04.28-22.43.12:034][995]LogSlate: Took 0.145580 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2020.04.28-22.43.12:035][995]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2020.04.28-22.43.33:357][252]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.058429 seconds
+[2020.04.28-22.43.33:357][252]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.04.28-22.43.33:886][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.43.33:893][253]LogSlate: Took 0.000477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.28-22.43.33:900][253]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.28-22.43.33:904][253]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.28-22.43.33:907][253]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.28-22.43.45:262][815]LogSlate: Window 'Message' being destroyed
+[2020.04.28-22.43.49:603][815]LogSlate: Window 'Message' being destroyed
+[2020.04.28-22.43.51:419][922]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.04.28-22.43.51:426][922]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.04.28-22.43.52:515][977]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.28-22.43.59:848][404]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.43.59:856][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.43.59:856][404]PIE: New page: PIE session: Cere (29 Apr 2020, 2:43:59 am)
+[2020.04.28-22.43.59:856][404]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.43.59:860][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003533s)
+[2020.04.28-22.43.59:861][404]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.43.59:861][404]LogPlayLevel: PIE: World Init took: (0.001522s)
+[2020.04.28-22.43.59:861][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.005207s)
+[2020.04.28-22.43.59:896][404]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.04.28-22.43.59:911][404]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.43.59:911][404]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.43.59:911][404]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.43.59:911][404]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.43.59:911][404]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.43.59:911][404]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.43.59:912][404]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.43.59:912][404]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.43.59:912][404]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.43.59:912][404]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.43.59:917][404]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.43.59:918][404]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.43.59:981][404]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.43.59:983][404]LogInit: FAudioDevice initialized.
+[2020.04.28-22.43.59:995][404]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.43.59:997][404]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.43.59
+[2020.04.28-22.43.59:997][404]LogWorld: Bringing up level for play took: 0.000932
+[2020.04.28-22.43.59:997][404]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.04.28-22.44.00:001][404]PIE: Play in editor start time for /Game/UEDPIE_0_Cere 0.37
+[2020.04.28-22.45.01:011][ 44]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.45.01:011][ 44]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.45.01:011][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.45.01:011][ 44]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.45.01:011][ 44]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.45.01:011][ 44]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.45.01:012][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.45.01:018][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.45.01:023][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.45.01:060][ 44]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.45.01:068][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.45.01:071][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.04.28-22.45.01:123][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.04.28-22.45.17:748][201]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.28-22.45.26:850][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.04.28-22.45.26:853][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cere" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Autosaves/Game/Cere_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.04.28-22.45.26:879][228]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Cere_Auto2A62FF23848C3D5256B575FA34CF7087F.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Autosaves/Game/Cere_Auto2.umap'
+[2020.04.28-22.45.26:883][228]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Cere' took 0.072
+[2020.04.28-22.45.26:883][228]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.072
+[2020.04.28-22.46.15:718][967]Cmd: TRANSACTION UNDO
+[2020.04.28-22.46.15:718][967]LogEditorTransaction: Undo Create Actors
+[2020.04.28-22.46.20:648][239]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.46.20:656][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.46.20:656][239]PIE: New page: PIE session: Cere (29 Apr 2020, 2:46:20 am)
+[2020.04.28-22.46.20:657][239]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.46.20:661][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004506s)
+[2020.04.28-22.46.20:662][239]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.46.20:663][239]LogPlayLevel: PIE: World Init took: (0.001543s)
+[2020.04.28-22.46.20:663][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.006248s)
+[2020.04.28-22.46.20:705][239]LogUObjectHash: Compacting FUObjectHashTables data took   6.01ms
+[2020.04.28-22.46.20:710][239]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.46.20:710][239]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.46.20:710][239]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.46.20:710][239]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.46.20:710][239]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.46.20:710][239]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.46.20:710][239]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.46.20:711][239]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.46.20:711][239]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.46.20:711][239]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.46.20:718][239]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.46.20:772][239]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.46.20:773][239]LogInit: FAudioDevice initialized.
+[2020.04.28-22.46.20:785][239]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.46.20:787][239]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.46.20
+[2020.04.28-22.46.20:787][239]LogWorld: Bringing up level for play took: 0.000830
+[2020.04.28-22.46.20:787][239]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.04.28-22.46.20:791][239]PIE: Play in editor start time for /Game/UEDPIE_0_Cere -0.84
+[2020.04.28-22.46.25:008][486]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.46.25:008][486]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.46.25:008][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.46.25:008][486]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.46.25:008][486]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.46.25:008][486]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.46.25:008][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.46.25:030][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.46.25:035][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.46.25:072][486]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.46.25:076][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.46.25:080][486]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.04.28-22.46.25:126][488]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.04.28-22.46.39:633][597]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0009.dll
+[2020.04.28-22.46.41:322][603]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-22.46.41:399][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.04.28-22.46.41:425][603]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0010 seconds. Added 5 classes and 2 folders.
+[2020.04.28-22.46.41:431][603]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-22.46.41:568][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.04.28-22.46.41:586][603]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-22.46.41:597][603]Display: HotReload took  0.3s.
+[2020.04.28-22.46.48:765][815]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.46.48:779][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.46.48:779][815]PIE: New page: PIE session: Cere (29 Apr 2020, 2:46:48 am)
+[2020.04.28-22.46.48:779][815]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.46.48:781][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002334s)
+[2020.04.28-22.46.48:782][815]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.46.48:783][815]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2020.04.28-22.46.48:783][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.003721s)
+[2020.04.28-22.46.48:874][815]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.04.28-22.46.48:875][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.46.48:875][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.46.48:875][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.46.48:875][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.46.48:875][815]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.46.48:875][815]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.46.48:875][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.46.48:875][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.46.48:876][815]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.46.48:876][815]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.46.48:882][815]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.46.48:938][815]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.46.48:940][815]LogInit: FAudioDevice initialized.
+[2020.04.28-22.46.48:949][815]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.46.48:952][815]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.46.48
+[2020.04.28-22.46.48:952][815]LogWorld: Bringing up level for play took: 0.000946
+[2020.04.28-22.46.48:952][815]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.04.28-22.46.48:955][815]PIE: Play in editor start time for /Game/UEDPIE_0_Cere -0.676
+[2020.04.28-22.47.14:424][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.47.14:424][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.47.14:424][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.47.14:424][341]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.47.14:424][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.47.14:425][341]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.47.14:425][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.47.14:438][341]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.47.14:444][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.47.14:476][341]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.47.14:481][341]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.47.14:510][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.04.28-22.47.14:532][342]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.04.28-22.48.24:322][634]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0010.dll
+[2020.04.28-22.48.26:009][640]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-22.48.26:079][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.04.28-22.48.26:101][640]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.04.28-22.48.26:106][640]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-22.48.26:226][640]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.04.28-22.48.26:242][640]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-22.48.26:265][640]Display: HotReload took  0.3s.
+[2020.04.28-22.48.29:475][743]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.48.29:486][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.48.29:486][743]PIE: New page: PIE session: Cere (29 Apr 2020, 2:48:29 am)
+[2020.04.28-22.48.29:486][743]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.48.29:489][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002526s)
+[2020.04.28-22.48.29:490][743]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.48.29:490][743]LogPlayLevel: PIE: World Init took: (0.001732s)
+[2020.04.28-22.48.29:490][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.004393s)
+[2020.04.28-22.48.29:573][743]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.48.29:574][743]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.48.29:574][743]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.48.29:574][743]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.48.29:580][743]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.48.29:642][743]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.48.29:644][743]LogInit: FAudioDevice initialized.
+[2020.04.28-22.48.29:653][743]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.48.29:655][743]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.48.29
+[2020.04.28-22.48.29:655][743]LogWorld: Bringing up level for play took: 0.000810
+[2020.04.28-22.48.29:655][743]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.04.28-22.48.29:658][743]PIE: Play in editor start time for /Game/UEDPIE_0_Cere 0.027
+[2020.04.28-22.49.22:210][890]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.49.22:210][890]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.49.22:210][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.49.22:210][890]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.49.22:210][890]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.49.22:210][890]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.49.22:211][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.49.22:221][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.49.22:226][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.49.22:263][890]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.49.22:267][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.49.22:271][890]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.04.28-22.49.22:324][893]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.04.28-22.49.27:056][167]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.49.27:524][167]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.28-22.49.46:820][285]BlueprintLog: New page: Compile BP_BearTrap
+[2020.04.28-22.49.47:101][285]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.04.28-22.49.47:942][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/BP_BearTrap" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset" SILENT=true
+[2020.04.28-22.49.47:967][331]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/BP_BearTrapA61CDA994701F18E25A606A2C53E11A7.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Items/BP_BearTrap.uasset'
+[2020.04.28-22.49.47:986][331]AssetCheck: New page: Asset Save: BP_BearTrap
+[2020.04.28-22.49.47:986][331]LogContentValidation: Display: Validating Blueprint /Game/Items/BP_BearTrap.BP_BearTrap
+[2020.04.28-22.49.50:387][470]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.49.50:390][470]LogSlate: Window 'BP_BearTrap' being destroyed
+[2020.04.28-22.49.50:403][470]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.49.50:403][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.49.53:252][636]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.49.53:262][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.49.53:262][636]PIE: New page: PIE session: Cere (29 Apr 2020, 2:49:53 am)
+[2020.04.28-22.49.53:262][636]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.49.53:267][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004682s)
+[2020.04.28-22.49.53:269][636]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.49.53:269][636]LogPlayLevel: PIE: World Init took: (0.001938s)
+[2020.04.28-22.49.53:269][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.006867s)
+[2020.04.28-22.49.53:307][636]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.04.28-22.49.53:308][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.49.53:308][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.49.53:308][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.49.53:308][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.49.53:308][636]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.49.53:308][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.49.53:308][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.49.53:308][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.49.53:309][636]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.49.53:309][636]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.49.53:314][636]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.49.53:315][636]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.49.53:372][636]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.49.53:373][636]LogInit: FAudioDevice initialized.
+[2020.04.28-22.49.53:381][636]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.49.53:383][636]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.49.53
+[2020.04.28-22.49.53:383][636]LogWorld: Bringing up level for play took: 0.000814
+[2020.04.28-22.49.53:383][636]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.04.28-22.49.53:386][636]PIE: Play in editor start time for /Game/UEDPIE_0_Cere -0.245
+[2020.04.28-22.50.29:714][812]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.50.29:714][812]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.50.29:715][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.50.29:715][812]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.50.29:715][812]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.50.29:715][812]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.50.29:715][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.50.29:722][812]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.50.29:727][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.50.29:761][812]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.50.29:766][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.50.29:771][812]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.04.28-22.50.29:822][815]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.04.28-22.50.34:079][ 58]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-22.50.34:087][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-22.50.34:087][ 58]PIE: New page: PIE session: Cere (29 Apr 2020, 2:50:34 am)
+[2020.04.28-22.50.34:087][ 58]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-22.50.34:090][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002287s)
+[2020.04.28-22.50.34:091][ 58]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-22.50.34:091][ 58]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2020.04.28-22.50.34:091][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.003369s)
+[2020.04.28-22.50.34:130][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-22.50.34:131][ 58]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-22.50.34:131][ 58]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-22.50.34:131][ 58]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-22.50.34:136][ 58]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-22.50.34:136][ 58]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-22.50.34:136][ 58]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-22.50.34:136][ 58]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-22.50.34:137][ 58]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-22.50.34:137][ 58]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-22.50.34:137][ 58]LogAudioMixer: Display: Channel Order:
+[2020.04.28-22.50.34:137][ 58]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-22.50.34:137][ 58]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-22.50.34:190][ 58]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-22.50.34:192][ 58]LogInit: FAudioDevice initialized.
+[2020.04.28-22.50.34:207][ 58]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-22.50.34:208][ 58]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-00.50.34
+[2020.04.28-22.50.34:208][ 58]LogWorld: Bringing up level for play took: 0.000664
+[2020.04.28-22.50.34:208][ 58]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2020.04.28-22.50.34:211][ 58]PIE: Play in editor start time for /Game/UEDPIE_0_Cere 0.58
+[2020.04.28-22.51.25:743][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.51.25:755][146]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.28-22.51.25:775][146]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.28-22.51.25:775][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.51.25:776][146]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-22.51.25:776][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.51.25:776][146]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-22.51.25:776][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.51.25:783][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-22.51.25:790][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-22.51.25:824][146]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-22.51.25:829][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-22.51.25:833][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.04.28-22.51.25:855][147]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2020.04.28-22.52.41:827][541]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0011.dll
+[2020.04.28-22.52.43:514][547]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-22.52.43:582][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.04.28-22.52.43:593][547]LogClass: Could not find existing class PangeaMechanicsCharacter in package /Script/PangeaMechanics for HotReload, assuming new class
+[2020.04.28-22.52.43:617][547]LogHotReload: Re-instancing PangeaMechanicsCharacter after hot-reload.
+[2020.04.28-22.52.44:082][547]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2020.04.28-22.52.44:088][547]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-22.52.44:222][547]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.04.28-22.52.44:246][547]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-22.52.44:256][547]Display: HotReload took  0.7s.
+[2020.04.28-22.58.19:900][548]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.04.28-22.58.19:900][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cere" FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Autosaves/Game/Cere_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.04.28-22.58.19:928][548]LogSavePackage: Moving 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Cere_Auto3F0DB6E674E66C5E6E851E2BDDDB97048.tmp' to 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Autosaves/Game/Cere_Auto3.umap'
+[2020.04.28-22.58.19:931][548]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Cere' took 0.119
+[2020.04.28-22.58.19:931][548]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
+[2020.04.28-23.03.25:072][459]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0012.dll
+[2020.04.28-23.03.26:420][464]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-23.03.26:533][464]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.04.28-23.03.26:562][464]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.04.28-23.03.26:566][464]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-23.03.26:688][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.04.28-23.03.26:709][464]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-23.03.26:718][464]Display: HotReload took  0.3s.
+[2020.04.28-23.05.53:241][901]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0013.dll
+[2020.04.28-23.05.54:596][906]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-23.05.54:746][906]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.04.28-23.05.54:778][906]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2020.04.28-23.05.54:786][906]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-23.05.54:947][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.04.28-23.05.54:968][906]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-23.05.54:977][906]Display: HotReload took  0.4s.
+[2020.04.28-23.07.53:925][261]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0014.dll
+[2020.04.28-23.07.55:616][267]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-23.07.55:744][267]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.04.28-23.07.55:755][267]LogClass: Could not find existing class PangeaMechanicsCharacter in package /Script/PangeaMechanics for HotReload, assuming new class
+[2020.04.28-23.07.55:784][267]LogHotReload: Re-instancing PangeaMechanicsCharacter after hot-reload.
+[2020.04.28-23.07.56:204][267]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.04.28-23.07.56:208][267]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-23.07.56:338][267]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.04.28-23.07.56:367][267]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-23.07.56:378][267]Display: HotReload took  0.8s.
+[2020.04.28-23.08.36:282][386]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0015.dll
+[2020.04.28-23.08.37:982][392]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.28-23.08.38:109][392]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.04.28-23.08.38:140][392]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.04.28-23.08.38:145][392]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.28-23.08.38:273][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.04.28-23.08.38:299][392]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 3022 classes and 722 folders.
+[2020.04.28-23.08.38:308][392]Display: HotReload took  0.3s.
+[2020.04.28-23.08.47:553][572]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.28-23.08.47:568][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.28-23.08.47:568][572]PIE: New page: PIE session: Cere (29 Apr 2020, 3:08:47 am)
+[2020.04.28-23.08.47:568][572]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.28-23.08.47:572][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003889s)
+[2020.04.28-23.08.47:574][572]LogAIModule: Creating AISystem for world Cere
+[2020.04.28-23.08.47:574][572]LogPlayLevel: PIE: World Init took: (0.001814s)
+[2020.04.28-23.08.47:574][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.005879s)
+[2020.04.28-23.08.47:652][572]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.28-23.08.47:653][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.28-23.08.47:653][572]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.28-23.08.47:653][572]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: Is Default: Yes
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: Channel Order:
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.28-23.08.47:659][572]LogAudioMixer: Display: 1: FrontRight
+[2020.04.28-23.08.47:713][572]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.28-23.08.47:715][572]LogInit: FAudioDevice initialized.
+[2020.04.28-23.08.47:724][572]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.28-23.08.47:726][572]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-01.08.47
+[2020.04.28-23.08.47:726][572]LogWorld: Bringing up level for play took: 0.000832
+[2020.04.28-23.08.47:726][572]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.04.28-23.08.47:729][572]PIE: Play in editor start time for /Game/UEDPIE_0_Cere 0.098
+[2020.04.28-23.09.45:233][ 17]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-23.09.45:233][ 17]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-23.09.45:233][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-23.09.45:233][ 17]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Cere
+[2020.04.28-23.09.45:234][ 17]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-23.09.45:234][ 17]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.04.28-23.09.45:234][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-23.09.45:247][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.28-23.09.45:251][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.28-23.09.45:286][ 17]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.28-23.09.45:298][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.28-23.09.45:303][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.04.28-23.09.45:360][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.04.29-00.01.54:960][415]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0016.dll
+[2020.04.29-00.01.56:319][420]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.29-00.01.56:393][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.04.29-00.01.56:419][420]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0007 seconds. Added 5 classes and 2 folders.
+[2020.04.29-00.01.56:425][420]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.29-00.01.56:536][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.04.29-00.01.56:551][420]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3022 classes and 722 folders.
+[2020.04.29-00.01.56:561][420]Display: HotReload took  0.2s.
+[2020.04.29-00.04.34:268][892]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0018.dll
+[2020.04.29-00.04.35:290][896]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.29-00.04.35:404][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2020.04.29-00.04.35:429][896]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0006 seconds. Added 5 classes and 2 folders.
+[2020.04.29-00.04.35:433][896]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.29-00.04.35:578][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.04.29-00.04.35:596][896]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3022 classes and 722 folders.
+[2020.04.29-00.04.35:605][896]Display: HotReload took  0.3s.
+[2020.04.29-00.05.56:261][137]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0019.dll
+[2020.04.29-00.05.57:612][142]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.29-00.05.57:723][142]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.04.29-00.05.57:731][142]LogClass: Could not find existing class PangeaMechanicsCharacter in package /Script/PangeaMechanics for HotReload, assuming new class
+[2020.04.29-00.05.57:731][142]LogClass: Function IsInventorySlotEmpty is new.
+[2020.04.29-00.05.57:747][142]LogHotReload: Re-instancing PangeaMechanicsCharacter after hot-reload.
+[2020.04.29-00.05.58:115][142]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.04.29-00.05.58:119][142]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.29-00.05.58:233][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2020.04.29-00.05.58:252][142]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3022 classes and 722 folders.
+[2020.04.29-00.05.58:264][142]Display: HotReload took  0.7s.
+[2020.04.29-00.07.26:588][406]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0020.dll
+[2020.04.29-00.07.27:618][410]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.29-00.07.27:725][410]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.04.29-00.07.27:746][410]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 5 classes and 2 folders.
+[2020.04.29-00.07.27:750][410]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.04.29-00.07.27:847][410]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.04.29-00.07.27:862][410]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3022 classes and 722 folders.
+[2020.04.29-00.07.27:872][410]Display: HotReload took  0.3s.
+[2020.04.29-00.09.06:842][706]LogHotReload: New module detected: UE4Editor-PangeaMechanics-0021.dll
+[2020.04.29-00.09.07:858][710]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.29-00.09.07:959][710]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.04.29-00.09.07:991][710]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0008 seconds. Added 5 classes and 2 folders.
+[2020.04.29-00.09.07:997][710]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.04.29-00.09.08:122][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.04.29-00.09.08:138][710]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3022 classes and 722 folders.
+[2020.04.29-00.09.08:146][710]Display: HotReload took  0.3s.
+[2020.04.29-00.09.28:518][834]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.29-00.09.28:532][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.29-00.09.28:532][834]PIE: New page: PIE session: Cere (29 Apr 2020, 4:09:28 am)
+[2020.04.29-00.09.28:532][834]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Cere
+[2020.04.29-00.09.28:536][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003738s)
+[2020.04.29-00.09.28:537][834]LogAIModule: Creating AISystem for world Cere
+[2020.04.29-00.09.28:537][834]LogPlayLevel: PIE: World Init took: (0.001630s)
+[2020.04.29-00.09.28:537][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Cere.Cere to /Game/UEDPIE_0_Cere.Cere (0.005528s)
+[2020.04.29-00.09.28:609][834]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.04.29-00.09.28:609][834]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.29-00.09.28:609][834]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.29-00.09.28:609][834]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.29-00.09.28:609][834]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.29-00.09.28:609][834]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.29-00.09.28:609][834]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.29-00.09.28:609][834]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.29-00.09.28:609][834]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.29-00.09.28:610][834]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.29-00.09.28:610][834]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: Is Default: Yes
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: Channel Order:
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.29-00.09.28:616][834]LogAudioMixer: Display: 1: FrontRight
+[2020.04.29-00.09.28:671][834]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.29-00.09.28:673][834]LogInit: FAudioDevice initialized.
+[2020.04.29-00.09.28:685][834]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.04.29-00.09.28:687][834]LogWorld: Bringing World /Game/UEDPIE_0_Cere.Cere up for play (max tick rate 60) at 2020.04.29-02.09.28
+[2020.04.29-00.09.28:687][834]LogWorld: Bringing up level for play took: 0.000940
+[2020.04.29-00.09.28:687][834]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.04.29-00.09.28:690][834]PIE: Play in editor start time for /Game/UEDPIE_0_Cere 1.059
+[2020.04.29-00.09.59:761][696]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.04.29-00.09.59:762][696]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)

@@ -6,13 +6,11 @@
 #include "Item.h"
 #include "BearTrapItem.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class PANGEAMECHANICS_API ABearTrapItem : public AItem
 {
 	GENERATED_BODY()
+
 
 public:
 

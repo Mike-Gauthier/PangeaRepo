@@ -5,7 +5,6 @@
 #include "GameFramework/Character.h"
 #include "PangeaMechanicsCharacter.generated.h"
 
-#define MAX_INVENTORY_ITEMS 5
 
 class AItem;
 
@@ -23,21 +22,21 @@ class APangeaMechanicsCharacter : public ACharacter
 	class UCameraComponent* FollowCamera;
 
 public:
+
 	APangeaMechanicsCharacter();
 
 	virtual void BeginPlay() override;
 
-	TArray<FString> Inventory;
+	//The actual Inventory
+	UPROPERTY(VisibleAnywhere)
+	TArray<AItem*> Inventory;
 
 	//The actual Inventory
 	UPROPERTY(VisibleAnywhere)
-	TArray<AItem*> Inventory2;
+	AItem* StaticInventory[9];
 
-	//void AddItem(AItem item);
-
-	bool isPickingUp = false;
-
-	
+	UFUNCTION()
+	bool IsInventorySlotEmpty(int &slot);
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -46,6 +45,9 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+
+	int activeSlot = 0;
+	bool isPickingUp = false;
 
 protected:
 
@@ -62,10 +64,12 @@ protected:
 	void BeginPickup();
 	void EndPickup();
 	void ShowInventory();
+	void ChangeActiveSlot(float Value);
 
 	// Use Functions
-	void Use1();
-	void Use2();
+	void Drop();
+	void Use();
+
 
 	/** 
 	 * Called via input to turn at a given rate. 

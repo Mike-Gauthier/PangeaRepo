@@ -11,6 +11,8 @@
 #include "Engine.h"
 #include "Item.h"
 
+#define MAX_INVENTORY_ITEMS 4
+
 //////////////////////////////////////////////////////////////////////////
 // APangeaMechanicsCharacter
 
@@ -67,9 +69,14 @@ void APangeaMechanicsCharacter::SetupPlayerInputComponent(class UInputComponent*
 	// Inventory
 	PlayerInputComponent->BindAction("ShowInventory", IE_Pressed, this, &APangeaMechanicsCharacter::ShowInventory);
 
+	// SLOT UP AND DOWN
+	PlayerInputComponent->BindAxis("ChangeActiveSlot", this, &APangeaMechanicsCharacter::ChangeActiveSlot);
+
+	// Drop Object
+	PlayerInputComponent->BindAction("Drop", IE_Pressed, this, &APangeaMechanicsCharacter::Drop);
+
 	// USE OBJECT
-	PlayerInputComponent->BindAction("Use1", IE_Pressed, this, &APangeaMechanicsCharacter::Use1);
-	PlayerInputComponent->BindAction("Use2", IE_Pressed, this, &APangeaMechanicsCharacter::Use2);
+	PlayerInputComponent->BindAction("Use", IE_Pressed, this, &APangeaMechanicsCharacter::Use);
 
 	// Move
 	PlayerInputComponent->BindAxis("MoveForward", this, &APangeaMechanicsCharacter::MoveForward);
@@ -148,8 +155,46 @@ void APangeaMechanicsCharacter::MoveRight(float Value)
 	}
 }
 
-// PICKUP
 
+/***************
+	INVENTORY
+****************/
+bool APangeaMechanicsCharacter::IsInventorySlotEmpty(int &slot)
+{
+	bool found = false;
+
+	for (int i = 0; i < MAX_INVENTORY_ITEMS; i++)
+	{
+		if (!found && StaticInventory[i] == nullptr)
+		{
+			found = true;
+			slot = i;
+		}
+	}
+
+	return found;
+}
+
+void APangeaMechanicsCharacter::ShowInventory()
+{
+	// Static
+	for (int i = 0; i < MAX_INVENTORY_ITEMS; i++)
+	{
+		// Print
+		if (StaticInventory[i] != nullptr)
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Item: %s"), *StaticInventory[i]->name));
+		else
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Item: None")));
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("INVENTORY")));
+}
+
+
+/*************
+	ITEMS 
+**************/
+
+// Pick Up Item
 void APangeaMechanicsCharacter::BeginPickup()
 {
 	isPickingUp = true;
@@ -160,31 +205,74 @@ void APangeaMechanicsCharacter::EndPickup()
 	isPickingUp = false;
 }
 
-
-// INVENTORY
-void APangeaMechanicsCharacter::ShowInventory()
+// Drop Item
+void APangeaMechanicsCharacter::Drop()
 {
-	for (auto& Item : Inventory) //auto figures out the type of the element
+	FVector locToSpawn = GetActorLocation() + GetActorForwardVector() * 150.f + FVector(0, 0, 50);
+
+	// Slot has an object
+	if (StaticInventory[activeSlot] != nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Item: %s"), *Item));
+		StaticInventory[activeSlot]->DisableActor(false);
+		StaticInventory[activeSlot]->SetActorLocation(locToSpawn);
+		StaticInventory[activeSlot] = nullptr;
+	}
+	// Slot is empty
+	else 
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("There is nothing here...")));
+}
+
+// Change Active Slot
+void APangeaMechanicsCharacter::ChangeActiveSlot(float Value)
+{
+	// Mouse Wheel Up
+	if (Value < 0)
+	{
+		if (activeSlot <= 0)
+			activeSlot = MAX_INVENTORY_ITEMS - 1;
+		else
+			activeSlot--;
+
+		// Prints
+		if(StaticInventory[activeSlot] != nullptr)
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Active Item: %s"), *StaticInventory[activeSlot]->name));
+		else
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Active Item: None")));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::FromInt(activeSlot));
+	}
+
+	// Mouse Wheel Down
+	else if (Value > 0)
+	{
+		if (activeSlot >= MAX_INVENTORY_ITEMS - 1)
+			activeSlot = 0;
+		else
+			activeSlot++;
+
+		// Prints
+		if (StaticInventory[activeSlot] != nullptr)
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Active Item: %s"), *StaticInventory[activeSlot]->name));
+		else
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Active Item: None")));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::FromInt(activeSlot));
 	}
 }
 
-// ITEMS 
-void APangeaMechanicsCharacter::Use1()
-{
 
+// Use
+void APangeaMechanicsCharacter::Use()
+{
+	if (StaticInventory[activeSlot] != nullptr)
+	{
+		StaticInventory[activeSlot]->Use();
+		StaticInventory[activeSlot] = nullptr;
+	}
+	else 
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You don't have any active item!")));
 }
 
-void APangeaMechanicsCharacter::Use2()
-{
-
-}
 
 void APangeaMechanicsCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-	//Initializing our Inventory
-	Inventory2.SetNum(MAX_INVENTORY_ITEMS);
 }

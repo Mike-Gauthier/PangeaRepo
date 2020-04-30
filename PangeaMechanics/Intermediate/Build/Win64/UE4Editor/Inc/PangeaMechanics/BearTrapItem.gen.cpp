@@ -46,7 +46,6 @@ void EmptyLinkFunctionForGeneratedCodeBearTrapItem() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABearTrapItem_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "BearTrapItem.h" },
 		{ "ModuleRelativePath", "BearTrapItem.h" },
 	};
@@ -92,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeBearTrapItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABearTrapItem, 4138547078);
+	IMPLEMENT_CLASS(ABearTrapItem, 3345802154);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<ABearTrapItem>()
 	{
 		return ABearTrapItem::StaticClass();

@@ -17,11 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 	PANGEAMECHANICS_API UClass* Z_Construct_UClass_AItem();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PangeaMechanics();
+	PANGEAMECHANICS_API UFunction* Z_Construct_UFunction_AItem_DisableActor();
 	PANGEAMECHANICS_API UFunction* Z_Construct_UFunction_AItem_TriggerEnter();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	PANGEAMECHANICS_API UFunction* Z_Construct_UFunction_AItem_TriggerExit();
+	PANGEAMECHANICS_API UFunction* Z_Construct_UFunction_AItem_Use();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UShapeComponent_NoRegister();
@@ -30,10 +32,49 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 	{
 		UClass* Class = AItem::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "DisableActor", &AItem::execDisableActor },
 			{ "TriggerEnter", &AItem::execTriggerEnter },
 			{ "TriggerExit", &AItem::execTriggerExit },
+			{ "Use", &AItem::execUse },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AItem_DisableActor_Statics
+	{
+		struct Item_eventDisableActor_Parms
+		{
+			bool hide;
+		};
+		static void NewProp_hide_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_hide;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AItem_DisableActor_Statics::NewProp_hide_SetBit(void* Obj)
+	{
+		((Item_eventDisableActor_Parms*)Obj)->hide = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AItem_DisableActor_Statics::NewProp_hide = { "hide", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(Item_eventDisableActor_Parms), &Z_Construct_UFunction_AItem_DisableActor_Statics::NewProp_hide_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AItem_DisableActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AItem_DisableActor_Statics::NewProp_hide,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AItem_DisableActor_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Item.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AItem_DisableActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AItem, nullptr, "DisableActor", nullptr, nullptr, sizeof(Item_eventDisableActor_Parms), Z_Construct_UFunction_AItem_DisableActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AItem_DisableActor_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AItem_DisableActor_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AItem_DisableActor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AItem_DisableActor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AItem_DisableActor_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AItem_TriggerEnter_Statics
 	{
@@ -176,6 +217,28 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AItem_Use_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AItem_Use_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Item.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AItem_Use_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AItem, nullptr, "Use", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AItem_Use_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AItem_Use_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AItem_Use()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AItem_Use_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AItem_NoRegister()
 	{
 		return AItem::StaticClass();
@@ -188,21 +251,21 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Weight_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Weight;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PickupTexture_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PickupTexture;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ItemDescription_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weight_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ItemDescription;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_weight;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ItemName_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_description_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ItemName;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_description;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_name_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_name;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SM_TBox_MetaData[];
 #endif
@@ -220,8 +283,10 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PangeaMechanics,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AItem_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AItem_DisableActor, "DisableActor" }, // 78326444
 		{ &Z_Construct_UFunction_AItem_TriggerEnter, "TriggerEnter" }, // 262521759
 		{ &Z_Construct_UFunction_AItem_TriggerExit, "TriggerExit" }, // 3396505970
+		{ &Z_Construct_UFunction_AItem_Use, "Use" }, // 3830034350
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::Class_MetaDataParams[] = {
@@ -229,13 +294,6 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		{ "ModuleRelativePath", "Item.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_Weight_MetaData[] = {
-		{ "Category", "Item" },
-		{ "ModuleRelativePath", "Item.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_Weight = { "Weight", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, Weight), METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_Weight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_Weight_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_PickupTexture_MetaData[] = {
 		{ "Category", "Item" },
@@ -246,19 +304,26 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_PickupTexture = { "PickupTexture", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, PickupTexture), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_PickupTexture_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_PickupTexture_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_ItemDescription_MetaData[] = {
-		{ "Category", "Item" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_weight_MetaData[] = {
+		{ "Category", "Item Stats" },
 		{ "ModuleRelativePath", "Item.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_ItemDescription = { "ItemDescription", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, ItemDescription), METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_ItemDescription_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_ItemDescription_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_weight = { "weight", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, weight), METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_weight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_weight_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_ItemName_MetaData[] = {
-		{ "Category", "Item" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_description_MetaData[] = {
+		{ "Category", "Item Stats" },
 		{ "ModuleRelativePath", "Item.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_ItemName = { "ItemName", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, ItemName), METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_ItemName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_ItemName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_description = { "description", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, description), METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_description_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_description_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_name_MetaData[] = {
+		{ "Category", "Item Stats" },
+		{ "ModuleRelativePath", "Item.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_name = { "name", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, name), METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_name_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_name_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AItem_Statics::NewProp_SM_TBox_MetaData[] = {
 		{ "Category", "Item" },
@@ -276,10 +341,10 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AItem_Statics::NewProp_TBox = { "TBox", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AItem, TBox), Z_Construct_UClass_UShapeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AItem_Statics::NewProp_TBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AItem_Statics::NewProp_TBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AItem_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_Weight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_PickupTexture,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_ItemDescription,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_ItemName,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_weight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_description,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_name,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_SM_TBox,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AItem_Statics::NewProp_TBox,
 	};
@@ -310,7 +375,7 @@ void EmptyLinkFunctionForGeneratedCodeItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AItem, 2887339972);
+	IMPLEMENT_CLASS(AItem, 1163980492);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<AItem>()
 	{
 		return AItem::StaticClass();

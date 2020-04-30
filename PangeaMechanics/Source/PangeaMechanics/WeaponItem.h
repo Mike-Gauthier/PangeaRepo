@@ -17,6 +17,8 @@ class PANGEAMECHANICS_API AWeaponItem : public AItem
 
 public:
 
+	UPROPERTY(EditAnywhere, Category = "Item Stats")
+		int damage;
 
 	bool isEquipped = false;
 
