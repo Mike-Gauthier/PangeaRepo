@@ -1,13 +1,13 @@
-C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
-c:\users\mike\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanicsGameMode.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PangeaMechanicsGameMode.generated.h
-c:\users\mike\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanicsCharacter.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Mike\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PangeaMechanicsCharacter.generated.h
+C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+c:\users\ceejvic\desktop\ceej\programs\pangeagroup_remade\pangeamechanics\source\pangeamechanics\PangeaMechanicsGameMode.h
+K:\Epic\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+K:\Epic\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+K:\Epic\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+K:\Epic\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PangeaMechanicsGameMode.generated.h
+c:\users\ceejvic\desktop\ceej\programs\pangeagroup_remade\pangeamechanics\source\pangeamechanics\PangeaMechanicsCharacter.h
+K:\Epic\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+K:\Epic\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+K:\Epic\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+K:\Epic\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PangeaMechanicsCharacter.generated.h

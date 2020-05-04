@@ -1,4 +1,4 @@
-﻿Log file open, 04/13/20 11:05:38
+﻿Log file open, 05/04/20 03:51:20
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: PangeaMechanics
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.936838
+LogStats: Stats thread started at 0.067301
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
-LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -121,17 +121,18 @@ LogInit:  - BufferSize = 65536
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogHMD: Failed initializing OVRPlugin 1.40.0
 LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: OS: Windows 8.1 (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
-LogInit: Command Line:  -EpicPortal -epicusername=MrEgoGames -epicuserid=475b618faf124090b3647cf9c9f763da -epiclocale=en
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: K:/Epic/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -163,452 +164,619 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.04.13-15.05.40:887][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.13-15.05.40:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.04.13-15.05.40:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.13-15.05.40:888][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.13-15.05.40:893][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.13-15.05.40:893][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.13-15.05.40:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.13-15.05.40:895][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:895][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.13-15.05.40:895][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.13-15.05.40:895][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.13-15.05.40:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.13-15.05.40:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.13-15.05.40:895][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.13-15.05.40:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.13-15.05.40:918][  0]LogHAL: Display: Platform has ~ 8 GB [8490749952 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.13-15.05.40:918][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.13-15.05.40:918][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.13-15.05.40:918][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.13-15.05.40:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.13-15.05.40:920][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.13-15.05.40:920][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:920][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.13-15.05.40:920][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.13-15.05.40:920][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.13-15.05.40:920][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.13-15.05.40:920][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.13-15.05.40:920][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.13-15.05.40:920][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.04.13-15.05.40:931][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.04.13-15.05.40:931][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.04.13-15.05.40:931][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.13-15.05.40:940][  0]LogInit: Computer: DESKTOP-9FKOAUH
-[2020.04.13-15.05.40:940][  0]LogInit: User: Mike
-[2020.04.13-15.05.40:940][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.04.13-15.05.40:940][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.13-15.05.40:940][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.04.13-15.05.40:940][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.13-15.05.40:940][  0]LogMemory: Process Physical Memory: 104.77 MB used, 104.77 MB peak
-[2020.04.13-15.05.40:940][  0]LogMemory: Process Virtual Memory: 99.97 MB used, 99.97 MB peak
-[2020.04.13-15.05.40:940][  0]LogMemory: Physical Memory: 5458.21 MB used,  2639.20 MB free, 8097.41 MB total
-[2020.04.13-15.05.40:940][  0]LogMemory: Virtual Memory: 5121.18 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.04.13-15.05.40:944][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.04.13-15.05.41:383][  0]LogInit: Using OS detected language (en-US).
-[2020.04.13-15.05.41:383][  0]LogInit: Using OS detected locale (en-US).
-[2020.04.13-15.05.41:453][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.04.13-15.05.42:143][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.13-15.05.42:604][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.13-15.05.42:604][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.13-15.05.48:143][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.13-15.05.48:143][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.04.13-15.05.48:143][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.04.13-15.05.48:143][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.13-15.05.48:211][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2020.04.13-15.05.48:211][  0]LogD3D11RHI:       6052/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.04.13-15.05.48:248][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.04.13-15.05.48:248][  0]LogD3D11RHI:       128/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.04.13-15.05.48:252][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.13-15.05.48:252][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.13-15.05.48:252][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.13-15.05.48:260][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.13-15.05.48:261][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2020.04.13-15.05.48:261][  0]LogWindows: EnumDisplayDevices:
-[2020.04.13-15.05.48:261][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2020.04.13-15.05.48:261][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2020.04.13-15.05.48:261][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2020.04.13-15.05.48:261][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2020.04.13-15.05.48:262][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.04.13-15.05.48:262][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.04.13-15.05.48:262][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.04.13-15.05.48:262][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.04.13-15.05.48:262][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2020.04.13-15.05.48:263][  0]LogD3D11RHI:   Driver Version: 391.25 (internal:23.21.13.9125, unified:391.25)
-[2020.04.13-15.05.48:263][  0]LogD3D11RHI:      Driver Date: 3-16-2018
-[2020.04.13-15.05.48:263][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2020.04.13-15.05.48:304][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.04.13-15.05.48:304][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.13-15.05.48:457][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.04.13-15.05.49:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.04.13-15.05.50:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.04.13-15.05.50:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.04.13-15.05.50:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.04.13-15.05.50:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.04.13-15.05.50:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.04.13-15.05.50:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.04.13-15.05.50:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.04.13-15.05.50:216][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.04.13-15.05.50:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.04.13-15.05.50:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.04.13-15.05.50:335][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.04.13-15.05.50:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.04.13-15.05.50:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.04.13-15.05.50:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.04.13-15.05.50:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.04.13-15.05.50:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.04.13-15.05.50:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.04.13-15.05.50:445][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.13-15.05.50:572][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.04.13-15.05.51:011][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/21556/).
-[2020.04.13-15.05.51:012][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mike/AppData/Local/Temp/UnrealShaderWorkingDir/A00B341A47AFA6BA399591BC6F1B9CAE/'.
-[2020.04.13-15.05.51:021][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.13-15.05.51:021][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.13-15.05.51:021][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.13-15.05.55:387][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.13-15.05.56:277][  0]LogDerivedDataCache: Loaded boot cache 0.87s 82MB C:/Users/Mike/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.13-15.05.56:277][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mike/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.04.13-15.05.56:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.13-15.05.56:278][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.13-15.05.56:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.13-15.05.56:278][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.13-15.05.56:351][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.13-15.05.56:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.13-15.05.56:351][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.04.13-15.05.56:353][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.13-15.05.56:353][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.13-15.05.56:353][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.13-15.05.56:381][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.13-15.05.56:383][  0]LogSlate: Using FreeType 2.10.0
-[2020.04.13-15.05.56:785][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.13-15.05.58:137][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
-[2020.04.13-15.05.59:712][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.13-15.06.00:953][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.13-15.06.00:953][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.04.13-15.06.00:953][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.13-15.06.00:953][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.04.13-15.06.00:953][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.04.13-15.06.01:187][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
-[2020.04.13-15.06.27:670][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.070125 seconds
-[2020.04.13-15.06.27:680][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.04.13-15.06.27:680][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.04.13-15.06.27:680][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.13-15.06.30:178][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.13-15.06.30:202][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.13-15.06.31:050][  0]SourceControl: Source control is disabled
-[2020.04.13-15.06.31:050][  0]SourceControl: Source control is disabled
-[2020.04.13-15.06.31:084][  0]SourceControl: Source control is disabled
-[2020.04.13-15.06.31:102][  0]SourceControl: Source control is disabled
-[2020.04.13-15.06.31:116][  0]SourceControl: Source control is disabled
-[2020.04.13-15.06.32:187][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.13-15.06.32:399][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.13-15.06.32:399][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.13-15.06.32:640][  0]LogOcInput: OculusInput pre-init called
-[2020.04.13-15.06.32:684][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.04.13-15.06.32:685][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.04.13-15.06.33:043][  0]LogEngine: Initializing Engine...
-[2020.04.13-15.06.33:045][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.13-15.06.33:045][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.04.13-15.06.33:446][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.13-15.06.33:497][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.13-15.06.33:537][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.13-15.06.33:537][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.13-15.06.33:537][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: Name: Speakers / Headphones (Realtek Audio)
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: Channel Order:
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.13-15.06.33:580][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.04.13-15.06.33:629][  0]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
-[2020.04.13-15.06.33:635][  0]LogInit: FAudioDevice initialized.
-[2020.04.13-15.06.33:635][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.13-15.06.33:820][  0]LogDerivedDataCache: Saved boot cache 0.18s 82MB C:/Users/Mike/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.13-15.06.33:830][  0]LogInit: Texture streaming: Enabled
-[2020.04.13-15.06.34:144][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.13-15.06.34:144][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.04.13-15.06.34:156][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.04.13-15.06.34:425][  0]LogInit: Transaction tracking system initialized
-[2020.04.13-15.06.34:932][  0]BlueprintLog: New page: Editor Load
-[2020.04.13-15.06.35:911][  0]LocalizationService: Localization service is disabled
-[2020.04.13-15.06.37:080][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/' took 0.01s
-[2020.04.13-15.06.37:080][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.13-15.06.37:080][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.13-15.06.41:398][  0]SourceControl: Source control is disabled
-[2020.04.13-15.06.41:398][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.13-15.06.41:399][  0]LightingResults: New page: Lighting Build
-[2020.04.13-15.06.41:450][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.04.13-15.06.41:450][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.13-15.06.41:450][  0]MapCheck: New page: Map Check
-[2020.04.13-15.06.41:451][  0]LightingResults: New page: Lighting Build
-[2020.04.13-15.06.41:490][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
-[2020.04.13-15.06.42:343][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.13-15.06.42:531][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.13-15.06.42:597][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
-[2020.04.13-15.06.42:598][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.13-15.06.42:598][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.191ms to complete.
-[2020.04.13-15.06.42:598][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.200
-[2020.04.13-15.06.43:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-15.06.43:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-15.06.43:029][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-15.06.43:035][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.13-15.06.43:118][  0]LogCollectionManager: Loaded 0 collections in 0.002816 seconds
-[2020.04.13-15.06.43:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Collections/' took 0.00s
-[2020.04.13-15.06.43:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Developers/Mike/Collections/' took 0.00s
-[2020.04.13-15.06.43:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mike/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Collections/' took 0.00s
-[2020.04.13-15.06.43:165][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3017 classes and 719 folders.
-[2020.04.13-15.06.43:212][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.04.13-15.06.44:677][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2020.04.13-15.06.44:730][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 2 classes and 3 folders.
-[2020.04.13-15.06.44:972][  0]LogSlate: Took 0.013699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.13-15.06.45:040][  0]LogSlate: Took 0.066508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.13-15.06.45:065][  0]LogSlate: Took 0.019168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.13-15.06.45:276][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.04.13-15.06.45:557][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.04.13-15.06.45:557][  0]LogLoad: (Engine Initialization) Total time: 123.19 seconds
-[2020.04.13-15.06.45:557][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.13-15.06.45:629][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.13-15.06.45:727][  0]LogSlate: Took 0.026420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.13-15.06.48:911][ 41]LogAssetRegistry: Asset discovery search completed in 50.7751 seconds
-[2020.04.13-15.06.48:914][ 41]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
-[2020.04.13-15.08.05:075][142]LogSlate: Window 'Open Level' being destroyed
-[2020.04.13-15.08.15:459][691]LogSlate: Window 'Open Level' being destroyed
-[2020.04.13-15.09.11:392][710]LogSlate: Window 'Open Level' being destroyed
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.04-10.51.21:540][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.04-10.51.21:540][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.04-10.51.21:540][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.04-10.51.21:545][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.04-10.51.21:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.04-10.51.21:546][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.04-10.51.21:546][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:546][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.04-10.51.21:546][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.04-10.51.21:546][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:546][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.04-10.51.21:546][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.04-10.51.21:546][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.04-10.51.21:546][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.04-10.51.21:546][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.04-10.51.21:548][  0]LogHAL: Display: Platform has ~ 16 GB [17126227968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.04-10.51.21:548][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.04-10.51.21:548][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.04-10.51.21:549][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.04-10.51.21:549][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.04-10.51.21:549][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.04-10.51.21:549][  0]LogInit: Computer: CEEJSBOX
+[2020.05.04-10.51.21:549][  0]LogInit: User: ceejvic
+[2020.05.04-10.51.21:549][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.04-10.51.21:549][  0]LogInit: High frequency timer resolution =3.417980 MHz
+[2020.05.04-10.51.21:549][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.05.04-10.51.21:549][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.04-10.51.21:549][  0]LogMemory: Process Physical Memory: 105.16 MB used, 105.16 MB peak
+[2020.05.04-10.51.21:549][  0]LogMemory: Process Virtual Memory: 103.59 MB used, 103.59 MB peak
+[2020.05.04-10.51.21:549][  0]LogMemory: Physical Memory: 7349.88 MB used,  8982.97 MB free, 16332.84 MB total
+[2020.05.04-10.51.21:549][  0]LogMemory: Virtual Memory: 1014.28 MB used,  134216712.00 MB free, 134217728.00 MB total
+[2020.05.04-10.51.21:554][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.04-10.51.21:570][  0]LogInit: Using OS detected language (en-US).
+[2020.05.04-10.51.21:570][  0]LogInit: Using OS detected locale (en-US).
+[2020.05.04-10.51.21:570][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.05.04-10.51.21:758][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.04-10.51.21:780][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.04-10.51.21:780][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.04-10.51.21:901][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2020.05.04-10.51.21:901][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.04-10.51.21:901][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.04-10.51.21:901][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.04-10.51.21:921][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2020.05.04-10.51.21:921][  0]LogD3D11RHI:       3975/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.05.04-10.51.21:923][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.04-10.51.21:923][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.04-10.51.21:923][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.04-10.51.21:927][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.04-10.51.21:927][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.04-10.51.21:927][  0]LogWindows: EnumDisplayDevices:
+[2020.05.04-10.51.21:927][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.05.04-10.51.21:927][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2020.05.04-10.51.21:927][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.05.04-10.51.21:927][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.05.04-10.51.21:927][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.05.04-10.51.21:927][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.05.04-10.51.21:927][  0]LogD3D11RHI:   Driver Version: 388.59 (internal:23.21.13.8859, unified:388.59)
+[2020.05.04-10.51.21:927][  0]LogD3D11RHI:      Driver Date: 12-5-2017
+[2020.05.04-10.51.21:927][  0]LogRHI: Texture pool is 2782 MB (70% of 3975 MB)
+[2020.05.04-10.51.21:940][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.04-10.51.21:940][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.04-10.51.22:012][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.05.04-10.51.22:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.04-10.51.22:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.04-10.51.22:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.04-10.51.22:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.04-10.51.22:302][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.04-10.51.22:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.04-10.51.22:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.04-10.51.22:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.04-10.51.22:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.04-10.51.22:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.04-10.51.22:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.04-10.51.22:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.04-10.51.22:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.04-10.51.22:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.04-10.51.22:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.04-10.51.22:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.04-10.51.22:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.04-10.51.22:403][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.04-10.51.22:403][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.04-10.51.22:406][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.04-10.51.22:422][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/14332/).
+[2020.05.04-10.51.22:422][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ceejvic/AppData/Local/Temp/UnrealShaderWorkingDir/5EB9C07C48F0BEDA43A2018F4FE0E901/'.
+[2020.05.04-10.51.22:422][  0]LogXGEController: Cleaning working directory: C:/Users/ceejvic/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.04-10.51.22:422][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.04-10.51.22:422][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.04-10.51.22:422][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.04-10.51.23:173][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.04-10.51.23:277][  0]LogDerivedDataCache: Loaded boot cache 0.10s 85MB C:/Users/ceejvic/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.04-10.51.23:277][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ceejvic/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.04-10.51.23:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.04-10.51.23:278][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.04-10.51.23:278][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.04-10.51.23:278][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.04-10.51.23:288][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.04-10.51.23:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.04-10.51.23:289][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.04-10.51.23:290][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ceejvic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.04-10.51.23:290][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.04-10.51.23:290][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.04-10.51.23:316][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.04-10.51.23:319][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.04-10.51.23:319][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.04-10.51.23:368][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.05.04-10.51.23:663][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.04-10.51.23:822][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.04-10.51.23:822][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.04-10.51.23:822][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.04-10.51.23:822][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.04-10.51.23:822][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.04-10.51.23:837][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
+[2020.05.04-10.51.24:829][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.036713 seconds
+[2020.05.04-10.51.24:841][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.04-10.51.24:841][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.04-10.51.24:841][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.04-10.51.25:230][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.04-10.51.25:233][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.04-10.51.25:424][  0]SourceControl: Source control is disabled
+[2020.05.04-10.51.25:424][  0]SourceControl: Source control is disabled
+[2020.05.04-10.51.25:426][  0]SourceControl: Source control is disabled
+[2020.05.04-10.51.25:427][  0]SourceControl: Source control is disabled
+[2020.05.04-10.51.25:428][  0]SourceControl: Source control is disabled
+[2020.05.04-10.51.25:508][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.04-10.51.25:519][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.04-10.51.25:520][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.04-10.51.25:604][  0]LogOcInput: OculusInput pre-init called
+[2020.05.04-10.51.26:202][  0]LogEngine: Initializing Engine...
+[2020.05.04-10.51.26:205][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2020.05.04-10.51.26:206][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.04-10.51.26:622][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.04-10.51.26:628][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.04-10.51.26:629][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.04-10.51.26:629][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.04-10.51.26:629][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.04-10.51.26:629][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.04-10.51.26:629][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.04-10.51.26:629][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.04-10.51.26:629][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.04-10.51.26:629][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.04-10.51.26:630][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.04-10.51.26:630][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: Name: Speakers (AudioBox USB 96)
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: Sample Rate: 44100
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.04-10.51.26:637][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.04-10.51.26:643][  0]LogAudioMixer: Display: Using Audio Device Speakers (AudioBox USB 96)
+[2020.05.04-10.51.26:645][  0]LogInit: FAudioDevice initialized.
+[2020.05.04-10.51.26:645][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.04-10.51.26:745][  0]LogDerivedDataCache: Saved boot cache 0.10s 85MB C:/Users/ceejvic/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.04-10.51.26:746][  0]LogInit: Texture streaming: Enabled
+[2020.05.04-10.51.26:780][  0]LogInit: Transaction tracking system initialized
+[2020.05.04-10.51.26:790][  0]BlueprintLog: New page: Editor Load
+[2020.05.04-10.51.26:817][  0]LocalizationService: Localization service is disabled
+[2020.05.04-10.51.27:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/' took 0.00s
+[2020.05.04-10.51.27:083][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.04-10.51.27:083][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.04-10.51.27:674][  0]SourceControl: Source control is disabled
+[2020.05.04-10.51.27:674][  0]Cmd: MAP LOAD FILE="C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.04-10.51.27:675][  0]LightingResults: New page: Lighting Build
+[2020.05.04-10.51.27:675][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.04-10.51.27:675][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.04-10.51.27:675][  0]MapCheck: New page: Map Check
+[2020.05.04-10.51.27:675][  0]LightingResults: New page: Lighting Build
+[2020.05.04-10.51.27:701][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.05.04-10.51.27:798][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.04-10.51.27:804][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.04-10.51.27:837][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.05.04-10.51.27:838][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.04-10.51.27:838][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.194ms to complete.
+[2020.05.04-10.51.27:838][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.164
+[2020.05.04-10.51.27:966][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.04-10.51.27:975][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.04-10.51.27:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.04-10.51.27:988][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.04-10.51.27:992][  0]LogCollectionManager: Loaded 0 collections in 0.000654 seconds
+[2020.05.04-10.51.28:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/Collections/' took 0.00s
+[2020.05.04-10.51.28:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/Developers/ceejvic/Collections/' took 0.00s
+[2020.05.04-10.51.28:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/Collections/' took 0.00s
+[2020.05.04-10.51.28:006][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3017 classes and 719 folders.
+[2020.05.04-10.51.28:008][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.04-10.51.28:048][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.04-10.51.28:055][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
+[2020.05.04-10.51.28:086][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.04-10.51.28:090][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.04-10.51.28:094][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.04-10.51.28:163][  0]LogRenderer: Reallocating scene render targets to support 996x552 Format 10 NumSamples 1 (Frame:1).
+[2020.05.04-10.51.28:286][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.05.04-10.51.28:287][  0]LogLoad: (Engine Initialization) Total time: 8.18 seconds
+[2020.05.04-10.51.28:287][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.04-10.51.28:329][  0]LogAssetRegistry: Asset discovery search completed in 4.9630 seconds
+[2020.05.04-10.51.28:334][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2020.05.04-10.51.28:336][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.04-10.51.28:358][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.04-10.52.22:122][821]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.04-10.52.22:154][821]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/PangeaMechanics.PangeaMechanicsCharacter
+[2020.05.04-10.52.22:162][821]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.05.04-10.52.22:166][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:166][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:166][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:166][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:166][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:166][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:166][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:167][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:169][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:170][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:170][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:170][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:171][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:172][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:172][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:172][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:174][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:181][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:182][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:184][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:186][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:187][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:187][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:187][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:188][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:188][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:188][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:189][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:190][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:191][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:191][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:191][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:193][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:199][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:200][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.22:202][821]LogVSAccessor: Warning: Couldn't access module table
+[2020.05.04-10.52.43:743][ 83]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.04-10.52.43:743][ 83]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.05.04-10.52.43:789][ 83]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.04-10.52.51:112][823]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.04-10.52.54:262][163]Running K:/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/PangeaMechanics.uproject" -game -rocket -progress
+[2020.05.04-10.52.54:575][163]Discovering modules, targets and source code for project...
+[2020.05.04-10.52.55:776][163]Binding IntelliSense data...
+[2020.05.04-10.52.58:292][163]Binding IntelliSense data... 100%
+[2020.05.04-10.52.58:292][163]Writing project files...
+[2020.05.04-10.53.00:300][163]Writing project files... 100%
+[2020.05.04-10.53.00:409][163]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.05.04-10.53.00:412][163]Candidate modules for hot reload:
+[2020.05.04-10.53.00:412][163]  PangeaMechanics
+[2020.05.04-10.53.00:412][163]Launching UnrealBuildTool... [K:/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,6680 Win64 Development -TargetType=Editor -Project="C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.05.04-10.53.13:557][163]CompilerResultsLog: New page: Compilation - May 3, 2020, 8:53:13 PM
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade).
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Creating makefile for PangeaMechanicsEditor (no existing makefile)
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Parsing headers for PangeaMechanicsEditor
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\PangeaMechanics.uproject" "C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\PangeaMechanicsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Reflection code generated for PangeaMechanicsEditor in 6.4945739 seconds
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (K:\Windows Kits\10).
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Building 11 actions with 4 processes...
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [1/11] MySaveGame.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [2/11] PangeaMechanics.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [3/11] PangeaMechanicsGameMode.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [4/11] PangeaMechanics.init.gen.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [5/11] PangeaMechanicsCharacter.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [6/11] MySaveGame.gen.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [7/11] PangeaMechanicsCharacter.gen.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [8/11] PangeaMechanicsGameMode.gen.cpp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [9/11] UE4Editor-PangeaMechanics-6680.lib
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:      Creating library C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6680.lib and object C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6680.exp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [10/11] UE4Editor-PangeaMechanics-6680.dll
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:      Creating library C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6680.suppressed.lib and object C:\Users\ceejvic\Desktop\Ceej\Programs\PangeaGroup_remade\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6680.suppressed.exp
+[2020.05.04-10.53.13:558][163]CompilerResultsLog:   [11/11] PangeaMechanicsEditor.target
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Total time in Parallel executor: 4.06 seconds
+[2020.05.04-10.53.13:558][163]CompilerResultsLog: Total execution time: 13.08 seconds
+[2020.05.04-10.53.13:558][163]LogMainFrame: MainFrame: Module compiling took 13.150 seconds
+[2020.05.04-10.53.13:590][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.05.04-10.53.13:607][163]LogClass: Could not find existing class MySaveGame in package /Script/PangeaMechanics for HotReload, assuming new class
+[2020.05.04-10.53.13:616][163]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2020.05.04-10.53.13:619][163]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.04-10.53.13:695][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.05.04-10.53.13:709][163]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3020 classes and 722 folders.
+[2020.05.04-10.53.13:709][163]Display: HotReload took 13.3s.
+[2020.05.04-10.53.13:709][163]Warning: HotReload operation took 13.3s.
+[2020.05.04-10.53.13:776][163]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.04-10.53.13:791][163]LogHotReload: New module detected: UE4Editor-PangeaMechanics-6680.dll
+[2020.05.04-10.53.13:862][164]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.04-10.53.14:161][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.05.04-10.53.14:166][164]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.05.04-10.53.14:171][164]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.04-10.53.14:196][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.05.04-10.53.14:211][164]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3020 classes and 722 folders.
+[2020.05.04-10.53.14:213][164]Display: HotReload took  0.4s.
+[2020.05.04-10.53.16:550][199]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2020.05.04-10.53.56:684][400]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/PangeaMechanics.PangeaMechanicsCharacter
+[2020.05.04-10.54.09:976][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.05.04-10.54.10:141][732]LogSavePackage: Moving 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/ThirdPersonExampleMap25C56BEB4392BFD93A2EB2917B31B118.tmp' to 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.04-10.54.10:328][732]LogSavePackage: Moving 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/ThirdPersonExampleMap_BuiltData9F324F594AA1C2DA5EB748A918330197.tmp' to 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.04-10.54.10:343][732]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.04-10.54.10:343][732]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.04-10.54.10:343][732]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.05.04-11.17.13:323][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.05.04-11.17.13:467][471]LogSavePackage: Moving 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/ThirdPersonExampleMapE3D1C7DA46DE009B3CAD908D7A87CF5C.tmp' to 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.04-11.17.13:585][471]LogSavePackage: Moving 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Saved/ThirdPersonExampleMap_BuiltData6EC3BADB4D6905440AF63D96B4A8E2B4.tmp' to 'C:/Users/ceejvic/Desktop/Ceej/Programs/PangeaGroup_remade/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.04-11.17.13:599][471]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.04-11.17.13:599][471]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.04-11.17.13:599][471]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData

@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "PangeaMechanics",
-			"Path": "C:\\Users\\Mike\\Documents\\GitHub\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanics.Target.cs",
+			"Path": "C:\\Users\\ceejvic\\Desktop\\Ceej\\Programs\\PangeaGroup_remade\\PangeaMechanics\\Source\\PangeaMechanics.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "PangeaMechanicsEditor",
-			"Path": "C:\\Users\\Mike\\Documents\\GitHub\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanicsEditor.Target.cs",
+			"Path": "C:\\Users\\ceejvic\\Desktop\\Ceej\\Programs\\PangeaGroup_remade\\PangeaMechanics\\Source\\PangeaMechanicsEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
