@@ -74,6 +74,12 @@ void APangeaMechanicsCharacter::SetupPlayerInputComponent(class UInputComponent*
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &APangeaMechanicsCharacter::OnResetVR);
+
+    //////// input for save and load
+    // testSave
+    PlayerInputComponent->BindAction("TestSave", IE_Pressed, this, &APangeaMechanicsCharacter::testSave);
+    PlayerInputComponent->BindAction("TestLoad", IE_Released, this, &APangeaMechanicsCharacter::testLoad);
+
 }
 
 
@@ -131,4 +137,77 @@ void APangeaMechanicsCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+}
+
+
+
+void APangeaMechanicsCharacter::testSave()
+{
+    // gather data
+    FVector actorLocation = GetActorLocation();
+    FRotator actorRotation = GetActorRotation();
+
+
+    // begin save, starting with creating save object
+    // saving asynchronously
+    if (UMySaveGame* SaveGameInstance = Cast<UMySaveGame>(UGameplayStatics::CreateSaveGameObject(UMySaveGame::StaticClass())))
+    {
+        // Set up the (optional) delegate.
+        FAsyncSaveGameToSlotDelegate SavedDelegate;
+        SavedDelegate.BindUObject(SaveGameInstance, &UMySaveGame::finishedResponse); // use created save's function
+
+        // Set data on the savegame object.
+        SaveGameInstance->playerPosition = actorLocation;
+        SaveGameInstance->playerRotation = actorRotation;
+
+        // Start async save process.
+        UGameplayStatics::AsyncSaveGameToSlot(SaveGameInstance, SaveGameInstance->str_saveSlot, SaveGameInstance->int_userIndex, SavedDelegate);
+    }
+
+
+    // Debug notification logging
+    FString debugStr = FString(TEXT("Save dunzo!"));
+    GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Purple, debugStr);
+    UE_LOG(LogClass, Log, TEXT("%s"), *debugStr);
+}
+
+
+
+void APangeaMechanicsCharacter::testLoad()
+{
+    // Debug notification logging
+    FString debugStr = FString(TEXT("Loading data...."));
+    UE_LOG(LogClass, Log, TEXT("%s"), *debugStr);
+    GEngine->AddOnScreenDebugMessage(15, 5.f, FColor::Purple, debugStr);
+
+
+    // load game - use "selected" slot name and index
+    // just using defaults
+    FString str_saveSlot = TEXT("TestSlot");
+    uint32 int_userIndex = 0;
+
+    if (UMySaveGame * LoadedGame = Cast<UMySaveGame>(UGameplayStatics::LoadGameFromSlot(str_saveSlot, int_userIndex)))
+    {
+        // Load successful
+
+        // Debug notification logging
+        FString resultStr = FString(TEXT("Load start successful :D"));
+        resultStr += FString(TEXT("\n\t")) + LoadedGame->playerPosition.ToString();
+        resultStr += FString(TEXT("\n\t")) + LoadedGame->playerRotation.ToString();
+        UE_LOG(LogClass, Log, TEXT("%s"), *resultStr);
+        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Purple, resultStr);
+
+        // use data
+        SetActorLocation(LoadedGame->playerPosition);
+        SetActorRotation(LoadedGame->playerRotation);
+    }
+    else
+    {
+        // Load unsuccessful
+
+        // Debug notification logging
+        FString resultStr = FString(TEXT("No matching saved file found successfully :/"));
+        UE_LOG(LogClass, Log, TEXT("%s"), *resultStr);
+        GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Purple, resultStr);
+    }
 }

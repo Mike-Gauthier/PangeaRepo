@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "MySaveGame.h"
+
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "PangeaMechanicsCharacter.generated.h"
@@ -39,6 +41,10 @@ protected:
 
 	/** Called for side to side input */
 	void MoveRight(float Value);
+
+    ///////////// Testing save and load
+    void testSave();
+    void testLoad();
 
 	/** 
 	 * Called via input to turn at a given rate. 
