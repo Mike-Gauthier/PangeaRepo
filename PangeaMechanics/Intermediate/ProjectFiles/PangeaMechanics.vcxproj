@@ -273,6 +273,8 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\PangeaMechanics\BasicHuman.cpp"/>
+    <ClInclude Include="..\..\Source\PangeaMechanics\BasicHuman.h"/>
     <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs"/>
     <ClCompile Include="..\..\Source\PangeaMechanics\PangeaMechanics.cpp"/>
     <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanics.h"/>

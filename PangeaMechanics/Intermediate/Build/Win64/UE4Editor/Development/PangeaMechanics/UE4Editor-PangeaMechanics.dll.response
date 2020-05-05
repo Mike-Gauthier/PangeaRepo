@@ -33,9 +33,11 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\BasicHuman.cpp.obj"
 "C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanics.cpp.obj"
 "C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsCharacter.cpp.obj"
 "C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsGameMode.cpp.obj"
+"C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\BasicHuman.gen.cpp.obj"
 "C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanics.init.gen.cpp.obj"
 "C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsCharacter.gen.cpp.obj"
 "C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\PangeaMechanicsGameMode.gen.cpp.obj"

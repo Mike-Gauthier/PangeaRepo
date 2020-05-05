@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PangeaMechanics.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2213A3E2-EA05-428A-9C13-F6A41C904DD4}</UniqueIdentifier>
+      <UniqueIdentifier>{D71ED7CD-F1ED-4CB5-8013-7D24B414DB13}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PangeaMechanics.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B43F2531-6832-4596-A38E-547F4632F915}</UniqueIdentifier>
+      <UniqueIdentifier>{2ED92473-BBAE-4712-82E7-49E56F24E0C9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PangeaMechanics">
-      <UniqueIdentifier>{EB0E4D3A-26C7-47B1-A4A5-0C7C31CC503C}</UniqueIdentifier>
+      <UniqueIdentifier>{20607E7F-7220-43A4-B7A3-3A43BE2F7DC3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PangeaMechanics\BasicHuman.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PangeaMechanics\BasicHuman.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
     <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs">
       <Filter>Source\PangeaMechanics</Filter>
     </None>

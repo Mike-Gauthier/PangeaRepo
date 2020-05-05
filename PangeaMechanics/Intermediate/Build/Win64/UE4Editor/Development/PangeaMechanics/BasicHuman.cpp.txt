@@ -1,0 +1,9 @@
+C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+c:\users\mcdel\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\BasicHuman.h
+c:\users\mcdel\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanicsCharacter.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PangeaMechanicsCharacter.generated.h
+C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\BasicHuman.generated.h
