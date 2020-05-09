@@ -8,4 +8,13 @@ D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Root
 D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 c:\users\mcdel\documents\github\pangearepo\pangeamechanics\intermediate\build\win64\ue4editor\inc\pangeamechanics\PangeaMechanicsCharacter.generated.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
+d:\unreal_engine\ue_4.24\engine\source\runtime\navigationsystem\public\NavFilters/NavigationQueryFilter.h
+d:\unreal_engine\ue_4.24\engine\source\runtime\navigationsystem\public\NavAreas/NavArea.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
+D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
+D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
 c:\users\mcdel\documents\github\pangearepo\pangeamechanics\intermediate\build\win64\ue4editor\inc\pangeamechanics\BasicHuman.generated.h

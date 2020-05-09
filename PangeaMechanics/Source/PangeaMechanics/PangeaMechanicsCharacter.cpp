@@ -14,6 +14,8 @@
 
 APangeaMechanicsCharacter::APangeaMechanicsCharacter()
 {
+	InfluenceRadius = 750;
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
@@ -132,3 +134,5 @@ void APangeaMechanicsCharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
+
+

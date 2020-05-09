@@ -1,0 +1,11 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mcdel\Documents\GitHub\PangeaRepo).
+  Building PangeaMechanicsEditor...
+  Using Visual Studio 2017 14.16.27025 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 3 actions with 6 processes...
+    [1/3] UE4Editor-PangeaMechanics-0002.lib
+       Creating library C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0002.lib and object C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0002.exp
+    [2/3] UE4Editor-PangeaMechanics-0002.dll
+       Creating library C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0002.suppressed.lib and object C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-0002.suppressed.exp
+    [3/3] PangeaMechanicsEditor.target
+  Total time in Parallel executor: 0.92 seconds
+  Total execution time: 1.47 seconds

@@ -71,6 +71,8 @@
 "D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
 "D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
+"D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\NavigationSystem\UE4Editor-NavigationSystem.lib"
+"D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\AIModule\UE4Editor-AIModule.lib"
 /OUT:"C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Binaries\Win64\UE4Editor-PangeaMechanics.dll"
 /IMPLIB:"C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics.suppressed.lib"
 /PDB:"C:\Users\mcdel\Documents\GitHub\PangeaRepo\PangeaMechanics\Binaries\Win64\UE4Editor-PangeaMechanics.pdb"
