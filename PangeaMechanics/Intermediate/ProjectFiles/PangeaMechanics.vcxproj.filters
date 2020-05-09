@@ -67,6 +67,9 @@
     <ClInclude Include="..\..\Source\PangeaMechanics\AnimalMotion.h">
       <Filter>Source\PangeaMechanics</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PangeaMechanics\RideAnimal.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PangeaMechanics\AnimalTriggerBox.cpp">
@@ -79,6 +82,9 @@
       <Filter>Source\PangeaMechanics</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PangeaMechanics\AnimalMotion.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PangeaMechanics\RideAnimal.cpp">
       <Filter>Source\PangeaMechanics</Filter>
     </ClCompile>
   </ItemGroup>

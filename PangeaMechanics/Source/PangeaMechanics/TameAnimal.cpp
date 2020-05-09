@@ -29,7 +29,7 @@ void UTameAnimal::TickComponent(float DeltaTime, ELevelTick TickType, FActorComp
 
 	UpdateIsTamed();
 
-	if (AnimalMotion->GetIsTamed())
+	if (AnimalMotion->GetIsTamed() && !AnimalMotion->GetIsRiding())
 	{
 		//Tamed Movement
 		AnimalMotion->TamedAnimalMovement();

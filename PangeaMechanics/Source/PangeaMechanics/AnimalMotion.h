@@ -40,6 +40,7 @@ private:
 	bool IsTamed = false;
 	bool IsAlerted = false;
 	bool IsExhausted = false;
+	bool IsRiding = false;
 
 	//Fleeing
 	float TargetFleeDistance = 2000.0f;
@@ -74,7 +75,7 @@ public:
 	void AnimalRotation(float DirectionMultiplier);
 	float RadiansToDegrees(float RadiansInput);
 	float CalcAngleFromDotProduct(FVector Input1, FVector Input2);
-	float MakeAnglePosOrNeg(FVector InputVector, float InputAngle);
+	float MakeAnglePosOrNeg(FVector InputVector, float InputAngle, FString Axis);
 	float KeepWithinAngleRange(float InputAngle, float UpperLimit, float LowerLimit);
 	float CalcTurnDirection(float InputAngle);
 	void UpdateAnimalRot(float TurnDirectionMultiplier);
@@ -87,9 +88,11 @@ public:
 	bool GetIsTamed();
 	bool GetIsAlerted();
 	bool GetIsExhausted();
+	bool GetIsRiding();
 	void SetIsTamed(bool InputBool);
 	void SetIsAlerted(bool InputBool);
 	void SetIsExhausted(bool InputBool);
+	void SetIsRiding(bool InputBool);
 
 	//Fleeing
 	float GetTargetFleeDistance();

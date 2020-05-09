@@ -99,17 +99,19 @@ bool UAnimalMotion::GetIsFinishedTurning()
 void UAnimalMotion::AnimalRotation(float DirectionMultiplier)
 {
 	//Vectors used
-	FVector CurrentAnimalFacingDir = GetOwner()->GetActorRightVector();
+	//CHANGE TO FORWARDVECTOR
+	FVector CurrentAnimalFacingDir = GetOwner()->GetActorForwardVector();
 	FVector SignedAnimalToPlayerVector = DirectionMultiplier * AnimalToPlayerVector;
 
 	//Angles used
-	//Both measured from positive y axis (the starting front facing direction of the animal)
-	float CurrentAnimalAngle = CalcAngleFromDotProduct(CurrentAnimalFacingDir, FVector(0.0f, 1.0f, 0.0f));
-	float TargetAnimalAngle = CalcAngleFromDotProduct(SignedAnimalToPlayerVector, FVector(0.0f, 1.0f, 0.0f));
+	//Both measured from positive x axis (the starting front facing direction of the animal)
+	//NEED TO MAKE THIS FIND THE INITIAL FACINGDIR, BY SAVING THE FORWARDVECTOR OF THE ANIMAL IN THE BEGIN PHASE
+	float CurrentAnimalAngle = CalcAngleFromDotProduct(CurrentAnimalFacingDir, FVector(1.0f, 0.0f, 0.0f));
+	float TargetAnimalAngle = CalcAngleFromDotProduct(SignedAnimalToPlayerVector, FVector(1.0f, 0.0f, 0.0f));
 
 	//Differentiate between positive and negative angles
-	CurrentAnimalAngle = MakeAnglePosOrNeg(CurrentAnimalFacingDir, CurrentAnimalAngle);
-	TargetAnimalAngle = MakeAnglePosOrNeg(SignedAnimalToPlayerVector, TargetAnimalAngle);
+	CurrentAnimalAngle = MakeAnglePosOrNeg(CurrentAnimalFacingDir, -CurrentAnimalAngle, "Y");
+	TargetAnimalAngle = MakeAnglePosOrNeg(SignedAnimalToPlayerVector, -TargetAnimalAngle, "Y");
 
 	//Find difference between the two angles
 	float AngleToTurn = CurrentAnimalAngle - TargetAnimalAngle;
@@ -138,11 +140,21 @@ float UAnimalMotion::CalcAngleFromDotProduct(FVector Input1, FVector Input2)
 	OutputAngle = RadiansToDegrees(OutputAngle);
 	return OutputAngle;
 }
-float UAnimalMotion::MakeAnglePosOrNeg(FVector InputVector, float InputAngle)
+float UAnimalMotion::MakeAnglePosOrNeg(FVector InputVector, float InputAngle, FString Axis)
 {
-	if (InputVector.X < 0)
+	if (Axis == "X" || Axis == "x")
 	{
-		InputAngle = -InputAngle;
+		if (InputVector.X < 0)
+		{
+			InputAngle = -InputAngle;
+		}
+	}
+	if (Axis == "Y" || Axis == "y")
+	{
+		if (InputVector.Y < 0)
+		{
+			InputAngle = -InputAngle;
+		}
 	}
 	return InputAngle;
 }
@@ -161,6 +173,7 @@ float UAnimalMotion::KeepWithinAngleRange(float InputAngle, float UpperLimit, fl
 }
 float UAnimalMotion::CalcTurnDirection(float InputAngle)
 {
+	UE_LOG(LogTemp, Log, TEXT("%f"), InputAngle);
 	float TurnDirectionMultiplier;
 	if (InputAngle < 0.0f)
 	{
@@ -203,6 +216,10 @@ bool UAnimalMotion::GetIsExhausted()
 {
 	return IsExhausted;
 }
+bool UAnimalMotion::GetIsRiding()
+{
+	return IsRiding;
+}
 void UAnimalMotion::SetIsTamed(bool InputBool)
 {
 	IsTamed = InputBool;
@@ -214,6 +231,10 @@ void UAnimalMotion::SetIsAlerted(bool InputBool)
 void UAnimalMotion::SetIsExhausted(bool InputBool)
 {
 	IsExhausted = InputBool;
+}
+void UAnimalMotion::SetIsRiding(bool InputBool)
+{
+	IsRiding = InputBool;
 }
 
 //Fleeing

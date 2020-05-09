@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Kismet/KismetMathLibrary.h"
 #include "Components/ActorComponent.h"
 #include "AnimalMotion.h"
 #include "AnimalSight.generated.h"

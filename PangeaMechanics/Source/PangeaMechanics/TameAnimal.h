@@ -3,11 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Engine/World.h"
-#include "Kismet/KismetSystemLibrary.h"
-#include "GameFramework/PlayerController.h"
 #include "Components/ActorComponent.h"
-#include "DrawDebugHelpers.h"
 #include "AnimalMotion.h"
 #include "AnimalTriggerBox.h"
 #include "TameAnimal.generated.h"

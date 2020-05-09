@@ -25,10 +25,10 @@ void UAnimalSight::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	//Output Exhaustion to log
-	UE_LOG(LogTemp, Log, TEXT("Exhaustion level: %.1f/%.1f"), AnimalMotion->GetExhaustion(), AnimalMotion->GetMaxExhaustion());
+	//UE_LOG(LogTemp, Log, TEXT("Exhaustion level: %.1f/%.1f"), AnimalMotion->GetExhaustion(), AnimalMotion->GetMaxExhaustion());
 	
 	//Output AnimalToPlayerDistance to log
-	UE_LOG(LogTemp, Log, TEXT("AnimalToPlayerDistance: %f"), AnimalMotion->GetAnimalToPlayerVector().Size());
+	//UE_LOG(LogTemp, Log, TEXT("AnimalToPlayerDistance: %f"), AnimalMotion->GetAnimalToPlayerVector().Size());
 
 	PlayerAngleFromSightCentre = CalcPlayerAngleFromSightCentre();
 
@@ -47,8 +47,7 @@ void UAnimalSight::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 //General
 float UAnimalSight::CalcPlayerAngleFromSightCentre()
 {
-	//Requires animal to be initially facing right (positive y-direction)
-	FVector CurrentAnimalFacingDir = GetOwner()->GetActorRightVector();
+	FVector CurrentAnimalFacingDir = GetOwner()->GetActorForwardVector();
 	FVector AnimalToPlayerVector = AnimalMotion->GetAnimalToPlayerVector();
 
 	float OutputAngle = AnimalMotion->CalcAngleFromDotProduct(CurrentAnimalFacingDir, AnimalToPlayerVector);
