@@ -69,6 +69,9 @@ void APangeaMechanicsCharacter::SetupPlayerInputComponent(class UInputComponent*
 	// Inventory
 	PlayerInputComponent->BindAction("ShowInventory", IE_Pressed, this, &APangeaMechanicsCharacter::ShowInventory);
 
+	// Inventory
+	PlayerInputComponent->BindAction("ItemInfo", IE_Pressed, this, &APangeaMechanicsCharacter::ItemInfo);
+
 	// SLOT UP AND DOWN
 	PlayerInputComponent->BindAxis("ChangeActiveSlot", this, &APangeaMechanicsCharacter::ChangeActiveSlot);
 
@@ -234,10 +237,13 @@ void APangeaMechanicsCharacter::ChangeActiveSlot(float Value)
 			activeSlot--;
 
 		// Prints
-		if(StaticInventory[activeSlot] != nullptr)
+		if (StaticInventory[activeSlot] != nullptr)
+		{
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Active Item: %s"), *StaticInventory[activeSlot]->name));
+		}
 		else
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Active Item: None")));
+
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::FromInt(activeSlot));
 	}
 
@@ -268,6 +274,17 @@ void APangeaMechanicsCharacter::Use()
 		StaticInventory[activeSlot] = nullptr;
 	}
 	else 
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You don't have any active item!")));
+}
+
+// ITEM INFO
+void APangeaMechanicsCharacter::ItemInfo()
+{
+	if (StaticInventory[activeSlot] != nullptr)
+	{
+		StaticInventory[activeSlot]->Info();
+	}
+	else
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You don't have any active item!")));
 }
 

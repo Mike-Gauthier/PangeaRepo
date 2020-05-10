@@ -1,4 +1,4 @@
-﻿Log file open, 04/30/20 15:45:50
+﻿Log file open, 05/10/20 13:35:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: PangeaMechanics
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.092048
+LogStats: Stats thread started at 0.137691
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -130,7 +130,7 @@ LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
-LogInit: Command Line: 
+LogInit: Command Line:  /Game/Cere -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
 LogInit: Base Directory: D:/Epic Games/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
@@ -163,512 +163,632 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.30-13.45.50:623][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.04.30-13.45.50:623][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.30-13.45.50:624][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.30-13.45.50:689][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.30-13.45.50:689][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.30-13.45.50:690][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.30-13.45.50:697][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.30-13.45.50:700][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.30-13.45.50:742][  0]LogHAL: Display: Platform has ~ 32 GB [34238066688 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.30-13.45.50:742][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.30-13.45.50:742][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.30-13.45.50:743][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.30-13.45.50:744][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.04.30-13.45.50:755][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.04.30-13.45.50:755][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.04.30-13.45.50:755][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
-[2020.04.30-13.45.50:794][  0]LogInit: Computer: DESKTOP-2O8I7OI
-[2020.04.30-13.45.50:794][  0]LogInit: User: aleja
-[2020.04.30-13.45.50:794][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.04.30-13.45.50:795][  0]LogInit: High frequency timer resolution =2.742190 MHz
-[2020.04.30-13.45.50:795][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2020.04.30-13.45.50:795][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.30-13.45.50:795][  0]LogMemory: Process Physical Memory: 104.86 MB used, 104.86 MB peak
-[2020.04.30-13.45.50:795][  0]LogMemory: Process Virtual Memory: 100.60 MB used, 100.60 MB peak
-[2020.04.30-13.45.50:795][  0]LogMemory: Physical Memory: 6737.01 MB used,  25914.96 MB free, 32651.96 MB total
-[2020.04.30-13.45.50:795][  0]LogMemory: Virtual Memory: 5149.22 MB used,  134212576.00 MB free, 134217728.00 MB total
-[2020.04.30-13.45.50:813][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.04.30-13.45.51:762][  0]LogInit: Overriding language with editor language configuration option (en).
-[2020.04.30-13.45.51:762][  0]LogInit: Overriding locale with editor locale configuration option (en-JM).
-[2020.04.30-13.45.52:564][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.30-13.45.53:305][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.30-13.45.53:305][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.30-13.45.54:185][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.30-13.45.54:185][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.04.30-13.45.54:185][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.04.30-13.45.54:185][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.30-13.45.55:224][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2020.04.30-13.45.55:224][  0]LogD3D11RHI:       4021/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.04.30-13.45.55:243][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.04.30-13.45.55:243][  0]LogD3D11RHI:       128/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.04.30-13.45.55:245][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.30-13.45.55:245][  0]LogD3D11RHI:       0/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.30-13.45.55:245][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.30-13.45.55:308][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.30-13.45.55:309][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2020.04.30-13.45.55:309][  0]LogWindows: EnumDisplayDevices:
-[2020.04.30-13.45.55:309][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2020.04.30-13.45.55:309][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.04.30-13.45.55:310][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.04.30-13.45.55:310][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.04.30-13.45.55:310][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2020.04.30-13.45.55:310][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.04.30-13.45.55:310][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.04.30-13.45.55:310][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
-[2020.04.30-13.45.55:394][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.04.30-13.45.55:394][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.30-13.45.55:714][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.04.30-13.45.56:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.04.30-13.45.56:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.04.30-13.45.56:644][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.04.30-13.45.56:644][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.04.30-13.45.56:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.04.30-13.45.56:684][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.04.30-13.45.56:695][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.04.30-13.45.56:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.04.30-13.45.56:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.04.30-13.45.56:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.04.30-13.45.56:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.04.30-13.45.56:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.04.30-13.45.56:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.04.30-13.45.56:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.04.30-13.45.56:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.04.30-13.45.56:843][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.04.30-13.45.56:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.04.30-13.45.56:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.04.30-13.45.56:884][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.30-13.45.56:973][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.04.30-13.45.57:586][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/6368/).
-[2020.04.30-13.45.57:586][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/BA97922E4E289CA63013BBBF2AC661B0/'.
-[2020.04.30-13.45.57:605][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.30-13.45.57:605][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.30-13.45.57:605][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.30-13.45.59:603][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.30-13.46.00:100][  0]LogDerivedDataCache: Loaded boot cache 0.49s 82MB C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.30-13.46.00:100][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.04.30-13.46.00:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.30-13.46.00:100][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.30-13.46.00:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.30-13.46.00:101][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.30-13.46.00:166][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.30-13.46.00:166][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.30-13.46.00:166][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.04.30-13.46.00:169][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.30-13.46.00:169][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.30-13.46.00:169][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.30-13.46.00:246][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.30-13.46.00:337][  0]LogSlate: Using FreeType 2.10.0
-[2020.04.30-13.46.00:472][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.30-13.46.02:015][  0]LogAssetRegistry: FAssetRegistry took 0.0082 seconds to start up
-[2020.04.30-13.46.10:135][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.30-13.46.11:649][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.30-13.46.11:649][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.04.30-13.46.11:649][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.30-13.46.11:649][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.04.30-13.46.11:649][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.04.30-13.46.12:031][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
-[2020.04.30-13.46.24:291][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.083434 seconds
-[2020.04.30-13.46.24:307][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.04.30-13.46.24:307][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.04.30-13.46.24:307][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.30-13.46.28:442][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.30-13.46.28:486][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.30-13.46.30:095][  0]SourceControl: Source control is disabled
-[2020.04.30-13.46.30:114][  0]SourceControl: Source control is disabled
-[2020.04.30-13.46.30:177][  0]SourceControl: Source control is disabled
-[2020.04.30-13.46.30:195][  0]SourceControl: Source control is disabled
-[2020.04.30-13.46.30:218][  0]SourceControl: Source control is disabled
-[2020.04.30-13.46.31:448][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.30-13.46.31:538][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.30-13.46.31:538][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.30-13.46.31:981][  0]LogOcInput: OculusInput pre-init called
-[2020.04.30-13.46.32:040][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.04.30-13.46.32:040][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.04.30-13.46.33:175][  0]LogEngine: Initializing Engine...
-[2020.04.30-13.46.33:205][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.30-13.46.33:272][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.030 s
-[2020.04.30-13.46.34:131][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.30-13.46.34:517][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.30-13.46.34:658][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.30-13.46.34:658][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.30-13.46.34:658][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.30-13.46.34:658][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.30-13.46.34:658][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.30-13.46.34:658][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.30-13.46.34:658][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.30-13.46.34:658][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.30-13.46.34:697][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.30-13.46.34:697][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: Channel Order:
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.30-13.46.34:724][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.04.30-13.46.34:816][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.04.30-13.46.34:837][  0]LogInit: FAudioDevice initialized.
-[2020.04.30-13.46.34:839][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.30-13.46.35:031][  0]LogDerivedDataCache: Saved boot cache 0.19s 82MB C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.30-13.46.35:034][  0]LogInit: Texture streaming: Enabled
-[2020.04.30-13.46.35:043][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.30-13.46.35:043][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.04.30-13.46.35:045][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.04.30-13.46.35:231][  0]LogInit: Transaction tracking system initialized
-[2020.04.30-13.46.35:520][  0]BlueprintLog: New page: Editor Load
-[2020.04.30-13.46.36:485][  0]LocalizationService: Localization service is disabled
-[2020.04.30-13.46.39:685][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/' took 0.04s
-[2020.04.30-13.46.39:685][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.30-13.46.39:685][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.30-13.46.43:522][  0]SourceControl: Source control is disabled
-[2020.04.30-13.46.43:572][  0]Cmd: MAP LOAD FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.30-13.46.43:595][  0]LightingResults: New page: Lighting Build
-[2020.04.30-13.46.43:642][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.04.30-13.46.43:673][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.30-13.46.43:687][  0]MapCheck: New page: Map Check
-[2020.04.30-13.46.43:687][  0]LightingResults: New page: Lighting Build
-[2020.04.30-13.46.43:939][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
-[2020.04.30-13.46.44:391][  0]LogOutputDevice: Warning: 
-
-Script Stack (0 frames):
-
-[2020.04.30-13.46.46:179][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.787 s
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: === Handled ensure: ===
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: 
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: Ensure condition failed: InParent == nullptr || !InParent->IsAttachedTo(this) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/SceneComponent.cpp] [Line: 1729]
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: Setting up attachment would create a cycle.
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: Stack: 
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad59e3f49 UE4Editor-Engine.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad4640dcd UE4Editor-Engine.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad41a5fbd UE4Editor-Engine.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad716ba57 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad718ba26 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad716ba57 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad7228f11 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad7213177 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad7238e7c UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad7237dea UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad22b3e87 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad22a429f UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad228bf75 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad2a51892 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad25d3950 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad25d372b UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad2a8fde4 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffad2a4cd49 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65970c260 UE4Editor.exe!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65970c4ca UE4Editor.exe!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65971ceae UE4Editor.exe!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ff65971fcbe UE4Editor.exe!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb4f0e4034 KERNEL32.DLL!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb51413691 ntdll.dll!UnknownFunction []
-[2020.04.30-13.46.46:179][  0]LogOutputDevice: Error: 
-[2020.04.30-13.46.46:192][  0]LogStats:                SubmitErrorReport -  0.000 s
-[2020.04.30-13.46.53:424][  0]LogStats:                    SendNewReport -  7.232 s
-[2020.04.30-13.46.53:424][  0]LogStats:             FDebug::EnsureFailed -  9.033 s
-[2020.04.30-13.46.53:441][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.04.30-13.46.53:461][  0]LogLevel: Warning: Found loop in attachment hierarchy: BP_Item_2 -> BP_Item_2
-[2020.04.30-13.46.53:776][  0]PIE: Warning: AttachTo: '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Item_2.SM_TBox' root component cannot be attached to other components in the same actor. Aborting.
-[2020.04.30-13.46.53:958][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.30-13.46.54:099][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
-[2020.04.30-13.46.54:099][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.30-13.46.54:099][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.366ms to complete.
-[2020.04.30-13.46.54:099][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 10.547
-[2020.04.30-13.46.56:231][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.30-13.46.56:253][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.30-13.46.56:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.30-13.46.56:269][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.30-13.46.56:493][  0]LogCollectionManager: Loaded 0 collections in 0.009969 seconds
-[2020.04.30-13.46.56:659][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Collections/' took 0.00s
-[2020.04.30-13.46.56:659][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Developers/aleja/Collections/' took 0.00s
-[2020.04.30-13.46.56:659][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Collections/' took 0.00s
-[2020.04.30-13.46.56:659][  0]LogContentBrowser: Native class hierarchy populated in 0.0295 seconds. Added 3020 classes and 719 folders.
-[2020.04.30-13.46.56:798][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.04.30-13.46.57:924][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.04.30-13.46.58:075][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
-[2020.04.30-13.46.58:651][  0]LogSlate: Took 0.012988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.30-13.46.58:728][  0]LogSlate: Took 0.049770 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.30-13.46.58:772][  0]LogSlate: Took 0.016261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.30-13.46.59:169][  0]LogRenderer: Reallocating scene render targets to support 988x572 Format 10 NumSamples 1 (Frame:1).
-[2020.04.30-13.46.59:655][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.04.30-13.46.59:655][  0]LogLoad: (Engine Initialization) Total time: 71.16 seconds
-[2020.04.30-13.46.59:655][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.30-13.46.59:712][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.04.30-13.46.59:934][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.30-13.46.59:942][  0]LogTemp: Resetting audio stream to device id 
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: Channel Order:
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.30-13.46.59:960][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.04.30-13.47.00:193][  0]LogSlate: Took 0.021486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.30-13.47.01:504][ 18]LogAssetRegistry: Asset discovery search completed in 59.4901 seconds
-[2020.04.30-13.47.01:508][ 18]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
-[2020.04.30-14.11.36:295][307]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.30-14.11.36:833][307]LogAIModule: Creating AISystem for world Cere
-[2020.04.30-14.11.36:867][307]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Cere.Cere
-[2020.04.30-14.11.36:905][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
-[2020.04.30-14.11.36:907][307]Cmd: MAP LOAD FILE="C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Cere.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.30-14.11.36:907][307]LightingResults: New page: Lighting Build
-[2020.04.30-14.11.36:908][307]LoadErrors: New page: Loading map: Cere.umap
-[2020.04.30-14.11.36:909][307]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.04.30-14.11.36:909][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.30-14.11.36:909][307]MapCheck: New page: Map Check
-[2020.04.30-14.11.36:909][307]LightingResults: New page: Lighting Build
-[2020.04.30-14.11.36:939][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
-[2020.04.30-14.11.36:943][307]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.30-14.11.36:972][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
-[2020.04.30-14.11.36:989][307]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.30-14.11.36:990][307]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.126ms to complete.
-[2020.04.30-14.11.36:990][307]LogFileHelpers: Loading map 'Cere' took 0.084
+[2020.05.10-11.35.04:969][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.05.10-11.35.04:969][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.10-11.35.04:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.10-11.35.04:969][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.10-11.35.04:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.10-11.35.04:970][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.10-11.35.04:970][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.10-11.35.04:970][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.10-11.35.04:975][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.10-11.35.04:975][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.10-11.35.04:976][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.10-11.35.04:976][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.10-11.35.04:976][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.10-11.35.04:979][  0]LogHAL: Display: Platform has ~ 32 GB [34238066688 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.10-11.35.04:979][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.10-11.35.04:979][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.10-11.35.04:979][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.10-11.35.04:980][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.10-11.35.04:981][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.10-11.35.04:981][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.10-11.35.04:981][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.10-11.35.04:981][  0]LogInit: Computer: DESKTOP-2O8I7OI
+[2020.05.10-11.35.04:981][  0]LogInit: User: aleja
+[2020.05.10-11.35.04:981][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.10-11.35.04:981][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2020.05.10-11.35.04:981][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.05.10-11.35.04:981][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.10-11.35.04:981][  0]LogMemory: Process Physical Memory: 104.94 MB used, 104.94 MB peak
+[2020.05.10-11.35.04:981][  0]LogMemory: Process Virtual Memory: 100.58 MB used, 100.58 MB peak
+[2020.05.10-11.35.04:981][  0]LogMemory: Physical Memory: 11280.42 MB used,  21371.55 MB free, 32651.96 MB total
+[2020.05.10-11.35.04:981][  0]LogMemory: Virtual Memory: 5149.22 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.05.10-11.35.04:984][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.10-11.35.05:017][  0]LogInit: Using OS detected language (es-ES).
+[2020.05.10-11.35.05:017][  0]LogInit: Using OS detected locale (es-ES).
+[2020.05.10-11.35.05:018][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2020.05.10-11.35.05:109][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.10-11.35.05:109][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.10-11.35.05:155][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.10-11.35.05:155][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.10-11.35.05:155][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.10-11.35.05:155][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.10-11.35.05:231][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.05.10-11.35.05:231][  0]LogD3D11RHI:       4021/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.05.10-11.35.05:246][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.05.10-11.35.05:246][  0]LogD3D11RHI:       128/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.05.10-11.35.05:248][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.10-11.35.05:248][  0]LogD3D11RHI:       0/0/16325 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.10-11.35.05:248][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.10-11.35.05:286][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.10-11.35.05:287][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.05.10-11.35.05:287][  0]LogWindows: EnumDisplayDevices:
+[2020.05.10-11.35.05:287][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.05.10-11.35.05:288][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.05.10-11.35.05:288][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.05.10-11.35.05:289][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.05.10-11.35.05:289][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.05.10-11.35.05:289][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.05.10-11.35.05:289][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.05.10-11.35.05:289][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2020.05.10-11.35.05:341][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.10-11.35.05:341][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.10-11.35.05:354][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.05.10-11.35.05:714][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.10-11.35.05:719][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.10-11.35.05:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.10-11.35.05:734][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.10-11.35.05:734][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.10-11.35.05:739][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.10-11.35.05:762][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/21328/).
+[2020.05.10-11.35.05:762][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/D77C7B104473359D57D2988DCC2F7074/'.
+[2020.05.10-11.35.05:763][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.10-11.35.05:763][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.10-11.35.05:763][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.10-11.35.06:630][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.10-11.35.06:695][  0]LogDerivedDataCache: Loaded boot cache 0.06s 82MB C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.10-11.35.06:695][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.10-11.35.06:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.10-11.35.06:695][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.10-11.35.06:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/aleja/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.10-11.35.06:695][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.10-11.35.06:707][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.10-11.35.06:707][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.10-11.35.06:707][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.10-11.35.06:709][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.10-11.35.06:709][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.10-11.35.06:709][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.10-11.35.06:738][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.10-11.35.06:741][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.10-11.35.06:741][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.10-11.35.06:884][  0]LogInit: Using OS detected language (es-ES).
+[2020.05.10-11.35.06:884][  0]LogInit: Using OS detected locale (es-ES).
+[2020.05.10-11.35.06:884][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the language.
+[2020.05.10-11.35.06:884][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the locale.
+[2020.05.10-11.35.06:885][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.05.10-11.35.06:885][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.05.10-11.35.06:887][  0]LogTextLocalizationManager: Compacting localization data took   0.01ms
+[2020.05.10-11.35.06:892][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.05.10-11.35.07:209][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000578 seconds
+[2020.05.10-11.35.07:282][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.10-11.35.07:434][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.10-11.35.07:434][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.10-11.35.07:434][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.10-11.35.07:434][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.10-11.35.07:434][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.10-11.35.07:451][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
+[2020.05.10-11.35.08:031][  0]LogMoviePlayer: Initializing movie player
+[2020.05.10-11.35.08:134][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.10-11.35.08:138][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.10-11.35.08:309][  0]SourceControl: El control de código fuente está desactivado
+[2020.05.10-11.35.08:309][  0]SourceControl: El control de código fuente está desactivado
+[2020.05.10-11.35.08:309][  0]SourceControl: El control de código fuente está desactivado
+[2020.05.10-11.35.08:338][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.10-11.35.08:344][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.10-11.35.08:344][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.10-11.35.08:408][  0]LogOcInput: OculusInput pre-init called
+[2020.05.10-11.35.08:422][  0]LogUObjectArray: 53705 objects as part of root set at end of initial load.
+[2020.05.10-11.35.08:422][  0]LogUObjectAllocator: 9744456 out of 0 bytes used by permanent object pool.
+[2020.05.10-11.35.08:422][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.10-11.35.08:482][  0]LogEngine: Initializing Engine...
+[2020.05.10-11.35.08:483][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.10-11.35.08:487][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.05.10-11.35.08:717][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.10-11.35.08:718][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.10-11.35.08:718][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.10-11.35.08:718][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.10-11.35.08:718][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.10-11.35.08:718][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.10-11.35.08:718][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.10-11.35.08:718][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.10-11.35.08:718][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.10-11.35.08:719][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.10-11.35.08:719][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.10-11.35.08:740][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.10-11.35.08:809][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.10-11.35.08:819][  0]LogInit: FAudioDevice initialized.
+[2020.05.10-11.35.08:822][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.10-11.35.08:822][  0]LogInit: Texture streaming: Enabled
+[2020.05.10-11.35.08:966][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-11.35.08:966][  0]LogInit: Display: Game Engine Initialized.
+[2020.05.10-11.35.08:987][  0]LogInit: Display: Starting Game.
+[2020.05.10-11.35.08:987][  0]LogNet: Browse: /Game/Cere?Name=Player
+[2020.05.10-11.35.08:987][  0]LogLoad: LoadMap: /Game/Cere?Name=Player
+[2020.05.10-11.35.08:987][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.05.10-11.35.08:989][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-11.35.08:989][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-11.35.09:016][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-11.35.09:018][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.05.10-11.35.09:101][  0]LogAIModule: Creating AISystem for world Cere
+[2020.05.10-11.35.09:101][  0]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.05.10-11.35.09:106][  0]LogWorld: Bringing World /Game/Cere.Cere up for play (max tick rate 0) at 2020.05.10-13.35.09
+[2020.05.10-11.35.09:106][  0]LogWorld: Bringing up level for play took: 0.004173
+[2020.05.10-11.35.09:111][  0]LogLoad: Took 0.122433 seconds to LoadMap(/Game/Cere)
+[2020.05.10-11.35.09:148][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.05.10-11.35.09:148][  0]LogLoad: (Engine Initialization) Total time: 7.26 seconds
+[2020.05.10-11.35.09:148][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.10-11.35.09:181][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.10-11.35.09:184][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.10-11.35.09:188][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-11.35.09:265][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2020.05.10-11.35.09:295][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2020.05.10-11.35.12:665][602]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.10-11.36.34:892][764]LogSlate: Window 'PangeaMechanics (64-bit Development PCD3D_SM5) ' being destroyed
+[2020.05.10-11.36.34:892][764]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.10-11.36.34:908][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-11.36.34:908][764]LogEngine: All Windows Closed
+[2020.05.10-11.36.34:908][764]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.05.10-11.36.34:908][764]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.05.10-11.36.34:909][765]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.10-11.36.34:910][765]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.10-11.36.34:923][765]LogInit: Display: PreExit Game.
+[2020.05.10-11.36.34:923][765]LogWorld: BeginTearingDown for /Game/Cere
+[2020.05.10-11.36.34:923][765]LogWorld: UWorld::CleanupWorld for Cere, bSessionEnded=true, bCleanupResources=true
+[2020.05.10-11.36.34:924][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.10-11.36.35:536][765]LogExit: Preparing to exit.
+[2020.05.10-11.36.36:186][765]LogMoviePlayer: Shutting down movie player
+[2020.05.10-11.36.36:401][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.10-11.36.36:418][765]LogExit: Game engine shut down
+[2020.05.10-11.36.36:421][765]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.05.10-11.36.36:615][765]LogExit: Object subsystem successfully closed.
+[2020.05.10-11.36.36:641][765]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.05.10-11.36.36:657][765]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (436)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module SequenceRecorder (434)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module AutomationController (432)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module AutomationWorker (430)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module Voice (428)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module AIModule (426)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module GameplayDebugger (425)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module AITestSuite (423)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module NavigationSystem (421)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module OculusMR (418)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (416)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (414)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module WebMMedia (412)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (410)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (408)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (406)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (404)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (402)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module CharacterAI (400)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module SessionServices (398)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (396)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module LiveCoding (394)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module LevelSequence (392)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (390)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module MovieScene (388)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (386)
+[2020.05.10-11.36.36:658][765]LogModuleManager: Shutting down and abandoning module PortalServices (384)
+[2020.05.10-11.36.36:659][765]LogModuleManager: Shutting down and abandoning module PortalRpc (382)
+[2020.05.10-11.36.36:659][765]LogModuleManager: Shutting down and abandoning module MessagingRpc (380)
+[2020.05.10-11.36.36:659][765]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (378)
+[2020.05.10-11.36.36:659][765]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (376)
+[2020.05.10-11.36.36:664][765]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2020.05.10-11.36.36:854][765]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (370)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module OculusInput (368)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (366)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module EditableMesh (364)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (357)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module AssetTags (354)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (352)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (350)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module AppleImageUtils (348)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module AndroidPermission (346)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (344)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (342)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module MediaCompositing (340)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (336)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (334)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (332)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (330)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (329)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module GeometryCache (326)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (325)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module BackChannel (322)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module AutomationUtils (320)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
+[2020.05.10-11.36.36:855][765]LogModuleManager: Shutting down and abandoning module HotReload (317)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (316)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (300)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module PangeaMechanics (298)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module SignificanceManager (296)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2020.05.10-11.36.36:856][765]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2020.05.10-11.36.36:957][765]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (280)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (278)
+[2020.05.10-11.36.37:183][765]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (276)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (274)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (272)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (270)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (268)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (266)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapController (264)
+[2020.05.10-11.36.37:183][765]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (262)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module MagicLeapAR (260)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module AugmentedReality (259)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (256)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module FacialAnimation (254)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (252)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module TreeMap (251)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module AnimationSharing (248)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module Paper2D (244)
+[2020.05.10-11.36.37:183][765]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (242)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (240)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (238)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module PacketHandler (236)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (234)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (232)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module MediaAssets (230)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module Overlay (228)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module OverlayEditor (227)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module VREditor (224)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module StringTableEditor (222)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (220)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (218)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module FunctionalTesting (216)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (214)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (213)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module UMG (210)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module UMGEditor (209)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module Sequencer (208)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module MessageLog (205)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module SlateReflector (200)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module Slate (198)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module SlateCore (196)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (194)
+[2020.05.10-11.36.37:184][765]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2020.05.10-11.36.37:185][765]LogModuleManager: Shutting down and abandoning module UnrealEd (190)
+[2020.05.10-11.36.37:185][765]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2020.05.10-11.36.37:185][765]LogModuleManager: Shutting down and abandoning module Messaging (186)
+[2020.05.10-11.36.37:185][765]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2020.05.10-11.36.37:185][765]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module Core (176)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module MovieSceneTools (174)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (167)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (165)
+[2020.05.10-11.36.37:186][765]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (163)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (161)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module MaterialBaking (157)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (152)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (150)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2020.05.10-11.36.37:187][765]LogDerivedDataCache: Shutdown
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module XGEController (146)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
+[2020.05.10-11.36.37:187][765]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (113)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (111)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (107)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module InputCore (104)
+[2020.05.10-11.36.37:188][765]LogModuleManager: Shutting down and abandoning module Settings (102)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.05.10-11.36.37:189][765]LogHMD: Freeing OpenVRDLLHandle.
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.05.10-11.36.37:189][765]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.05.10-11.36.37:190][765]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.05.10-11.36.37:190][765]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.05.10-11.36.37:218][765]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.05.10-11.36.37:251][765]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.05.10-11.36.37:253][765]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.05.10-11.36.37:256][765]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.05.10-11.36.37:257][765]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.05.10-11.36.37:257][765]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.05.10-11.36.37:257][765]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.05.10-11.36.37:258][765]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.05.10-11.36.37:259][765]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.05.10-11.36.37:259][765]LogD3D11RHI: Shutdown
+[2020.05.10-11.36.37:259][765]LogD3D11RHI: CleanupD3DDevice
+[2020.05.10-11.36.37:270][765]LogExit: Exiting.
+[2020.05.10-11.36.37:282][765]Log file closed, 05/10/20 13:36:37

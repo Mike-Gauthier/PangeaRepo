@@ -45,6 +45,14 @@ struct FHitResult;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execInfo) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Info(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execUse) \
 	{ \
 		P_FINISH; \
@@ -88,6 +96,14 @@ struct FHitResult;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->TriggerEnter(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execInfo) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Info(); \
 		P_NATIVE_END; \
 	} \
  \

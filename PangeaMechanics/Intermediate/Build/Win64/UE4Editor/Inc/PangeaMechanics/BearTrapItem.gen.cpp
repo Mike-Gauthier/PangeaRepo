@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeBearTrapItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABearTrapItem, 3345802154);
+	IMPLEMENT_CLASS(ABearTrapItem, 4009008802);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<ABearTrapItem>()
 	{
 		return ABearTrapItem::StaticClass();

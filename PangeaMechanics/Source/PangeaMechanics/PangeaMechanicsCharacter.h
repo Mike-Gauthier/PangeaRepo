@@ -64,6 +64,7 @@ protected:
 	void BeginPickup();
 	void EndPickup();
 	void ShowInventory();
+	void ItemInfo();
 	void ChangeActiveSlot(float Value);
 
 	// Use Functions

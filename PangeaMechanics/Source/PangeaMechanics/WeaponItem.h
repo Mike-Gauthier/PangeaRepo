@@ -20,7 +20,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Item Stats")
 		int damage;
 
-	bool isEquipped = false;
+	void Info();
 
 	void Use();
 	

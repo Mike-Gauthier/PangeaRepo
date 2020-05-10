@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeWeaponItem() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWeaponItem, 614644032);
+	IMPLEMENT_CLASS(AWeaponItem, 3015003070);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<AWeaponItem>()
 	{
 		return AWeaponItem::StaticClass();

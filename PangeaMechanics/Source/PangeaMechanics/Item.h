@@ -29,10 +29,12 @@ public:
 		FString description;
 
 	UPROPERTY(EditAnywhere, Category = "Item Stats")
+		int value;
+
+	UPROPERTY(EditAnywhere, Category = "Item Stats")
 		int weight;
 
 	bool ItemIsWithinRange = false;
-
 	APangeaMechanicsCharacter* MyPlayerController;
 
 	/*The Texture of the item in case we want to add it in the secrets or inventory*/
@@ -50,6 +52,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	virtual void Use();
+
+	UFUNCTION(BlueprintCallable)
+	virtual void Info();
 
 	UFUNCTION()
 		void TriggerEnter(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);

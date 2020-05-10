@@ -59,6 +59,15 @@ void AItem::Use()
 	GEngine->AddOnScreenDebugMessage(1, 5.f, FColor::Green, TEXT("Using Item"));
 }
 
+// INFO
+void AItem::Info()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Weight: %s"), *FString::FromInt(weight)));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Value: %s"), *FString::FromInt(value)));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Description: %s"), *description));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("%s Info:"), *name));
+}
+
 // Called when the game starts or when spawned
 void AItem::BeginPlay()
 {
