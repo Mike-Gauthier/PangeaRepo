@@ -36,6 +36,19 @@ void EmptyLinkFunctionForGeneratedCodeRideAnimal() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RidingRegionTriggerBox_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RidingRegionTriggerBox;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaximumFlyingDismountHeight_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaximumFlyingDismountHeight;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimalFlyingSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AnimalFlyingSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsFlyingOn_MetaData[];
+#endif
+		static void NewProp_IsFlyingOn_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsFlyingOn;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -59,8 +72,36 @@ void EmptyLinkFunctionForGeneratedCodeRideAnimal() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_URideAnimal_Statics::NewProp_RidingRegionTriggerBox = { "RidingRegionTriggerBox", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(URideAnimal, RidingRegionTriggerBox), Z_Construct_UClass_AAnimalTriggerBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_URideAnimal_Statics::NewProp_RidingRegionTriggerBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URideAnimal_Statics::NewProp_RidingRegionTriggerBox_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URideAnimal_Statics::NewProp_MaximumFlyingDismountHeight_MetaData[] = {
+		{ "Category", "RideAnimal" },
+		{ "ModuleRelativePath", "RideAnimal.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_URideAnimal_Statics::NewProp_MaximumFlyingDismountHeight = { "MaximumFlyingDismountHeight", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(URideAnimal, MaximumFlyingDismountHeight), METADATA_PARAMS(Z_Construct_UClass_URideAnimal_Statics::NewProp_MaximumFlyingDismountHeight_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URideAnimal_Statics::NewProp_MaximumFlyingDismountHeight_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URideAnimal_Statics::NewProp_AnimalFlyingSpeed_MetaData[] = {
+		{ "Category", "RideAnimal" },
+		{ "ModuleRelativePath", "RideAnimal.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_URideAnimal_Statics::NewProp_AnimalFlyingSpeed = { "AnimalFlyingSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(URideAnimal, AnimalFlyingSpeed), METADATA_PARAMS(Z_Construct_UClass_URideAnimal_Statics::NewProp_AnimalFlyingSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URideAnimal_Statics::NewProp_AnimalFlyingSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URideAnimal_Statics::NewProp_IsFlyingOn_MetaData[] = {
+		{ "Category", "RideAnimal" },
+		{ "ModuleRelativePath", "RideAnimal.h" },
+	};
+#endif
+	void Z_Construct_UClass_URideAnimal_Statics::NewProp_IsFlyingOn_SetBit(void* Obj)
+	{
+		((URideAnimal*)Obj)->IsFlyingOn = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URideAnimal_Statics::NewProp_IsFlyingOn = { "IsFlyingOn", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(URideAnimal), &Z_Construct_UClass_URideAnimal_Statics::NewProp_IsFlyingOn_SetBit, METADATA_PARAMS(Z_Construct_UClass_URideAnimal_Statics::NewProp_IsFlyingOn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URideAnimal_Statics::NewProp_IsFlyingOn_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_URideAnimal_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URideAnimal_Statics::NewProp_RidingRegionTriggerBox,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URideAnimal_Statics::NewProp_MaximumFlyingDismountHeight,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URideAnimal_Statics::NewProp_AnimalFlyingSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URideAnimal_Statics::NewProp_IsFlyingOn,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_URideAnimal_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<URideAnimal>::IsAbstract,
@@ -89,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeRideAnimal() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(URideAnimal, 1714797280);
+	IMPLEMENT_CLASS(URideAnimal, 1861896291);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<URideAnimal>()
 	{
 		return URideAnimal::StaticClass();

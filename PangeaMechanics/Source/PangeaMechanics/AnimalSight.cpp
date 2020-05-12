@@ -66,7 +66,7 @@ void UAnimalSight::IfInUnawareState()
 	if (!AnimalMotion->GetIsAlerted() && !AnimalMotion->GetIsExhausted())
 	{
 		//Default to Alerted
-		if ((PlayerAngleFromSightCentre < HalfSightWidthAngle) &&
+		if ((PlayerAngleFromSightCentre < HalfAnimalSightAngle) &&
 			(AnimalMotion->GetAnimalToPlayerVector().Size() < AnimalSightReach))
 		{
 			AnimalMotion->SetIsAlerted(true);

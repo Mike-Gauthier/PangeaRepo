@@ -23,7 +23,11 @@ protected:
 
 private:
 	float PlayerAngleFromSightCentre;
-	float HalfSightWidthAngle = 30.0f;
+
+	//Angle size variables
+	UPROPERTY(EditAnywhere)
+	float HalfAnimalSightAngle = 30.0f;
+	UPROPERTY(EditAnywhere)
 	float AnimalSightReach = 1700.0f;
 
 	UAnimalMotion* AnimalMotion;

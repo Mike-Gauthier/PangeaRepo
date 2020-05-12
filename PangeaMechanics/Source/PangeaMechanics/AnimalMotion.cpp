@@ -43,8 +43,8 @@ void UAnimalMotion::TamedAnimalMovement()
 }
 void UAnimalMotion::FleeingAnimalMovement()
 {
-	CalcFleeingAnimalSingleAxisPos(AnimalToPlayerVector.X, FVector(AnimalMovementSpeed, 0.0f, 0.0f));
-	CalcFleeingAnimalSingleAxisPos(AnimalToPlayerVector.Y, FVector(0.0f, AnimalMovementSpeed, 0.0f));
+	CalcFleeingAnimalSingleAxisPos(AnimalToPlayerVector.X, FVector(AnimalFleeSpeed, 0.0f, 0.0f));
+	CalcFleeingAnimalSingleAxisPos(AnimalToPlayerVector.Y, FVector(0.0f, AnimalFleeSpeed, 0.0f));
 }
 
 //Functions used to calculate Movement
@@ -173,7 +173,6 @@ float UAnimalMotion::KeepWithinAngleRange(float InputAngle, float UpperLimit, fl
 }
 float UAnimalMotion::CalcTurnDirection(float InputAngle)
 {
-	UE_LOG(LogTemp, Log, TEXT("%f"), InputAngle);
 	float TurnDirectionMultiplier;
 	if (InputAngle < 0.0f)
 	{
@@ -220,6 +219,10 @@ bool UAnimalMotion::GetIsRiding()
 {
 	return IsRiding;
 }
+bool UAnimalMotion::GetIsGrounded()
+{
+	return IsGrounded;
+}
 void UAnimalMotion::SetIsTamed(bool InputBool)
 {
 	IsTamed = InputBool;
@@ -235,6 +238,10 @@ void UAnimalMotion::SetIsExhausted(bool InputBool)
 void UAnimalMotion::SetIsRiding(bool InputBool)
 {
 	IsRiding = InputBool;
+}
+void UAnimalMotion::SetIsGrounded(bool InputBool)
+{
+	IsGrounded = InputBool;
 }
 
 //Fleeing

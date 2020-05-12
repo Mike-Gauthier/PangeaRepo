@@ -58,7 +58,18 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimalMotion); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UAnimalMotion)
 
 
-#define PangeaMechanics_Source_PangeaMechanics_AnimalMotion_h_16_PRIVATE_PROPERTY_OFFSET
+#define PangeaMechanics_Source_PangeaMechanics_AnimalMotion_h_16_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__AnimalMovementSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalMovementSpeed); } \
+	FORCEINLINE static uint32 __PPO__TargetAnimalPlayerDistance() { return STRUCT_OFFSET(UAnimalMotion, TargetAnimalPlayerDistance); } \
+	FORCEINLINE static uint32 __PPO__AnimalRotationSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalRotationSpeed); } \
+	FORCEINLINE static uint32 __PPO__AnimalFleeSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalFleeSpeed); } \
+	FORCEINLINE static uint32 __PPO__TargetFleeDistance() { return STRUCT_OFFSET(UAnimalMotion, TargetFleeDistance); } \
+	FORCEINLINE static uint32 __PPO__AbandonHuntDistance() { return STRUCT_OFFSET(UAnimalMotion, AbandonHuntDistance); } \
+	FORCEINLINE static uint32 __PPO__ExhaustionIncrSpeed() { return STRUCT_OFFSET(UAnimalMotion, ExhaustionIncrSpeed); } \
+	FORCEINLINE static uint32 __PPO__ExhaustionDecrSpeed() { return STRUCT_OFFSET(UAnimalMotion, ExhaustionDecrSpeed); } \
+	FORCEINLINE static uint32 __PPO__MaxExhaustion() { return STRUCT_OFFSET(UAnimalMotion, MaxExhaustion); }
+
+
 #define PangeaMechanics_Source_PangeaMechanics_AnimalMotion_h_13_PROLOG
 #define PangeaMechanics_Source_PangeaMechanics_AnimalMotion_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

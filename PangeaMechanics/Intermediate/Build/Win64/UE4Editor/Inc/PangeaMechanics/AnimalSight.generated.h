@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimalSight); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UAnimalSight)
 
 
-#define PangeaMechanics_Source_PangeaMechanics_AnimalSight_h_14_PRIVATE_PROPERTY_OFFSET
+#define PangeaMechanics_Source_PangeaMechanics_AnimalSight_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HalfAnimalSightAngle() { return STRUCT_OFFSET(UAnimalSight, HalfAnimalSightAngle); } \
+	FORCEINLINE static uint32 __PPO__AnimalSightReach() { return STRUCT_OFFSET(UAnimalSight, AnimalSightReach); }
+
+
 #define PangeaMechanics_Source_PangeaMechanics_AnimalSight_h_11_PROLOG
 #define PangeaMechanics_Source_PangeaMechanics_AnimalSight_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

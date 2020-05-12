@@ -7,7 +7,6 @@
 #include "UObject/ConstructorHelpers.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Character.h"
-//#include "Animation/AnimSequence.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "AnimalMotion.h"
 #include "AnimalTriggerBox.h"
@@ -37,6 +36,16 @@ private:
 	UAnimSequence* StandingAnimation;
 	UAnimSequence* RidingAnimation;
 
+	EMovementMode* InitialMovementMode;
+
+	UPROPERTY(EditAnywhere)
+	bool IsFlyingOn = false;
+
+	UPROPERTY(EditAnywhere)
+	float AnimalFlyingSpeed = 30.0f;
+	UPROPERTY(EditAnywhere)
+	float MaximumFlyingDismountHeight = 300.0f;
+
 	UAnimalMotion* AnimalMotion;
 
 	UPROPERTY(EditAnywhere)
@@ -45,4 +54,14 @@ private:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	void SaveInitialStates();
+	void UpdateIsRiding();
+	void SetupMountState();
+	void SetInitialRiderRotation();
+	void SetupDismountState();
+	void SetDismountedPositions();
+	void UpdateIsGrounded();
+	void FlyingSpecificMotion();
+	void UpdateRiderPosAndRot();
 };

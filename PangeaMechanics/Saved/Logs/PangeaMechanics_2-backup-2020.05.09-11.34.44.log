@@ -1,0 +1,954 @@
+﻿Log file open, 05/09/20 12:33:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PangeaMechanics
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.230806
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  /Game/ThirdPersonCPP/Maps/TamingPrototypeTG -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.09-11.33.31:138][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.09-11.33.31:138][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.09-11.33.31:139][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.09-11.33.31:139][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.09-11.33.31:145][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:145][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.09-11.33.31:145][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.09-11.33.31:145][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:145][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.09-11.33.31:145][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:145][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.09-11.33.31:145][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.09-11.33.31:146][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.09-11.33.31:147][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.09-11.33.31:148][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.09-11.33.31:149][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.09-11.33.31:150][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:150][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.09-11.33.31:151][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.09-11.33.31:151][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:151][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.09-11.33.31:151][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.09-11.33.31:151][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.09-11.33.31:151][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.09-11.33.31:151][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.09-11.33.31:158][  0]LogHAL: Display: Platform has ~ 8 GB [8416038912 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.09-11.33.31:158][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.09-11.33.31:158][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:158][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.09-11.33.31:158][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.09-11.33.31:159][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.09-11.33.31:160][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.09-11.33.31:161][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.09-11.33.31:162][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.09-11.33.31:164][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.09-11.33.31:164][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.09-11.33.31:164][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.09-11.33.31:165][  0]LogInit: Computer: DESKTOP-B76AR38
+[2020.05.09-11.33.31:165][  0]LogInit: User: Tom
+[2020.05.09-11.33.31:165][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.09-11.33.31:165][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.09-11.33.31:166][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.05.09-11.33.31:166][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.09-11.33.31:166][  0]LogMemory: Process Physical Memory: 105.65 MB used, 105.66 MB peak
+[2020.05.09-11.33.31:166][  0]LogMemory: Process Virtual Memory: 100.71 MB used, 100.71 MB peak
+[2020.05.09-11.33.31:166][  0]LogMemory: Physical Memory: 6431.07 MB used,  1595.09 MB free, 8026.16 MB total
+[2020.05.09-11.33.31:166][  0]LogMemory: Virtual Memory: 5137.57 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.05.09-11.33.31:183][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.09-11.33.31:215][  0]LogInit: Using OS detected language (en-GB).
+[2020.05.09-11.33.31:216][  0]LogInit: Using OS detected locale (en-GB).
+[2020.05.09-11.33.31:217][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.05.09-11.33.31:783][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.09-11.33.31:784][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.09-11.33.31:795][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.09-11.33.31:795][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.09-11.33.31:795][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.09-11.33.31:795][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.09-11.33.31:831][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.05.09-11.33.31:831][  0]LogD3D11RHI:       128/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.05.09-11.33.31:834][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.09-11.33.31:834][  0]LogD3D11RHI:       0/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.09-11.33.31:834][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.09-11.33.31:841][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.09-11.33.31:841][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.09-11.33.31:841][  0]LogWindows: EnumDisplayDevices:
+[2020.05.09-11.33.31:842][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.05.09-11.33.31:842][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.09-11.33.31:842][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.09-11.33.31:843][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.05.09-11.33.31:843][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2020.05.09-11.33.31:843][  0]LogD3D11RHI:   Driver Version: 25.20.100.6446 (internal:25.20.100.6446, unified:25.20.100.6446)
+[2020.05.09-11.33.31:843][  0]LogD3D11RHI:      Driver Date: 11-19-2018
+[2020.05.09-11.33.31:843][  0]LogRHI: Texture pool is 1494 MB (70% of 2134 MB)
+[2020.05.09-11.33.31:902][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.09-11.33.31:902][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.05.09-11.33.31:902][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.09-11.33.31:917][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.05.09-11.33.32:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.09-11.33.32:316][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.09-11.33.32:323][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.09-11.33.32:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.09-11.33.32:330][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.09-11.33.32:333][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.09-11.33.32:360][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/8780/).
+[2020.05.09-11.33.32:360][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/0ADC95524F7EEA0E1B10159E343D4D7A/'.
+[2020.05.09-11.33.32:360][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.09-11.33.32:360][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.09-11.33.32:360][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.09-11.33.33:114][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.09-11.33.33:185][  0]LogDerivedDataCache: Loaded boot cache 0.07s 82MB C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.09-11.33.33:185][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.09-11.33.33:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.09-11.33.33:186][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.09-11.33.33:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.09-11.33.33:186][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.09-11.33.33:196][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.09-11.33.33:196][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.09-11.33.33:196][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.09-11.33.33:198][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.09-11.33.33:198][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.09-11.33.33:198][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.09-11.33.33:223][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.09-11.33.33:226][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.09-11.33.33:226][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.09-11.33.33:457][  0]LogInit: Using OS detected language (en-GB).
+[2020.05.09-11.33.33:457][  0]LogInit: Using OS detected locale (en-GB).
+[2020.05.09-11.33.33:457][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the language.
+[2020.05.09-11.33.33:457][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the locale.
+[2020.05.09-11.33.33:458][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.05.09-11.33.33:458][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.05.09-11.33.33:468][  0]LogTextLocalizationManager: Compacting localization data took   0.01ms
+[2020.05.09-11.33.33:472][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.05.09-11.33.33:815][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000490 seconds
+[2020.05.09-11.33.33:878][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.09-11.33.34:032][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.09-11.33.34:032][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.09-11.33.34:032][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.09-11.33.34:032][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.09-11.33.34:032][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.09-11.33.34:043][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
+[2020.05.09-11.33.34:705][  0]LogMoviePlayer: Initializing movie player
+[2020.05.09-11.33.34:816][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.09-11.33.34:817][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.09-11.33.34:969][  0]SourceControl: Source control is disabled
+[2020.05.09-11.33.34:969][  0]SourceControl: Source control is disabled
+[2020.05.09-11.33.34:970][  0]SourceControl: Source control is disabled
+[2020.05.09-11.33.35:000][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.09-11.33.35:006][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.09-11.33.35:007][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.09-11.33.35:064][  0]LogOcInput: OculusInput pre-init called
+[2020.05.09-11.33.35:074][  0]LogUObjectArray: 53541 objects as part of root set at end of initial load.
+[2020.05.09-11.33.35:074][  0]LogUObjectAllocator: 9681832 out of 0 bytes used by permanent object pool.
+[2020.05.09-11.33.35:074][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.09-11.33.35:135][  0]LogEngine: Initializing Engine...
+[2020.05.09-11.33.35:136][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.09-11.33.35:137][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.09-11.33.35:383][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.09-11.33.35:386][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.09-11.33.35:386][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.09-11.33.35:386][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.09-11.33.35:386][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.09-11.33.35:386][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.09-11.33.35:386][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.09-11.33.35:386][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.09-11.33.35:386][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.09-11.33.35:387][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.09-11.33.35:387][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.09-11.33.35:411][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: Name: Speaker/Headphone (Realtek(R) Audio)
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.09-11.33.35:412][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.09-11.33.35:450][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.05.09-11.33.35:463][  0]LogInit: FAudioDevice initialized.
+[2020.05.09-11.33.35:465][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.09-11.33.35:468][  0]LogInit: Texture streaming: Enabled
+[2020.05.09-11.33.35:601][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.09-11.33.35:621][  0]LogInit: Display: Game Engine Initialized.
+[2020.05.09-11.33.35:633][  0]LogInit: Display: Starting Game.
+[2020.05.09-11.33.35:634][  0]LogNet: Browse: /Game/ThirdPersonCPP/Maps/TamingPrototypeTG?Name=Player
+[2020.05.09-11.33.35:635][  0]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/TamingPrototypeTG?Name=Player
+[2020.05.09-11.33.35:635][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.05.09-11.33.35:636][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.09-11.33.35:636][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.09-11.33.35:667][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.09-11.33.35:670][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.05.09-11.33.35:809][  0]LogAIModule: Creating AISystem for world TamingPrototypeTG
+[2020.05.09-11.33.35:809][  0]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.05.09-11.33.35:814][  0]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG up for play (max tick rate 0) at 2020.05.09-12.33.35
+[2020.05.09-11.33.35:815][  0]LogWorld: Bringing up level for play took: 0.004280
+[2020.05.09-11.33.35:817][  0]LogLoad: Took 0.182653 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/TamingPrototypeTG)
+[2020.05.09-11.33.35:931][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.05.09-11.33.35:931][  0]LogLoad: (Engine Initialization) Total time: 8.36 seconds
+[2020.05.09-11.33.35:931][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.09-11.33.36:585][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.09-11.33.36:655][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.09-11.33.36:894][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2020.05.09-11.33.37:062][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2020.05.09-11.34.15:443][750]LogTemp: 159.575394
+[2020.05.09-11.34.15:461][751]LogTemp: 158.047989
+[2020.05.09-11.34.15:492][752]LogTemp: 158.173813
+[2020.05.09-11.34.15:536][753]LogTemp: 159.107635
+[2020.05.09-11.34.15:585][754]LogTemp: 160.054779
+[2020.05.09-11.34.15:630][755]LogTemp: 159.208633
+[2020.05.09-11.34.15:674][756]LogTemp: 157.744141
+[2020.05.09-11.34.15:720][757]LogTemp: 155.668427
+[2020.05.09-11.34.15:761][758]LogTemp: 153.026123
+[2020.05.09-11.34.15:802][759]LogTemp: 150.153107
+[2020.05.09-11.34.15:942][760]LogTemp: 147.422592
+[2020.05.09-11.34.15:960][761]LogTemp: 145.377548
+[2020.05.09-11.34.15:973][762]LogTemp: 141.792923
+[2020.05.09-11.34.16:004][763]LogTemp: 138.091309
+[2020.05.09-11.34.16:052][764]LogTemp: 134.341415
+[2020.05.09-11.34.16:091][765]LogTemp: 130.576080
+[2020.05.09-11.34.16:140][766]LogTemp: 126.821426
+[2020.05.09-11.34.16:181][767]LogTemp: 123.078278
+[2020.05.09-11.34.16:324][768]LogTemp: 119.347473
+[2020.05.09-11.34.16:330][769]LogTemp: 115.629898
+[2020.05.09-11.34.16:347][770]LogTemp: 111.926575
+[2020.05.09-11.34.16:376][771]LogTemp: 108.238541
+[2020.05.09-11.34.16:419][772]LogTemp: 104.023514
+[2020.05.09-11.34.16:466][773]LogTemp: 98.948059
+[2020.05.09-11.34.16:519][774]LogTemp: 92.952118
+[2020.05.09-11.34.16:553][775]LogTemp: 87.170654
+[2020.05.09-11.34.16:600][776]LogTemp: 80.088165
+[2020.05.09-11.34.16:643][777]LogTemp: 72.796631
+[2020.05.09-11.34.16:701][778]LogTemp: 64.318230
+[2020.05.09-11.34.16:742][779]LogTemp: 57.422424
+[2020.05.09-11.34.16:781][780]LogTemp: 50.721901
+[2020.05.09-11.34.16:827][781]LogTemp: 43.899284
+[2020.05.09-11.34.16:868][782]LogTemp: 37.525940
+[2020.05.09-11.34.16:965][783]LogTemp: 29.175827
+[2020.05.09-11.34.16:967][784]LogTemp: 24.462814
+[2020.05.09-11.34.17:001][785]LogTemp: 18.727814
+[2020.05.09-11.34.17:041][786]LogTemp: 12.533310
+[2020.05.09-11.34.17:087][787]LogTemp: 6.004761
+[2020.05.09-11.34.17:133][788]LogTemp: -0.608398
+[2020.05.09-11.34.17:174][789]LogTemp: -3.020325
+[2020.05.09-11.34.17:222][790]LogTemp: -5.736740
+[2020.05.09-11.34.17:359][791]LogTemp: -8.139999
+[2020.05.09-11.34.17:364][792]LogTemp: -4.330872
+[2020.05.09-11.34.17:374][793]LogTemp: -4.750275
+[2020.05.09-11.34.17:412][794]LogTemp: -6.583725
+[2020.05.09-11.34.17:456][795]LogTemp: -4.957642
+[2020.05.09-11.34.17:499][796]LogTemp: -7.371216
+[2020.05.09-11.34.17:547][797]LogTemp: -6.196014
+[2020.05.09-11.34.17:588][798]LogTemp: -4.742416
+[2020.05.09-11.34.17:636][799]LogTemp: -7.733681
+[2020.05.09-11.34.17:676][800]LogTemp: -6.561844
+[2020.05.09-11.34.17:733][801]LogTemp: -6.341682
+[2020.05.09-11.34.17:774][802]LogTemp: -4.373573
+[2020.05.09-11.34.17:813][803]LogTemp: -6.372025
+[2020.05.09-11.34.17:903][804]LogTemp: -7.063202
+[2020.05.09-11.34.17:909][805]LogTemp: -3.187355
+[2020.05.09-11.34.17:945][806]LogTemp: -4.865044
+[2020.05.09-11.34.17:984][807]LogTemp: -6.807098
+[2020.05.09-11.34.18:032][808]LogTemp: -5.105301
+[2020.05.09-11.34.18:077][809]LogTemp: -3.138275
+[2020.05.09-11.34.18:217][810]LogTemp: -9.316025
+[2020.05.09-11.34.18:222][811]LogTemp: -5.489899
+[2020.05.09-11.34.18:237][812]LogTemp: -2.062782
+[2020.05.09-11.34.18:265][813]LogTemp: -3.168007
+[2020.05.09-11.34.18:307][814]LogTemp: -4.689117
+[2020.05.09-11.34.18:353][815]LogTemp: -6.475601
+[2020.05.09-11.34.18:401][816]LogTemp: -4.167671
+[2020.05.09-11.34.18:441][817]LogTemp: -5.578857
+[2020.05.09-11.34.18:482][818]LogTemp: -2.973579
+[2020.05.09-11.34.18:527][819]LogTemp: -4.447784
+[2020.05.09-11.34.18:660][820]LogTemp: -5.869110
+[2020.05.09-11.34.18:667][821]LogTemp: -4.391708
+[2020.05.09-11.34.18:677][822]LogTemp: -4.773468
+[2020.05.09-11.34.18:713][823]LogTemp: -5.778633
+[2020.05.09-11.34.18:765][824]LogTemp: -3.112190
+[2020.05.09-11.34.18:806][825]LogTemp: -4.134621
+[2020.05.09-11.34.18:852][826]LogTemp: -5.229973
+[2020.05.09-11.34.18:986][827]LogTemp: -3.817314
+[2020.05.09-11.34.18:990][828]LogTemp: -3.552017
+[2020.05.09-11.34.19:004][829]LogTemp: -3.460770
+[2020.05.09-11.34.19:033][830]LogTemp: -3.608849
+[2020.05.09-11.34.19:079][831]LogTemp: -3.978127
+[2020.05.09-11.34.19:126][832]LogTemp: -4.453857
+[2020.05.09-11.34.19:175][833]LogTemp: -4.877655
+[2020.05.09-11.34.19:218][834]LogTemp: -5.177734
+[2020.05.09-11.34.19:258][835]LogTemp: -1.333153
+[2020.05.09-11.34.19:305][836]LogTemp: -1.425697
+[2020.05.09-11.34.19:441][837]LogTemp: -1.384911
+[2020.05.09-11.34.19:456][838]LogTemp: -1.154495
+[2020.05.09-11.34.19:468][839]LogTemp: -0.855850
+[2020.05.09-11.34.19:497][840]LogTemp: -0.550728
+[2020.05.09-11.34.19:548][841]LogTemp: -0.238930
+[2020.05.09-11.34.19:581][842]LogTemp: 0.079742
+[2020.05.09-11.34.19:627][843]LogTemp: 0.405510
+[2020.05.09-11.34.19:668][844]LogTemp: 0.738586
+[2020.05.09-11.34.19:801][845]LogTemp: 1.080299
+[2020.05.09-11.34.19:807][846]LogTemp: 1.445000
+[2020.05.09-11.34.19:829][847]LogTemp: 1.293808
+[2020.05.09-11.34.19:857][848]LogTemp: 1.138153
+[2020.05.09-11.34.19:905][849]LogTemp: 0.976982
+[2020.05.09-11.34.19:944][850]LogTemp: 0.802841
+[2020.05.09-11.34.19:991][851]LogTemp: 0.612549
+[2020.05.09-11.34.20:032][852]LogTemp: 0.404243
+[2020.05.09-11.34.20:168][853]LogTemp: 0.171715
+[2020.05.09-11.34.20:175][854]LogTemp: -0.133873
+[2020.05.09-11.34.20:193][855]LogTemp: -0.405243
+[2020.05.09-11.34.20:232][856]LogTemp: -0.729424
+[2020.05.09-11.34.20:280][857]LogTemp: -1.111275
+[2020.05.09-11.34.20:323][858]LogTemp: -1.537933
+[2020.05.09-11.34.20:363][859]LogTemp: -2.022240
+[2020.05.09-11.34.20:411][860]LogTemp: -2.623032
+[2020.05.09-11.34.20:458][861]LogTemp: -3.325241
+[2020.05.09-11.34.20:495][862]LogTemp: -4.127869
+[2020.05.09-11.34.20:538][863]LogTemp: -5.095406
+[2020.05.09-11.34.20:643][864]LogTemp: -3.517693
+[2020.05.09-11.34.20:645][865]LogTemp: -3.580643
+[2020.05.09-11.34.20:681][866]LogTemp: -4.386234
+[2020.05.09-11.34.20:727][867]LogTemp: -5.801983
+[2020.05.09-11.34.20:765][868]LogTemp: -3.342960
+[2020.05.09-11.34.20:811][869]LogTemp: -5.842361
+[2020.05.09-11.34.20:855][870]LogTemp: -5.373550
+[2020.05.09-11.34.20:898][871]LogTemp: -2.750870
+[2020.05.09-11.34.20:947][872]LogTemp: -2.750870
+[2020.05.09-11.34.21:082][873]LogTemp: -2.750870
+[2020.05.09-11.34.21:088][874]LogTemp: -2.750870
+[2020.05.09-11.34.21:105][875]LogTemp: -2.750870
+[2020.05.09-11.34.21:133][876]LogTemp: -2.750870
+[2020.05.09-11.34.21:171][877]LogTemp: -2.750870
+[2020.05.09-11.34.30:941][ 91]LogTemp: -114.518890
+[2020.05.09-11.34.31:071][ 92]LogTemp: 94.000023
+[2020.05.09-11.34.31:080][ 93]LogTemp: 90.000038
+[2020.05.09-11.34.31:100][ 94]LogTemp: 86.000084
+[2020.05.09-11.34.31:129][ 95]LogTemp: 82.000046
+[2020.05.09-11.34.31:169][ 96]LogTemp: 78.000015
+[2020.05.09-11.34.31:215][ 97]LogTemp: 74.000023
+[2020.05.09-11.34.31:262][ 98]LogTemp: 70.000046
+[2020.05.09-11.34.31:303][ 99]LogTemp: 66.000076
+[2020.05.09-11.34.31:352][100]LogTemp: 62.000080
+[2020.05.09-11.34.31:481][101]LogTemp: 58.000084
+[2020.05.09-11.34.31:485][102]LogTemp: 54.000114
+[2020.05.09-11.34.31:497][103]LogTemp: 50.000076
+[2020.05.09-11.34.31:532][104]LogTemp: 46.000053
+[2020.05.09-11.34.31:577][105]LogTemp: 42.000053
+[2020.05.09-11.34.31:619][106]LogTemp: 38.000072
+[2020.05.09-11.34.31:755][107]LogTemp: 34.000107
+[2020.05.09-11.34.31:761][108]LogTemp: 30.000145
+[2020.05.09-11.34.31:775][109]LogTemp: 26.000092
+[2020.05.09-11.34.31:805][110]LogTemp: 22.000177
+[2020.05.09-11.34.31:846][111]LogTemp: 18.000156
+[2020.05.09-11.34.31:893][112]LogTemp: 14.000123
+[2020.05.09-11.34.31:940][113]LogTemp: 10.000085
+[2020.05.09-11.34.31:981][114]LogTemp: 6.000061
+[2020.05.09-11.34.32:022][115]LogTemp: 2.000067
+[2020.05.09-11.34.32:068][116]LogTemp: 2.000067
+[2020.05.09-11.34.32:114][117]LogTemp: 2.000067
+[2020.05.09-11.34.32:160][118]LogTemp: 2.000067
+[2020.05.09-11.34.32:203][119]LogTemp: 2.000067
+[2020.05.09-11.34.32:346][120]LogTemp: -6.744963
+[2020.05.09-11.34.32:352][121]LogTemp: -3.693889
+[2020.05.09-11.34.32:594][127]LogTemp: -77.678612
+[2020.05.09-11.34.32:635][128]LogTemp: -86.188377
+[2020.05.09-11.34.32:683][129]LogTemp: -91.476898
+[2020.05.09-11.34.32:818][130]LogTemp: -92.983795
+[2020.05.09-11.34.32:823][131]LogTemp: -93.881889
+[2020.05.09-11.34.32:842][132]LogTemp: -90.349426
+[2020.05.09-11.34.32:872][133]LogTemp: -86.700478
+[2020.05.09-11.34.32:915][134]LogTemp: -82.576660
+[2020.05.09-11.34.32:958][135]LogTemp: -78.071678
+[2020.05.09-11.34.33:000][136]LogTemp: -73.228928
+[2020.05.09-11.34.33:050][137]LogTemp: -67.913879
+[2020.05.09-11.34.33:093][138]LogTemp: -62.467155
+[2020.05.09-11.34.33:197][139]LogTemp: -54.559418
+[2020.05.09-11.34.33:202][140]LogTemp: -50.298424
+[2020.05.09-11.34.33:231][141]LogTemp: -44.928703
+[2020.05.09-11.34.33:277][142]LogTemp: -38.671993
+[2020.05.09-11.34.33:317][143]LogTemp: -32.519054
+[2020.05.09-11.34.33:373][144]LogTemp: -25.603153
+[2020.05.09-11.34.33:465][145]LogTemp: -19.240742
+[2020.05.09-11.34.33:468][146]LogTemp: -12.194775
+[2020.05.09-11.34.33:506][147]LogTemp: -5.862896
+[2020.05.09-11.34.33:556][148]LogTemp: 1.206131
+[2020.05.09-11.34.33:599][149]LogTemp: 2.320950
+[2020.05.09-11.34.33:646][150]LogTemp: 2.763981
+[2020.05.09-11.34.33:687][151]LogTemp: 3.220718
+[2020.05.09-11.34.33:733][152]LogTemp: 3.691719
+[2020.05.09-11.34.33:776][153]LogTemp: 4.177620
+[2020.05.09-11.34.33:875][154]LogTemp: 4.679058
+[2020.05.09-11.34.33:878][155]LogTemp: 5.196712
+[2020.05.09-11.34.33:912][156]LogTemp: 1.731316
+[2020.05.09-11.34.33:953][157]LogTemp: 2.283558
+[2020.05.09-11.34.33:999][158]LogTemp: 2.854256
+[2020.05.09-11.34.34:039][159]LogTemp: 3.444225
+[2020.05.09-11.34.34:087][160]LogTemp: 4.054333
+[2020.05.09-11.34.34:230][161]LogTemp: 4.685474
+[2020.05.09-11.34.34:236][162]LogTemp: 5.338600
+[2020.05.09-11.34.34:247][163]LogTemp: 2.014668
+[2020.05.09-11.34.34:276][164]LogTemp: 2.714783
+[2020.05.09-11.34.34:322][165]LogTemp: 3.439987
+[2020.05.09-11.34.34:364][166]LogTemp: 4.191406
+[2020.05.09-11.34.34:406][167]LogTemp: 4.970222
+[2020.05.09-11.34.34:545][168]LogTemp: 5.777657
+[2020.05.09-11.34.34:556][169]LogTemp: 2.614975
+[2020.05.09-11.34.34:564][170]LogTemp: 3.483486
+[2020.05.09-11.34.34:602][171]LogTemp: 4.384552
+[2020.05.09-11.34.34:648][172]LogTemp: 4.051537
+[2020.05.09-11.34.34:689][173]LogTemp: 4.392181
+[2020.05.09-11.34.34:736][174]LogTemp: 4.300785
+[2020.05.09-11.34.34:871][175]LogTemp: 0.929333
+[2020.05.09-11.34.34:876][176]LogTemp: 1.493328
+[2020.05.09-11.34.34:893][177]LogTemp: 1.527042
+[2020.05.09-11.34.34:925][178]LogTemp: 1.152702
+[2020.05.09-11.34.34:972][179]LogTemp: 0.271198
+[2020.05.09-11.34.35:013][180]LogTemp: -0.370491
+[2020.05.09-11.34.35:061][181]LogTemp: -1.820770
+[2020.05.09-11.34.35:104][182]LogTemp: -2.917931
+[2020.05.09-11.34.35:147][183]LogTemp: -3.735870
+[2020.05.09-11.34.35:245][184]LogTemp: -4.352989
+[2020.05.09-11.34.35:250][185]LogTemp: -4.633537
+[2020.05.09-11.34.35:283][186]LogTemp: -4.744644
+[2020.05.09-11.34.35:335][187]LogTemp: -4.502289
+[2020.05.09-11.34.35:370][188]LogTemp: -4.218231
+[2020.05.09-11.34.35:506][189]LogTemp: -3.471634
+[2020.05.09-11.34.35:515][190]LogTemp: -1.327740
+[2020.05.09-11.34.35:533][191]LogTemp: -0.997715
+[2020.05.09-11.34.35:562][192]LogTemp: -0.425270
+[2020.05.09-11.34.35:611][193]LogTemp: 0.593052
+[2020.05.09-11.34.35:653][194]LogTemp: 1.488773
+[2020.05.09-11.34.35:702][195]LogTemp: 2.451042
+[2020.05.09-11.34.35:742][196]LogTemp: 3.239410
+[2020.05.09-11.34.35:785][197]LogTemp: 4.007545
+[2020.05.09-11.34.35:830][198]LogTemp: 4.850815
+[2020.05.09-11.34.35:873][199]LogTemp: 5.573250
+[2020.05.09-11.34.35:966][200]LogTemp: 3.147644
+[2020.05.09-11.34.35:972][201]LogTemp: 3.247990
+[2020.05.09-11.34.36:009][202]LogTemp: 3.822224
+[2020.05.09-11.34.36:066][203]LogTemp: 4.645256
+[2020.05.09-11.34.36:108][204]LogTemp: 5.247078
+[2020.05.09-11.34.36:155][205]LogTemp: 1.905525
+[2020.05.09-11.34.36:198][206]LogTemp: 2.479046
+[2020.05.09-11.34.36:238][207]LogTemp: 3.005524
+[2020.05.09-11.34.36:371][208]LogTemp: 4.474628
+[2020.05.09-11.34.36:378][209]LogTemp: 4.587070
+[2020.05.09-11.34.36:397][210]LogTemp: 4.746239
+[2020.05.09-11.34.36:427][211]LogTemp: 4.864502
+[2020.05.09-11.34.36:475][212]LogTemp: 4.922443
+[2020.05.09-11.34.36:516][213]LogTemp: 4.981926
+[2020.05.09-11.34.36:564][214]LogTemp: 5.043034
+[2020.05.09-11.34.36:604][215]LogTemp: 1.105835
+[2020.05.09-11.34.36:644][216]LogTemp: 1.170364
+[2020.05.09-11.34.36:742][217]LogTemp: 1.236706
+[2020.05.09-11.34.36:744][218]LogTemp: 1.304962
+[2020.05.09-11.34.36:778][219]LogTemp: 1.375195
+[2020.05.09-11.34.36:824][220]LogTemp: 1.447491
+[2020.05.09-11.34.36:865][221]LogTemp: 1.521965
+[2020.05.09-11.34.37:005][222]LogTemp: 1.598682
+[2020.05.09-11.34.37:013][223]LogTemp: 1.677780
+[2020.05.09-11.34.37:033][224]LogTemp: 1.759346
+[2020.05.09-11.34.37:077][225]LogTemp: 1.843502
+[2020.05.09-11.34.37:138][226]LogTemp: 1.930389
+[2020.05.09-11.34.37:243][227]LogTemp: 2.020115
+[2020.05.09-11.34.37:296][228]LogTemp: 2.112850
+[2020.05.09-11.34.37:353][229]LogTemp: 2.208725
+[2020.05.09-11.34.37:401][230]LogTemp: 2.307907
+[2020.05.09-11.34.37:460][231]LogTemp: 2.410576
+[2020.05.09-11.34.37:522][232]LogTemp: 2.516918
+[2020.05.09-11.34.37:614][233]LogTemp: 2.627121
+[2020.05.09-11.34.37:704][234]LogTemp: 2.741413
+[2020.05.09-11.34.37:791][235]LogTemp: 2.860012
+[2020.05.09-11.34.37:852][236]LogTemp: 2.983177
+[2020.05.09-11.34.37:943][237]LogTemp: 3.111168
+[2020.05.09-11.34.37:998][238]LogTemp: 3.244282
+[2020.05.09-11.34.38:122][239]LogTemp: 3.382816
+[2020.05.09-11.34.38:131][240]LogTemp: 3.527122
+[2020.05.09-11.34.38:196][241]LogTemp: 3.677555
+[2020.05.09-11.34.38:251][242]LogTemp: 3.834515
+[2020.05.09-11.34.38:322][243]LogTemp: 3.998436
+[2020.05.09-11.34.38:393][244]LogTemp: 4.169788
+[2020.05.09-11.34.38:445][245]LogTemp: 4.349083
+[2020.05.09-11.34.38:504][246]LogTemp: 4.536884
+[2020.05.09-11.34.38:562][247]LogTemp: 4.733799
+[2020.05.09-11.34.38:620][248]LogTemp: 4.940525
+[2020.05.09-11.34.38:680][249]LogTemp: 5.157780
+[2020.05.09-11.34.38:736][250]LogTemp: 1.386398
+[2020.05.09-11.34.38:787][251]LogTemp: 1.627293
+[2020.05.09-11.34.38:844][252]LogTemp: 0.972626
+[2020.05.09-11.34.38:904][253]LogTemp: 0.297108
+[2020.05.09-11.34.38:970][254]LogTemp: -0.400070
+[2020.05.09-11.34.39:024][255]LogTemp: -1.119778
+[2020.05.09-11.34.39:084][256]LogTemp: -1.862858
+[2020.05.09-11.34.39:143][257]LogTemp: -2.630215
+[2020.05.09-11.34.39:198][258]LogTemp: -3.422775
+[2020.05.09-11.34.39:269][259]LogTemp: -4.241482
+[2020.05.09-11.34.39:322][260]LogTemp: -5.087284
+[2020.05.09-11.34.39:385][261]LogTemp: -1.961189
+[2020.05.09-11.34.39:456][262]LogTemp: -2.864162
+[2020.05.09-11.34.39:519][263]LogTemp: -2.864162
+[2020.05.09-11.34.39:566][264]LogTemp: -2.864162
+[2020.05.09-11.34.39:619][265]LogTemp: -2.864162
+[2020.05.09-11.34.39:663][266]LogTemp: -2.864162
+[2020.05.09-11.34.39:708][267]LogTemp: -2.864162
+[2020.05.09-11.34.39:762][268]LogTemp: -2.864162
+[2020.05.09-11.34.39:806][269]LogTemp: -2.864162
+[2020.05.09-11.34.39:854][270]LogTemp: -2.864162
+[2020.05.09-11.34.39:900][271]LogTemp: -2.864162
+[2020.05.09-11.34.39:960][272]LogTemp: -2.864162
+[2020.05.09-11.34.40:006][273]LogTemp: -2.864162
+[2020.05.09-11.34.40:062][274]LogTemp: -2.864162
+[2020.05.09-11.34.40:108][275]LogTemp: -2.864162
+[2020.05.09-11.34.40:161][276]LogTemp: -2.864162
+[2020.05.09-11.34.40:205][277]LogTemp: -2.864162
+[2020.05.09-11.34.40:255][278]LogTemp: -2.864162
+[2020.05.09-11.34.40:317][279]LogTemp: -2.864162
+[2020.05.09-11.34.40:363][280]LogTemp: -2.864162
+[2020.05.09-11.34.40:411][281]LogTemp: -2.864162
+[2020.05.09-11.34.40:462][282]LogTemp: -2.864162
+[2020.05.09-11.34.40:507][283]LogTemp: -2.864162
+[2020.05.09-11.34.40:560][284]LogTemp: -2.864162
+[2020.05.09-11.34.40:610][285]LogTemp: -2.864162
+[2020.05.09-11.34.40:663][286]LogTemp: -2.864162
+[2020.05.09-11.34.40:709][287]LogTemp: -2.864162
+[2020.05.09-11.34.40:762][288]LogTemp: -2.864162
+[2020.05.09-11.34.40:804][289]LogTemp: -2.864162
+[2020.05.09-11.34.40:852][290]LogTemp: -2.864162
+[2020.05.09-11.34.40:897][291]LogTemp: -2.864162
+[2020.05.09-11.34.40:963][292]LogTemp: -2.864162
+[2020.05.09-11.34.41:010][293]LogTemp: -2.864162
+[2020.05.09-11.34.41:063][294]LogTemp: -2.864162
+[2020.05.09-11.34.41:111][295]LogTemp: -2.864162
+[2020.05.09-11.34.41:160][296]LogTemp: -2.864162
+[2020.05.09-11.34.41:205][297]LogTemp: -2.864162
+[2020.05.09-11.34.41:255][298]LogTemp: -2.864162
+[2020.05.09-11.34.41:310][299]LogTemp: -2.864162
+[2020.05.09-11.34.41:362][300]LogTemp: -2.864162
+[2020.05.09-11.34.41:407][301]LogTemp: -2.864162
+[2020.05.09-11.34.41:461][302]LogTemp: -2.864162
+[2020.05.09-11.34.41:504][303]LogTemp: -2.864162
+[2020.05.09-11.34.41:551][304]LogTemp: -2.864162
+[2020.05.09-11.34.41:595][305]LogTemp: -2.864162
+[2020.05.09-11.34.41:649][306]LogTemp: -2.864162
+[2020.05.09-11.34.41:693][307]LogTemp: -2.864162
+[2020.05.09-11.34.41:738][308]LogTemp: -2.864162
+[2020.05.09-11.34.41:791][309]LogTemp: -2.864162
+[2020.05.09-11.34.41:836][310]LogTemp: -2.864162
+[2020.05.09-11.34.41:885][311]LogTemp: -2.864162
+[2020.05.09-11.34.41:932][312]LogTemp: -2.864162
+[2020.05.09-11.34.42:037][313]LogTemp: -2.864162
+[2020.05.09-11.34.42:047][314]LogTemp: -2.864162
+[2020.05.09-11.34.42:100][315]LogTemp: -2.864162
+[2020.05.09-11.34.42:167][316]LogTemp: -2.864162
+[2020.05.09-11.34.42:225][317]LogTemp: -2.864162
+[2020.05.09-11.34.42:315][318]LogTemp: -2.864162
+[2020.05.09-11.34.42:387][319]LogTemp: -2.864162
+[2020.05.09-11.34.42:519][320]LogTemp: -2.864162
+[2020.05.09-11.34.42:525][321]LogTemp: -2.864162
+[2020.05.09-11.34.42:589][322]LogTemp: -2.864162
+[2020.05.09-11.34.42:728][323]LogTemp: -2.864162
+[2020.05.09-11.34.42:735][324]LogTemp: -2.864162
+[2020.05.09-11.34.42:797][325]LogTemp: -2.864162
+[2020.05.09-11.34.42:859][326]LogTemp: -2.864162
+[2020.05.09-11.34.42:939][327]LogTemp: -2.864162
+[2020.05.09-11.34.43:000][328]LogTemp: -2.864162
+[2020.05.09-11.34.43:062][329]LogTemp: -2.864162
+[2020.05.09-11.34.43:132][330]LogTemp: -2.864162
+[2020.05.09-11.34.43:195][331]LogTemp: -2.864162
+[2020.05.09-11.34.43:257][332]LogTemp: -2.864162
+[2020.05.09-11.34.43:308][333]LogTemp: -2.864162
+[2020.05.09-11.34.43:364][334]LogTemp: -2.864162
+[2020.05.09-11.34.43:410][335]LogTemp: -2.864162
+[2020.05.09-11.34.43:452][336]LogTemp: -2.864162
+[2020.05.09-11.34.43:496][337]LogTemp: -2.864162
+[2020.05.09-11.34.43:539][338]LogTemp: -2.864162
+[2020.05.09-11.34.43:685][339]LogTemp: -2.864162
+[2020.05.09-11.34.43:692][340]LogTemp: -2.864162
+[2020.05.09-11.34.43:706][341]LogTemp: -2.864162
+[2020.05.09-11.34.43:734][342]LogTemp: -2.864162
+[2020.05.09-11.34.43:775][343]LogTemp: -2.864162
+[2020.05.09-11.34.43:824][344]LogTemp: -2.864162
+[2020.05.09-11.34.43:871][345]LogTemp: -2.864162
+[2020.05.09-11.34.43:910][346]LogTemp: -2.864162
+[2020.05.09-11.34.43:951][347]LogTemp: -2.864162
+[2020.05.09-11.34.44:077][348]LogTemp: -2.864162
+[2020.05.09-11.34.44:085][349]LogTemp: -2.864162
+[2020.05.09-11.34.44:101][350]LogTemp: -2.864162
+[2020.05.09-11.34.44:138][351]LogTemp: -2.864162
+[2020.05.09-11.34.44:184][352]LogTemp: -2.864162
+[2020.05.09-11.34.44:223][353]LogTemp: -2.864162
+[2020.05.09-11.34.44:272][354]LogTemp: -2.864162
+[2020.05.09-11.34.44:373][355]LogTemp: -2.864162
+[2020.05.09-11.34.44:381][356]LogTemp: -2.864162
+[2020.05.09-11.34.44:423][357]LogWindowsDesktop: Alt-F4 pressed!
+[2020.05.09-11.34.44:515][357]LogSlate: Window 'PangeaMechanics (64-bit Development PCD3D_SM5) ' being destroyed
+[2020.05.09-11.34.44:525][357]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.09-11.34.44:542][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.09-11.34.44:543][357]LogEngine: All Windows Closed
+[2020.05.09-11.34.44:543][357]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.05.09-11.34.44:543][357]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.05.09-11.34.44:546][358]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.09-11.34.44:550][358]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.09-11.34.44:560][358]LogInit: Display: PreExit Game.
+[2020.05.09-11.34.44:561][358]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/TamingPrototypeTG
+[2020.05.09-11.34.44:561][358]LogWorld: UWorld::CleanupWorld for TamingPrototypeTG, bSessionEnded=true, bCleanupResources=true
+[2020.05.09-11.34.44:562][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated

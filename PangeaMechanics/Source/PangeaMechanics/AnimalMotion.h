@@ -28,10 +28,14 @@ private:
 	FVector AnimalToPlayerVector;
 
 	//Movement
-	float AnimalMovementSpeed = 8.0f;
+	//Maybe add a separate speed for fleeing?
+	UPROPERTY(EditAnywhere)
+	float AnimalMovementSpeed = 9.0f;
+	UPROPERTY(EditAnywhere)
 	float TargetAnimalPlayerDistance = 250.0f;
 	
 	//Rotation
+	UPROPERTY(EditAnywhere)
 	float AnimalRotationSpeed = 4.0f;
 	float AnimalRotationLeniency = 5.0f;
 	bool IsFinishedTurning = false;
@@ -41,13 +45,21 @@ private:
 	bool IsAlerted = false;
 	bool IsExhausted = false;
 	bool IsRiding = false;
+	bool IsGrounded = true;
 
 	//Fleeing
+	UPROPERTY(EditAnywhere)
+	float AnimalFleeSpeed = 7.0f;
+	UPROPERTY(EditAnywhere)
 	float TargetFleeDistance = 2000.0f;
+	UPROPERTY(EditAnywhere)
 	float AbandonHuntDistance = 4000.0f;
 	float Exhaustion = 0.0f;
+	UPROPERTY(EditAnywhere)
 	float ExhaustionIncrSpeed = 3.0f;
+	UPROPERTY(EditAnywhere)
 	float ExhaustionDecrSpeed = 2.0f;
+	UPROPERTY(EditAnywhere)
 	float MaxExhaustion = 1000.0f;
 
 public:	
@@ -89,10 +101,12 @@ public:
 	bool GetIsAlerted();
 	bool GetIsExhausted();
 	bool GetIsRiding();
+	bool GetIsGrounded();
 	void SetIsTamed(bool InputBool);
 	void SetIsAlerted(bool InputBool);
 	void SetIsExhausted(bool InputBool);
 	void SetIsRiding(bool InputBool);
+	void SetIsGrounded(bool InputBool);
 
 	//Fleeing
 	float GetTargetFleeDistance();
