@@ -1,0 +1,3 @@
+C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Source\PangeaMechanics\PlayerStats.h
+C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PlayerStats.generated.h

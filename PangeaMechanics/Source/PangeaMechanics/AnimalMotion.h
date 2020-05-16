@@ -26,13 +26,6 @@ protected:
 private:
 	//General
 	FVector AnimalToPlayerVector;
-
-	//Movement
-	//Maybe add a separate speed for fleeing?
-	UPROPERTY(EditAnywhere)
-	float AnimalMovementSpeed = 9.0f;
-	UPROPERTY(EditAnywhere)
-	float TargetAnimalPlayerDistance = 250.0f;
 	
 	//Rotation
 	UPROPERTY(EditAnywhere)
@@ -47,13 +40,25 @@ private:
 	bool IsRiding = false;
 	bool IsGrounded = true;
 
+	//Tamed
+	UPROPERTY(EditAnywhere)
+	float AnimalTamedSpeed = 9.0f;
+	UPROPERTY(EditAnywhere)
+	float TargetTamedDistance = 250.0f;
+
 	//Fleeing
 	UPROPERTY(EditAnywhere)
 	float AnimalFleeSpeed = 7.0f;
 	UPROPERTY(EditAnywhere)
 	float TargetFleeDistance = 2000.0f;
+
+	//Chasing
 	UPROPERTY(EditAnywhere)
-	float AbandonHuntDistance = 4000.0f;
+	float AnimalChasingSpeed = 8.0f;
+	UPROPERTY(EditAnywhere)
+	float TargetChasingDistance = 75.0f;
+
+	//Exhaustion
 	float Exhaustion = 0.0f;
 	UPROPERTY(EditAnywhere)
 	float ExhaustionIncrSpeed = 3.0f;
@@ -61,6 +66,12 @@ private:
 	float ExhaustionDecrSpeed = 2.0f;
 	UPROPERTY(EditAnywhere)
 	float MaxExhaustion = 1000.0f;
+	
+	//Other
+	UPROPERTY(EditAnywhere)
+	float AbandonHuntDistance = 4000.0f;
+
+
 
 public:	
 	// Called every frame
@@ -72,29 +83,23 @@ public:
 	//Movement
 	void TamedAnimalMovement();
 	void FleeingAnimalMovement();
-
-	//Functions used to calculate Movement
-	void CalcTamedAnimalSingleAxisPos(float AnimalToPlayerAxisDistance, FVector SignlessAdjustVec);
-	void CalcFleeingAnimalSingleAxisPos(float AnimalToPlayerAxisDistance, FVector SignlessAdjustVec);
-	void UpdateAnimalPos(FVector SignedAdjustVec);
+	void ChasingAnimalMovement();
+	void AnimalMovement(FString MovementType);
 
 	//Rotation
 	void TamedAnimalRotation();
 	void FleeingAnimalRotation();
-	bool GetIsFinishedTurning();
+	void ChasingAnimalRotation();
+	void AnimalRotation(float DirectionMultiplier);
 
 	//Functions used to calculate Rotation
-	void AnimalRotation(float DirectionMultiplier);
 	float RadiansToDegrees(float RadiansInput);
 	float CalcAngleFromDotProduct(FVector Input1, FVector Input2);
 	float MakeAnglePosOrNeg(FVector InputVector, float InputAngle, FString Axis);
 	float KeepWithinAngleRange(float InputAngle, float UpperLimit, float LowerLimit);
 	float CalcTurnDirection(float InputAngle);
 	void UpdateAnimalRot(float TurnDirectionMultiplier);
-
-	//Movement getters
-	FVector GetAnimalToPlayerVector();
-	float GetAnimalMovementSpeed();
+	bool GetIsFinishedTurning();
 
 	//Animal States
 	bool GetIsTamed();
@@ -108,6 +113,13 @@ public:
 	void SetIsRiding(bool InputBool);
 	void SetIsGrounded(bool InputBool);
 
+	//Movement General
+	FVector GetAnimalToPlayerVector();
+	FVector MakeUnitVectorWithZeroZComponent(FVector InputVector);
+
+	//Tamed
+	float GetAnimalTamedSpeed();
+	
 	//Fleeing
 	float GetTargetFleeDistance();
 	float GetAbandonHuntDistance();
@@ -118,4 +130,7 @@ public:
 	void SetExhaustion(int InputInt);
 	void IncrementExhaustion();
 	void DecrementExhaustion();
+
+	//Chasing
+	float GetTargetChasingDistance();
 };

@@ -1,0 +1,1726 @@
+﻿Log file open, 05/14/20 12:37:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PangeaMechanics
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.085748
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-11.37.58:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.14-11.37.58:270][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.14-11.37.58:271][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-11.37.58:271][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-11.37.58:273][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.14-11.37.58:273][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.14-11.37.58:274][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.14-11.37.58:274][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.14-11.37.58:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.14-11.37.58:277][  0]LogHAL: Display: Platform has ~ 8 GB [8416038912 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.14-11.37.58:277][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.14-11.37.58:277][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.05.14-11.37.58:277][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.14-11.37.58:278][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-11.37.58:279][  0]LogInit: Computer: DESKTOP-B76AR38
+[2020.05.14-11.37.58:279][  0]LogInit: User: Tom
+[2020.05.14-11.37.58:279][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.14-11.37.58:279][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.14-11.37.58:279][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.05.14-11.37.58:279][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.14-11.37.58:279][  0]LogMemory: Process Physical Memory: 105.84 MB used, 105.84 MB peak
+[2020.05.14-11.37.58:279][  0]LogMemory: Process Virtual Memory: 100.65 MB used, 100.65 MB peak
+[2020.05.14-11.37.58:279][  0]LogMemory: Physical Memory: 5866.08 MB used,  2160.08 MB free, 8026.16 MB total
+[2020.05.14-11.37.58:279][  0]LogMemory: Virtual Memory: 5137.57 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.05.14-11.37.58:282][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.14-11.37.58:297][  0]LogInit: Using OS detected language (en-GB).
+[2020.05.14-11.37.58:297][  0]LogInit: Using OS detected locale (en-GB).
+[2020.05.14-11.37.58:298][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.05.14-11.37.58:454][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.14-11.37.58:487][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.14-11.37.58:487][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.14-11.37.58:645][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.14-11.37.58:645][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.14-11.37.58:645][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.14-11.37.58:645][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.14-11.37.58:694][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.05.14-11.37.58:694][  0]LogD3D11RHI:       128/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.05.14-11.37.58:698][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.14-11.37.58:698][  0]LogD3D11RHI:       0/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.14-11.37.58:698][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.14-11.37.58:707][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.14-11.37.58:707][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.14-11.37.58:707][  0]LogWindows: EnumDisplayDevices:
+[2020.05.14-11.37.58:707][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.05.14-11.37.58:708][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.14-11.37.58:708][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.14-11.37.58:708][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.05.14-11.37.58:708][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2020.05.14-11.37.58:708][  0]LogD3D11RHI:   Driver Version: 25.20.100.6446 (internal:25.20.100.6446, unified:25.20.100.6446)
+[2020.05.14-11.37.58:708][  0]LogD3D11RHI:      Driver Date: 11-19-2018
+[2020.05.14-11.37.58:708][  0]LogRHI: Texture pool is 1494 MB (70% of 2134 MB)
+[2020.05.14-11.37.58:753][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.14-11.37.58:753][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.05.14-11.37.58:753][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.14-11.37.58:767][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.05.14-11.37.59:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.14-11.37.59:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.14-11.37.59:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.14-11.37.59:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.14-11.37.59:170][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.14-11.37.59:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.14-11.37.59:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.14-11.37.59:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.14-11.37.59:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.14-11.37.59:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.14-11.37.59:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.14-11.37.59:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.14-11.37.59:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.14-11.37.59:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.14-11.37.59:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.14-11.37.59:287][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.14-11.37.59:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.14-11.37.59:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.14-11.37.59:304][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.14-11.37.59:307][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.14-11.37.59:337][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/27308/).
+[2020.05.14-11.37.59:337][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tom/AppData/Local/Temp/UnrealShaderWorkingDir/B13F4EBF40D50E1C61702EB47D16128B/'.
+[2020.05.14-11.37.59:338][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.14-11.37.59:338][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.14-11.37.59:338][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.14-11.38.00:084][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.14-11.38.00:150][  0]LogDerivedDataCache: Loaded boot cache 0.07s 82MB C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.14-11.38.00:150][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.14-11.38.00:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.14-11.38.00:150][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.14-11.38.00:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.14-11.38.00:150][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.14-11.38.00:161][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.14-11.38.00:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.14-11.38.00:161][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.14-11.38.00:163][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.14-11.38.00:163][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.14-11.38.00:163][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.14-11.38.00:187][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.14-11.38.00:190][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.14-11.38.00:190][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.14-11.38.00:244][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
+[2020.05.14-11.38.00:563][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.14-11.38.00:713][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.14-11.38.00:713][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.14-11.38.00:714][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.14-11.38.00:714][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.14-11.38.00:714][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.14-11.38.00:725][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
+[2020.05.14-11.38.01:979][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.057401 seconds
+[2020.05.14-11.38.01:986][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.14-11.38.01:986][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.14-11.38.01:986][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.14-11.38.02:378][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.14-11.38.02:381][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.14-11.38.03:101][  0]SourceControl: Source control is disabled
+[2020.05.14-11.38.03:101][  0]SourceControl: Source control is disabled
+[2020.05.14-11.38.03:102][  0]SourceControl: Source control is disabled
+[2020.05.14-11.38.03:103][  0]SourceControl: Source control is disabled
+[2020.05.14-11.38.03:103][  0]SourceControl: Source control is disabled
+[2020.05.14-11.38.03:190][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.14-11.38.03:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.14-11.38.03:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.14-11.38.03:288][  0]LogOcInput: OculusInput pre-init called
+[2020.05.14-11.38.03:295][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.14-11.38.03:296][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.14-11.38.03:360][  0]LogEngine: Initializing Engine...
+[2020.05.14-11.38.03:361][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.14-11.38.03:362][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.14-11.38.03:712][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.14-11.38.03:719][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.14-11.38.03:880][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-11.38.03:880][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-11.38.03:880][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-11.38.03:880][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-11.38.03:880][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-11.38.03:880][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-11.38.03:880][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-11.38.03:880][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-11.38.03:881][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-11.38.03:881][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: Name: Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-11.38.03:911][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-11.38.04:032][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.38.04:038][  0]LogInit: FAudioDevice initialized.
+[2020.05.14-11.38.04:038][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.14-11.38.04:189][  0]LogDerivedDataCache: Saved boot cache 0.15s 82MB C:/Users/Tom/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.14-11.38.04:190][  0]LogInit: Texture streaming: Enabled
+[2020.05.14-11.38.04:201][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.14-11.38.04:201][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.14-11.38.04:206][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.14-11.38.04:265][  0]LogInit: Transaction tracking system initialized
+[2020.05.14-11.38.04:275][  0]BlueprintLog: New page: Editor Load
+[2020.05.14-11.38.04:305][  0]LocalizationService: Localization service is disabled
+[2020.05.14-11.38.05:572][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/' took 0.00s
+[2020.05.14-11.38.05:572][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.14-11.38.05:572][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.14-11.38.06:303][  0]SourceControl: Source control is disabled
+[2020.05.14-11.38.06:437][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.14-11.38.11:617][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.05.14-11.38.11:618][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-11.38.11:623][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-11.38.13:175][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.05.14-11.38.13:176][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-11.38.13:180][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-11.38.13:205][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.14-11.38.13:206][  0]LightingResults: New page: Lighting Build
+[2020.05.14-11.38.13:208][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-11.38.13:208][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-11.38.13:208][  0]MapCheck: New page: Map Check
+[2020.05.14-11.38.13:209][  0]LightingResults: New page: Lighting Build
+[2020.05.14-11.38.13:257][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.05.14-11.38.13:425][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.14-11.38.13:442][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2020.05.14-11.38.13:480][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.05.14-11.38.13:480][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.14-11.38.13:480][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.249ms to complete.
+[2020.05.14-11.38.13:481][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.276
+[2020.05.14-11.38.13:598][  0]LogCollectionManager: Loaded 0 collections in 0.001833 seconds
+[2020.05.14-11.38.13:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Saved/Collections/' took 0.00s
+[2020.05.14-11.38.13:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Developers/Tom/Collections/' took 0.00s
+[2020.05.14-11.38.13:616][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/Collections/' took 0.00s
+[2020.05.14-11.38.13:616][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3023 classes and 719 folders.
+[2020.05.14-11.38.13:622][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.14-11.38.13:775][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.14-11.38.13:798][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.38.13:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.38.13:813][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.38.13:820][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.38.13:832][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2020.05.14-11.38.13:870][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.14-11.38.13:873][  0]LogSlate: Took 0.000791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.14-11.38.13:874][  0]LogSlate: Took 0.000690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.05.14-11.38.13:958][  0]LogRenderer: Reallocating scene render targets to support 676x368 Format 9 NumSamples 1 (Frame:1).
+[2020.05.14-11.38.14:253][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.05.14-11.38.14:253][  0]LogLoad: (Engine Initialization) Total time: 17.38 seconds
+[2020.05.14-11.38.14:253][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.14-11.38.14:323][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.05.14-11.38.14:663][  0]LogRenderer: Reallocating scene render targets to support 676x380 Format 9 NumSamples 1 (Frame:2).
+[2020.05.14-11.38.14:786][  1]LogAssetRegistry: Asset discovery search completed in 14.5428 seconds
+[2020.05.14-11.38.14:790][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2020.05.14-11.38.16:302][ 79]Candidate modules for hot reload:
+[2020.05.14-11.38.16:302][ 79]  PangeaMechanics
+[2020.05.14-11.38.16:302][ 79]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,4437 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.05.14-11.38.16:311][ 79]Warning: Starting HotReload took  0.0s.
+[2020.05.14-11.38.17:975][147]LogSlate: Took 0.000660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.14-11.38.19:135][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.05.14-11.38.19:141][195]Cmd: MAP LOAD FILE="../../../../../../Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/TamingPrototypeTG.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.14-11.38.19:145][195]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.14-11.38.19:190][195]LightingResults: New page: Lighting Build
+[2020.05.14-11.38.19:192][195]LoadErrors: New page: Loading map: TamingPrototypeTG.umap
+[2020.05.14-11.38.19:193][195]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-11.38.19:193][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-11.38.19:193][195]MapCheck: New page: Map Check
+[2020.05.14-11.38.19:193][195]LightingResults: New page: Lighting Build
+[2020.05.14-11.38.19:222][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.05.14-11.38.19:341][195]LogAIModule: Creating AISystem for world TamingPrototypeTG
+[2020.05.14-11.38.19:346][195]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.14-11.38.19:400][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.05.14-11.38.19:475][195]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.14-11.38.19:475][195]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.137ms to complete.
+[2020.05.14-11.38.19:475][195]LogFileHelpers: Loading map 'TamingPrototypeTG' took 0.335
+[2020.05.14-11.38.19:476][195]LogSlate: Window 'Open Level' being destroyed
+[2020.05.14-11.38.21:516][282]CompilerResultsLog: New page: Compilation - 14 May 2020, 13:38:21
+[2020.05.14-11.38.21:517][282]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.05.14-11.38.21:517][282]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.05.14-11.38.21:517][282]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.14-11.38.21:517][282]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.05.14-11.38.21:517][282]CompilerResultsLog:   [1/4] AnimalSight.cpp
+[2020.05.14-11.38.21:517][282]CompilerResultsLog:   [2/4] UE4Editor-PangeaMechanics-4437.lib
+[2020.05.14-11.38.21:517][282]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4437.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4437.exp
+[2020.05.14-11.38.21:517][282]CompilerResultsLog:   [3/4] UE4Editor-PangeaMechanics-4437.dll
+[2020.05.14-11.38.21:517][282]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4437.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4437.suppressed.exp
+[2020.05.14-11.38.21:517][282]CompilerResultsLog:   [4/4] PangeaMechanicsEditor.target
+[2020.05.14-11.38.21:517][282]CompilerResultsLog: Total time in Parallel executor: 3.18 seconds
+[2020.05.14-11.38.21:517][282]CompilerResultsLog: Total execution time: 5.00 seconds
+[2020.05.14-11.38.21:517][282]LogMainFrame: MainFrame: Module compiling took 5.219 seconds
+[2020.05.14-11.38.21:546][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.05.14-11.38.21:836][282]LogHotReload: Re-instancing AnimalTriggerBox after hot-reload.
+[2020.05.14-11.38.21:967][282]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2020.05.14-11.38.21:970][282]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.05.14-11.38.22:037][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.05.14-11.38.22:050][282]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3025 classes and 722 folders.
+[2020.05.14-11.38.22:051][282]Display: HotReload took  5.8s.
+[2020.05.14-11.38.48:809][429]Candidate modules for hot reload:
+[2020.05.14-11.38.48:809][429]  PangeaMechanics
+[2020.05.14-11.38.48:809][429]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,4620 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.05.14-11.38.48:815][429]Warning: Starting HotReload took  0.0s.
+[2020.05.14-11.38.53:790][707]CompilerResultsLog: New page: Compilation - 14 May 2020, 13:38:53
+[2020.05.14-11.38.53:790][707]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.05.14-11.38.53:790][707]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.05.14-11.38.53:790][707]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.14-11.38.53:790][707]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.05.14-11.38.53:790][707]CompilerResultsLog:   [1/4] AnimalSight.cpp
+[2020.05.14-11.38.53:790][707]CompilerResultsLog:   [2/4] UE4Editor-PangeaMechanics-4620.lib
+[2020.05.14-11.38.53:790][707]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4620.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4620.exp
+[2020.05.14-11.38.53:790][707]CompilerResultsLog:   [3/4] UE4Editor-PangeaMechanics-4620.dll
+[2020.05.14-11.38.53:790][707]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4620.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-4620.suppressed.exp
+[2020.05.14-11.38.53:790][707]CompilerResultsLog:   [4/4] PangeaMechanicsEditor.target
+[2020.05.14-11.38.53:790][707]CompilerResultsLog: Total time in Parallel executor: 3.01 seconds
+[2020.05.14-11.38.53:790][707]CompilerResultsLog: Total execution time: 4.78 seconds
+[2020.05.14-11.38.53:791][707]LogMainFrame: MainFrame: Module compiling took 4.993 seconds
+[2020.05.14-11.38.53:820][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.05.14-11.38.54:096][707]LogHotReload: Re-instancing AnimalTriggerBox after hot-reload.
+[2020.05.14-11.38.54:262][707]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2020.05.14-11.38.54:264][707]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.05.14-11.38.54:331][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.05.14-11.38.54:344][707]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3025 classes and 722 folders.
+[2020.05.14-11.38.54:344][707]Display: HotReload took  5.6s.
+[2020.05.14-11.39.01:183][117]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.14-11.39.01:198][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.01:198][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.14-11.39.01:198][117]PIE: New page: PIE session: TamingPrototypeTG (14 May 2020, 13:39:01)
+[2020.05.14-11.39.01:199][117]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.14-11.39.01:200][117]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.14-11.39.01:200][117]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG
+[2020.05.14-11.39.01:218][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017483s)
+[2020.05.14-11.39.01:219][117]LogAIModule: Creating AISystem for world TamingPrototypeTG
+[2020.05.14-11.39.01:219][117]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2020.05.14-11.39.01:219][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG (0.019040s)
+[2020.05.14-11.39.01:247][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-11.39.01:248][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-11.39.01:248][117]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-11.39.01:248][117]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: Name: Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: Is Default: Yes
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: Channel Order:
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-11.39.01:260][117]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-11.39.01:285][117]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.39.01:287][117]LogInit: FAudioDevice initialized.
+[2020.05.14-11.39.01:302][117]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.05.14-11.39.01:306][117]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG up for play (max tick rate 60) at 2020.05.14-12.39.01
+[2020.05.14-11.39.01:307][117]LogWorld: Bringing up level for play took: 0.003033
+[2020.05.14-11.39.01:307][117]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.05.14-11.39.01:343][117]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.05.14-11.39.01:343][117]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG -0.208
+[2020.05.14-11.39.01:344][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.01:345][117]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:455][118]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:550][119]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:568][120]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:586][121]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:600][122]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:619][123]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:635][124]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:653][125]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:667][126]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:685][127]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:702][128]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:719][129]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:736][130]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:751][131]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:768][132]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:785][133]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:802][134]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:820][135]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:834][136]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:851][137]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:868][138]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:885][139]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:902][140]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:919][141]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:936][142]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:953][143]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:969][144]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.01:984][145]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:002][146]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:018][147]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:035][148]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:052][149]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:069][150]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:085][151]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:102][152]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:119][153]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:136][154]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:152][155]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:168][156]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:184][157]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:203][158]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:219][159]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:235][160]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:253][161]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:269][162]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:285][163]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:303][164]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:320][165]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:334][166]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:351][167]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:369][168]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:385][169]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:401][170]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:419][171]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:437][172]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:453][173]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:472][174]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:488][175]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:509][176]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:528][177]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:544][178]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:564][179]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:583][180]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:597][181]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:619][182]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:638][183]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:655][184]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:671][185]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:687][186]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:704][187]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:720][188]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:737][189]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:754][190]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:770][191]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:787][192]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:803][193]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:820][194]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:836][195]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:853][196]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:870][197]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:887][198]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:903][199]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:921][200]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:938][201]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:956][202]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:973][203]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.02:988][204]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:006][205]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:022][206]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:038][207]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:054][208]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:073][209]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:087][210]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:104][211]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:121][212]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:137][213]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:154][214]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:171][215]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:187][216]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:204][217]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:221][218]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:246][219]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:261][220]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:279][221]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:295][222]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:312][223]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:328][224]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:345][225]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:362][226]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:378][227]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:395][228]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:412][229]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:428][230]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:445][231]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:461][232]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:478][233]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:494][234]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:511][235]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:528][236]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:545][237]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:561][238]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:577][239]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:595][240]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:613][241]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:628][242]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:645][243]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:661][244]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:678][245]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:695][246]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:712][247]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:728][248]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:745][249]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:761][250]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:779][251]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:795][252]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:812][253]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:829][254]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:845][255]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:861][256]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:878][257]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:894][258]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:911][259]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:929][260]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:945][261]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:963][262]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:981][263]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.03:998][264]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:015][265]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:032][266]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:048][267]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:064][268]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:081][269]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:097][270]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:114][271]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:131][272]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:149][273]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:165][274]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:182][275]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:199][276]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:215][277]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:233][278]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:248][279]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:264][280]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:281][281]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:298][282]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:313][283]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:331][284]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:349][285]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:365][286]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:381][287]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:398][288]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:414][289]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:431][290]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:431][290]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:449][291]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:449][291]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:464][292]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:464][292]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:481][293]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:481][293]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:498][294]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:498][294]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:515][295]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:515][295]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:531][296]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:531][296]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:548][297]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:548][297]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:565][298]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:565][298]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:582][299]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:582][299]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:599][300]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:599][300]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:615][301]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:615][301]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:632][302]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:632][302]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:649][303]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:649][303]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:667][304]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:667][304]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:682][305]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:682][305]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:699][306]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:700][306]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:716][307]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:716][307]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:733][308]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:733][308]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:748][309]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:749][309]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:765][310]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:765][310]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:781][311]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:781][311]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:800][312]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:800][312]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:816][313]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:816][313]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:835][314]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:835][314]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:850][315]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:850][315]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:869][316]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:869][316]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:883][317]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:883][317]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:900][318]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:901][318]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:916][319]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:917][319]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:934][320]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:935][320]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:949][321]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:949][321]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:968][322]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:968][322]LogTemp: CARNIVORE!
+[2020.05.14-11.39.04:984][323]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.04:985][323]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:001][324]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:001][324]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:017][325]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:017][325]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:033][326]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:033][326]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:050][327]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:050][327]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:067][328]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:067][328]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:083][329]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:083][329]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:100][330]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:100][330]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:117][331]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:117][331]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:133][332]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:134][332]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:151][333]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:151][333]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:169][334]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:169][334]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:184][335]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:184][335]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:200][336]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:200][336]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:216][337]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:216][337]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:233][338]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:233][338]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:252][339]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:252][339]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:269][340]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:270][340]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:287][341]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:288][341]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:305][342]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:305][342]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:322][343]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:322][343]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:339][344]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:339][344]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:357][345]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:357][345]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:374][346]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:374][346]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:391][347]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:391][347]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:407][348]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:408][348]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:425][349]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:426][349]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:442][350]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:442][350]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:459][351]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:459][351]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:475][352]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:476][352]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:493][353]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:493][353]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:509][354]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:509][354]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:526][355]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:526][355]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:543][356]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:543][356]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:559][357]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:560][357]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:576][358]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:576][358]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:593][359]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:593][359]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:608][360]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:608][360]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:625][361]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:625][361]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:642][362]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:642][362]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:658][363]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:658][363]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:675][364]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:675][364]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:692][365]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:692][365]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:709][366]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:709][366]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:726][367]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:726][367]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:744][368]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:744][368]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:760][369]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:760][369]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:776][370]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:776][370]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:792][371]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:793][371]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:810][372]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:810][372]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:825][373]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:825][373]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:842][374]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:842][374]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:859][375]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:859][375]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:876][376]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:876][376]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:892][377]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:893][377]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:909][378]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:910][378]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:926][379]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:926][379]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:944][380]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:944][380]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:959][381]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:959][381]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:976][382]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:977][382]LogTemp: CARNIVORE!
+[2020.05.14-11.39.05:993][383]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.05:993][383]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:010][384]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:010][384]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:027][385]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:027][385]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:042][386]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:042][386]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:059][387]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:059][387]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:075][388]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:075][388]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:092][389]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:092][389]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:109][390]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:109][390]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:126][391]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:126][391]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:143][392]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:143][392]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:159][393]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:159][393]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:176][394]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:176][394]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:192][395]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:193][395]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:209][396]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:209][396]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:226][397]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:226][397]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:242][398]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:242][398]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:258][399]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:259][399]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:275][400]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:275][400]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:292][401]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:292][401]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:309][402]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:309][402]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:325][403]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:326][403]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:342][404]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:343][404]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:359][405]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:359][405]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:376][406]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:376][406]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:392][407]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:393][407]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:409][408]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:409][408]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:426][409]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:426][409]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:444][410]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:444][410]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:460][411]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:460][411]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:477][412]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:477][412]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:495][413]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:495][413]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:510][414]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:511][414]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:526][415]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:526][415]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:543][416]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:543][416]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:559][417]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:559][417]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:576][418]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:576][418]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:592][419]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:592][419]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:609][420]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:609][420]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:626][421]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:626][421]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:654][422]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:654][422]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:669][423]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:669][423]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:688][424]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:688][424]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:704][425]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:704][425]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:734][426]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.06:734][426]LogTemp: CARNIVORE!
+[2020.05.14-11.39.06:735][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-11.39.06:751][426]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.14-11.39.06:771][426]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.14-11.39.06:771][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.06:771][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.39.06:771][426]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG
+[2020.05.14-11.39.06:771][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-11.39.06:771][426]LogWorld: UWorld::CleanupWorld for TamingPrototypeTG, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-11.39.06:772][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-11.39.06:778][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.14-11.39.06:778][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.06:781][426]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-11.39.06:805][426]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-11.39.06:810][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.39.06:812][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.05.14-11.39.06:840][427]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.05.14-11.39.15:777][539]Candidate modules for hot reload:
+[2020.05.14-11.39.15:777][539]  PangeaMechanics
+[2020.05.14-11.39.15:777][539]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,6987 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.05.14-11.39.15:783][539]Warning: Starting HotReload took  0.0s.
+[2020.05.14-11.39.20:774][819]CompilerResultsLog: New page: Compilation - 14 May 2020, 13:39:20
+[2020.05.14-11.39.20:774][819]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.05.14-11.39.20:774][819]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.05.14-11.39.20:774][819]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.14-11.39.20:774][819]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.05.14-11.39.20:774][819]CompilerResultsLog:   [1/4] AnimalSight.cpp
+[2020.05.14-11.39.20:774][819]CompilerResultsLog:   [2/4] UE4Editor-PangeaMechanics-6987.lib
+[2020.05.14-11.39.20:774][819]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6987.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6987.exp
+[2020.05.14-11.39.20:774][819]CompilerResultsLog:   [3/4] UE4Editor-PangeaMechanics-6987.dll
+[2020.05.14-11.39.20:774][819]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6987.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-6987.suppressed.exp
+[2020.05.14-11.39.20:774][819]CompilerResultsLog:   [4/4] PangeaMechanicsEditor.target
+[2020.05.14-11.39.20:774][819]CompilerResultsLog: Total time in Parallel executor: 3.09 seconds
+[2020.05.14-11.39.20:774][819]CompilerResultsLog: Total execution time: 4.89 seconds
+[2020.05.14-11.39.20:774][819]LogMainFrame: MainFrame: Module compiling took 5.000 seconds
+[2020.05.14-11.39.20:804][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.05.14-11.39.21:090][819]LogHotReload: Re-instancing AnimalTriggerBox after hot-reload.
+[2020.05.14-11.39.21:207][819]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2020.05.14-11.39.21:210][819]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.05.14-11.39.21:282][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.05.14-11.39.21:294][819]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3025 classes and 722 folders.
+[2020.05.14-11.39.21:294][819]Display: HotReload took  5.5s.
+[2020.05.14-11.39.22:758][906]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.14-11.39.22:777][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.22:777][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.14-11.39.22:778][906]PIE: New page: PIE session: TamingPrototypeTG (14 May 2020, 13:39:22)
+[2020.05.14-11.39.22:778][906]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG
+[2020.05.14-11.39.22:791][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012369s)
+[2020.05.14-11.39.22:792][906]LogAIModule: Creating AISystem for world TamingPrototypeTG
+[2020.05.14-11.39.22:792][906]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2020.05.14-11.39.22:792][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG (0.014188s)
+[2020.05.14-11.39.22:818][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.05.14-11.39.22:819][906]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-11.39.22:819][906]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-11.39.22:819][906]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-11.39.22:819][906]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-11.39.22:819][906]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-11.39.22:819][906]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-11.39.22:819][906]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-11.39.22:819][906]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-11.39.22:820][906]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-11.39.22:820][906]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: Name: Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: Is Default: Yes
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: Channel Order:
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-11.39.22:832][906]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-11.39.22:852][906]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.39.22:853][906]LogInit: FAudioDevice initialized.
+[2020.05.14-11.39.22:860][906]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.05.14-11.39.22:864][906]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG up for play (max tick rate 60) at 2020.05.14-12.39.22
+[2020.05.14-11.39.22:865][906]LogWorld: Bringing up level for play took: 0.002957
+[2020.05.14-11.39.22:865][906]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.05.14-11.39.22:868][906]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG -0.685
+[2020.05.14-11.39.22:868][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.22:868][906]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:008][907]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:069][908]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:086][909]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:104][910]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:119][911]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:136][912]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:153][913]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:177][914]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:197][915]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:214][916]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:231][917]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:260][918]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:277][919]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:294][920]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:310][921]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:330][922]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:347][923]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:365][924]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:381][925]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:397][926]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:414][927]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:432][928]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:448][929]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:464][930]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:482][931]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:502][932]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:515][933]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:531][934]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:548][935]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:565][936]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:581][937]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:597][938]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:614][939]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:631][940]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:651][941]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:669][942]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:687][943]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:705][944]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:723][945]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:741][946]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:760][947]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:779][948]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:795][949]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:813][950]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:829][951]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:849][952]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:867][953]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:896][954]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:906][955]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:923][956]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:939][957]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:955][958]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:972][959]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.23:989][960]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:008][961]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:028][962]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:045][963]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:061][964]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:078][965]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:095][966]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:113][967]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:128][968]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:146][969]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:164][970]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:183][971]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:200][972]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:227][973]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:261][974]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:277][975]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:310][976]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:342][977]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:364][978]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:394][979]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:426][980]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:449][981]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:477][982]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:510][983]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:534][984]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:560][985]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:594][986]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:615][987]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:643][988]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:677][989]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:699][990]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:727][991]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:760][992]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:782][993]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:810][994]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:843][995]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:863][996]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:893][997]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:926][998]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:944][999]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.24:977][  0]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:009][  1]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:009][  1]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:033][  2]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:033][  2]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:064][  3]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:064][  3]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:092][  4]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:093][  4]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:114][  5]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:115][  5]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:146][  6]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:146][  6]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:176][  7]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:176][  7]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:196][  8]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:196][  8]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:226][  9]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:226][  9]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:260][ 10]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:260][ 10]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:279][ 11]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:279][ 11]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:310][ 12]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:310][ 12]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:342][ 13]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:342][ 13]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:365][ 14]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:366][ 14]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:392][ 15]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:392][ 15]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:413][ 16]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:413][ 16]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:430][ 17]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:430][ 17]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:459][ 18]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:459][ 18]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:477][ 19]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:477][ 19]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:494][ 20]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:494][ 20]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:510][ 21]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:510][ 21]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:542][ 22]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:542][ 22]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:559][ 23]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:559][ 23]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:575][ 24]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:575][ 24]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:592][ 25]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:593][ 25]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:609][ 26]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:609][ 26]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:626][ 27]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:626][ 27]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:658][ 28]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:658][ 28]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:676][ 29]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:676][ 29]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:709][ 30]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:709][ 30]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:742][ 31]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:742][ 31]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:760][ 32]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:760][ 32]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:792][ 33]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:792][ 33]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:825][ 34]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:826][ 34]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:843][ 35]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:843][ 35]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:860][ 36]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:860][ 36]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:880][ 37]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:881][ 37]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:898][ 38]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:898][ 38]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:915][ 39]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:916][ 39]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:933][ 40]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:933][ 40]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:951][ 41]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:951][ 41]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:969][ 42]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:969][ 42]LogTemp: CARNIVORE!
+[2020.05.14-11.39.25:987][ 43]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.25:987][ 43]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:005][ 44]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:005][ 44]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:023][ 45]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:023][ 45]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:041][ 46]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:041][ 46]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:059][ 47]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:059][ 47]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:076][ 48]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:076][ 48]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:093][ 49]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:093][ 49]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:110][ 50]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:110][ 50]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:126][ 51]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:127][ 51]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:143][ 52]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:143][ 52]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:162][ 53]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:162][ 53]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:179][ 54]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:179][ 54]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:195][ 55]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:196][ 55]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:213][ 56]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:213][ 56]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:229][ 57]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:229][ 57]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:245][ 58]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:245][ 58]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:263][ 59]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:263][ 59]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:279][ 60]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:279][ 60]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:297][ 61]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:297][ 61]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:314][ 62]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:314][ 62]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:331][ 63]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:331][ 63]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:349][ 64]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:349][ 64]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:368][ 65]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:368][ 65]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:384][ 66]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:384][ 66]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:401][ 67]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:401][ 67]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:418][ 68]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:418][ 68]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:436][ 69]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:436][ 69]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:453][ 70]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:453][ 70]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:471][ 71]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:471][ 71]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:488][ 72]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:488][ 72]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:505][ 73]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:505][ 73]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:523][ 74]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:523][ 74]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:540][ 75]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:540][ 75]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:557][ 76]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:558][ 76]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:575][ 77]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:575][ 77]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:593][ 78]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:593][ 78]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:612][ 79]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:612][ 79]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:629][ 80]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:629][ 80]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:648][ 81]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:648][ 81]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:667][ 82]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:667][ 82]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:684][ 83]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:684][ 83]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:703][ 84]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:703][ 84]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:720][ 85]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:720][ 85]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:737][ 86]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:738][ 86]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:770][ 87]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:770][ 87]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:789][ 88]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:789][ 88]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:818][ 89]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.26:818][ 89]LogTemp: CARNIVORE!
+[2020.05.14-11.39.26:820][ 89]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-11.39.26:821][ 89]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.14-11.39.26:841][ 89]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.14-11.39.26:841][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.26:842][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.39.26:842][ 89]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG
+[2020.05.14-11.39.26:842][ 89]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-11.39.26:842][ 89]LogWorld: UWorld::CleanupWorld for TamingPrototypeTG, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-11.39.26:842][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-11.39.26:854][ 89]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.14-11.39.26:854][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.26:859][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-11.39.26:880][ 89]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-11.39.26:884][ 89]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-11.39.26:888][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.05.14-11.39.26:916][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.05.14-11.39.39:669][184]Candidate modules for hot reload:
+[2020.05.14-11.39.39:669][184]  PangeaMechanics
+[2020.05.14-11.39.39:669][184]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PangeaMechanics,5024 Win64 Development -TargetType=Editor -Project="C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" "C:/Users/Tom/Documents/GitHub/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject"  -IgnoreJunk]
+[2020.05.14-11.39.39:676][184]Warning: Starting HotReload took  0.0s.
+[2020.05.14-11.39.44:117][377]CompilerResultsLog: New page: Compilation - 14 May 2020, 13:39:44
+[2020.05.14-11.39.44:117][377]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Tom\Documents\GitHub\PangeaRepo).
+[2020.05.14-11.39.44:117][377]CompilerResultsLog: Building PangeaMechanicsEditor...
+[2020.05.14-11.39.44:117][377]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.14-11.39.44:117][377]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.05.14-11.39.44:117][377]CompilerResultsLog:   [1/4] AnimalSight.cpp
+[2020.05.14-11.39.44:117][377]CompilerResultsLog:   [2/4] UE4Editor-PangeaMechanics-5024.lib
+[2020.05.14-11.39.44:117][377]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5024.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5024.exp
+[2020.05.14-11.39.44:118][377]CompilerResultsLog:   [3/4] UE4Editor-PangeaMechanics-5024.dll
+[2020.05.14-11.39.44:118][377]CompilerResultsLog:      Creating library C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5024.suppressed.lib and object C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics-5024.suppressed.exp
+[2020.05.14-11.39.44:118][377]CompilerResultsLog:   [4/4] PangeaMechanicsEditor.target
+[2020.05.14-11.39.44:118][377]CompilerResultsLog: Total time in Parallel executor: 2.96 seconds
+[2020.05.14-11.39.44:118][377]CompilerResultsLog: Total execution time: 4.34 seconds
+[2020.05.14-11.39.44:118][377]LogMainFrame: MainFrame: Module compiling took 4.455 seconds
+[2020.05.14-11.39.44:148][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.05.14-11.39.44:419][377]LogHotReload: Re-instancing AnimalTriggerBox after hot-reload.
+[2020.05.14-11.39.44:538][377]LogContentBrowser: Native class hierarchy updated for 'PangeaMechanics' in 0.0005 seconds. Added 8 classes and 2 folders.
+[2020.05.14-11.39.44:541][377]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.05.14-11.39.44:603][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.05.14-11.39.44:615][377]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3025 classes and 722 folders.
+[2020.05.14-11.39.44:615][377]Display: HotReload took  5.0s.
+[2020.05.14-11.39.45:486][429]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.14-11.39.45:504][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.45:505][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.14-11.39.45:505][429]PIE: New page: PIE session: TamingPrototypeTG (14 May 2020, 13:39:45)
+[2020.05.14-11.39.45:505][429]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG
+[2020.05.14-11.39.45:519][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014192s)
+[2020.05.14-11.39.45:520][429]LogAIModule: Creating AISystem for world TamingPrototypeTG
+[2020.05.14-11.39.45:521][429]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2020.05.14-11.39.45:521][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG to /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG (0.016020s)
+[2020.05.14-11.39.45:546][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.05.14-11.39.45:546][429]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-11.39.45:546][429]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-11.39.45:546][429]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-11.39.45:546][429]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-11.39.45:546][429]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-11.39.45:547][429]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-11.39.45:547][429]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-11.39.45:547][429]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-11.39.45:547][429]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-11.39.45:547][429]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: Name: Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: Is Default: Yes
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: Channel Order:
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-11.39.45:560][429]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-11.39.45:577][429]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.05.14-11.39.45:579][429]LogInit: FAudioDevice initialized.
+[2020.05.14-11.39.45:593][429]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.05.14-11.39.45:595][429]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG.TamingPrototypeTG up for play (max tick rate 60) at 2020.05.14-12.39.45
+[2020.05.14-11.39.45:596][429]LogWorld: Bringing up level for play took: 0.002026
+[2020.05.14-11.39.45:596][429]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.14-11.39.45:598][429]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_TamingPrototypeTG 0.046
+[2020.05.14-11.39.45:598][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG' with GeneratedClass '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/TamingPrototypeTG.TamingPrototypeTG:PersistentLevel.TamingPrototypeTG'
+[2020.05.14-11.39.45:598][429]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:725][430]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:782][431]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:799][432]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:814][433]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:832][434]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:848][435]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:865][436]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:882][437]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:898][438]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:915][439]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:941][440]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:975][441]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.45:997][442]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:026][443]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:044][444]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:062][445]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:092][446]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:112][447]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:128][448]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:146][449]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:175][450]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:193][451]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:225][452]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:258][453]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:276][454]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:308][455]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:341][456]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:358][457]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:375][458]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:392][459]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:411][460]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:428][461]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:445][462]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:462][463]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:479][464]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:499][465]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:522][466]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:558][467]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:572][468]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:590][469]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:607][470]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:622][471]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:640][472]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:654][473]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:672][474]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:688][475]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:707][476]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:727][477]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:743][478]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:760][479]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:778][480]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:795][481]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:812][482]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:828][483]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:844][484]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:861][485]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:889][486]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:904][487]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:920][488]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:936][489]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:953][490]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:969][491]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.46:985][492]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:002][493]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:019][494]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:036][495]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:052][496]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:070][497]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:085][498]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:104][499]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:119][500]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:137][501]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:154][502]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:170][503]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:186][504]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:204][505]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:219][506]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:235][507]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:252][508]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:269][509]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:286][510]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:303][511]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:319][512]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:336][513]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:353][514]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:369][515]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:386][516]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:402][517]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:419][518]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:436][519]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:453][520]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:470][521]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:486][522]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:503][523]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:519][524]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:537][525]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:553][526]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:569][527]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:586][528]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:602][529]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:619][530]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:637][531]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:654][532]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:669][533]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:687][534]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:702][535]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:719][536]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:735][537]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:753][538]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:770][539]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:786][540]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:802][541]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:819][542]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:835][543]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:852][544]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:869][545]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:886][546]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:903][547]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:921][548]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:938][549]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:955][550]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:974][551]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.47:994][552]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:010][553]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:029][554]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:047][555]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:066][556]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:084][557]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:102][558]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:120][559]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:137][560]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:155][561]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:174][562]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:191][563]LogTemp: Exhaustion level: 0.0/1000.0
+[2020.05.14-11.39.48:191][563]LogTemp: CARNIVORE!

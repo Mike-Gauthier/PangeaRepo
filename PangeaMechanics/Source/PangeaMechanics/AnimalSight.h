@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "AnimalMotion.h"
+#include "PlayerStats.h"
 #include "AnimalSight.generated.h"
 
 
@@ -24,13 +25,24 @@ protected:
 private:
 	float PlayerAngleFromSightCentre;
 
+	UPROPERTY(EditAnywhere)
+	bool IsHerbivore = true;
+
 	//Angle size variables
 	UPROPERTY(EditAnywhere)
 	float HalfAnimalSightAngle = 30.0f;
 	UPROPERTY(EditAnywhere)
 	float AnimalSightReach = 1700.0f;
 
+	//Attacking
+	UPROPERTY(EditAnywhere)
+	float AnimalAttackDamage = 10.0f;
+	int FrameCount;
+	UPROPERTY(EditAnywhere)
+	int IdleAttackRate = 30;
+
 	UAnimalMotion* AnimalMotion;
+	UPlayerStats* PlayerStats;
 
 public:	
 	// Called every frame
@@ -44,4 +56,8 @@ public:
 	void IfInUnawareState();
 	void IfInAlertedState();
 	void IfInExhaustedState();
+
+	//Creature type-specific behaviour
+	void HerbivoreAlertBehaviour();
+	void CarnivoreAlertBehaviour();
 };

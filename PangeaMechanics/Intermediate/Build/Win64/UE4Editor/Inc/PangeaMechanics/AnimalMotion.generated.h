@@ -59,15 +59,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAnimalMotion); \
 
 
 #define PangeaMechanics_Source_PangeaMechanics_AnimalMotion_h_16_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__AnimalMovementSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalMovementSpeed); } \
-	FORCEINLINE static uint32 __PPO__TargetAnimalPlayerDistance() { return STRUCT_OFFSET(UAnimalMotion, TargetAnimalPlayerDistance); } \
 	FORCEINLINE static uint32 __PPO__AnimalRotationSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalRotationSpeed); } \
+	FORCEINLINE static uint32 __PPO__AnimalTamedSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalTamedSpeed); } \
+	FORCEINLINE static uint32 __PPO__TargetTamedDistance() { return STRUCT_OFFSET(UAnimalMotion, TargetTamedDistance); } \
 	FORCEINLINE static uint32 __PPO__AnimalFleeSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalFleeSpeed); } \
 	FORCEINLINE static uint32 __PPO__TargetFleeDistance() { return STRUCT_OFFSET(UAnimalMotion, TargetFleeDistance); } \
-	FORCEINLINE static uint32 __PPO__AbandonHuntDistance() { return STRUCT_OFFSET(UAnimalMotion, AbandonHuntDistance); } \
+	FORCEINLINE static uint32 __PPO__AnimalChasingSpeed() { return STRUCT_OFFSET(UAnimalMotion, AnimalChasingSpeed); } \
+	FORCEINLINE static uint32 __PPO__TargetChasingDistance() { return STRUCT_OFFSET(UAnimalMotion, TargetChasingDistance); } \
 	FORCEINLINE static uint32 __PPO__ExhaustionIncrSpeed() { return STRUCT_OFFSET(UAnimalMotion, ExhaustionIncrSpeed); } \
 	FORCEINLINE static uint32 __PPO__ExhaustionDecrSpeed() { return STRUCT_OFFSET(UAnimalMotion, ExhaustionDecrSpeed); } \
-	FORCEINLINE static uint32 __PPO__MaxExhaustion() { return STRUCT_OFFSET(UAnimalMotion, MaxExhaustion); }
+	FORCEINLINE static uint32 __PPO__MaxExhaustion() { return STRUCT_OFFSET(UAnimalMotion, MaxExhaustion); } \
+	FORCEINLINE static uint32 __PPO__AbandonHuntDistance() { return STRUCT_OFFSET(UAnimalMotion, AbandonHuntDistance); }
 
 
 #define PangeaMechanics_Source_PangeaMechanics_AnimalMotion_h_13_PROLOG

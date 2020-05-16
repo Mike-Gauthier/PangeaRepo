@@ -6,4 +6,6 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Quali
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
 C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\AnimalMotion.generated.h
+C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Source\PangeaMechanics\PlayerStats.h
+C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\PlayerStats.generated.h
 C:\Users\Tom\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Inc\PangeaMechanics\AnimalSight.generated.h

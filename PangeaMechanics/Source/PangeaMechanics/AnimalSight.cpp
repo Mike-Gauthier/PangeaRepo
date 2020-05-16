@@ -17,6 +17,9 @@ void UAnimalSight::BeginPlay()
 	Super::BeginPlay();
 
 	AnimalMotion = GetOwner()->FindComponentByClass<UAnimalMotion>();
+	PlayerStats = GetWorld()->GetFirstPlayerController()->GetPawn()->FindComponentByClass<UPlayerStats>();
+
+	FrameCount = IdleAttackRate;
 }
 
 // Called every frame
@@ -25,7 +28,7 @@ void UAnimalSight::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	//Output Exhaustion to log
-	//UE_LOG(LogTemp, Log, TEXT("Exhaustion level: %.1f/%.1f"), AnimalMotion->GetExhaustion(), AnimalMotion->GetMaxExhaustion());
+	UE_LOG(LogTemp, Log, TEXT("Exhaustion level: %.1f/%.1f"), AnimalMotion->GetExhaustion(), AnimalMotion->GetMaxExhaustion());
 	
 	//Output AnimalToPlayerDistance to log
 	//UE_LOG(LogTemp, Log, TEXT("AnimalToPlayerDistance: %f"), AnimalMotion->GetAnimalToPlayerVector().Size());
@@ -77,34 +80,20 @@ void UAnimalSight::IfInAlertedState()
 {
 	if (AnimalMotion->GetIsAlerted() && !AnimalMotion->GetIsExhausted())
 	{
-		//Fleeing Motion
-		if (AnimalMotion->GetAnimalToPlayerVector().Size() < AnimalMotion->GetTargetFleeDistance())
+		//Fleeing/Chasing Motion
+		if (IsHerbivore)
 		{
-			//Fleeing Movement
-			AnimalMotion->FleeingAnimalMovement();
-
-			//Fleeing Rotation
-			AnimalMotion->FleeingAnimalRotation();
-
-			//Increase Exhaustion when moving
-			if (AnimalMotion->GetExhaustion() < AnimalMotion->GetMaxExhaustion())
-			{
-				AnimalMotion->IncrementExhaustion();
-			}
+			HerbivoreAlertBehaviour();
 		}
 		else
 		{
-			//Decrease Exhaustion when stationary at TargetFleeDistance
-			if (AnimalMotion->GetExhaustion() > 0.0f)
-			{
-				AnimalMotion->DecrementExhaustion();
-			}
+			CarnivoreAlertBehaviour();
 		}
 
 		//Alerted to Exhausted
 		if (AnimalMotion->GetExhaustion() >= AnimalMotion->GetMaxExhaustion())
 		{
-			//check this works - sign is right? - switching from int to float might be breaking this
+			//check this works - is comparative symbol right? - switching from int to float might be breaking this
 			AnimalMotion->SetIsExhausted(true);
 		}
 
@@ -140,4 +129,69 @@ void UAnimalSight::IfInExhaustedState()
 			AnimalMotion->SetExhaustion(0.0f);
 		}
 	}
+}
+
+//Creature type-specific behaviour
+void UAnimalSight::HerbivoreAlertBehaviour()
+{
+	if (AnimalMotion->GetAnimalToPlayerVector().Size() < AnimalMotion->GetTargetFleeDistance())
+	{
+		//Fleeing Movement
+		AnimalMotion->FleeingAnimalMovement();
+
+		//Fleeing Rotation
+		AnimalMotion->FleeingAnimalRotation();
+
+		//Increase Exhaustion when moving
+		if (AnimalMotion->GetExhaustion() < AnimalMotion->GetMaxExhaustion())
+		{
+			AnimalMotion->IncrementExhaustion();
+		}
+	}
+	else
+	{
+		//Decrease Exhaustion when stationary at TargetFleeDistance
+		if (AnimalMotion->GetExhaustion() > 0.0f)
+		{
+			AnimalMotion->DecrementExhaustion();
+		}
+	}
+}
+void UAnimalSight::CarnivoreAlertBehaviour()
+{
+	if (AnimalMotion->GetAnimalToPlayerVector().Size() > AnimalMotion->GetTargetChasingDistance())
+	{
+		//Chasing Movement
+		AnimalMotion->ChasingAnimalMovement();
+
+		//Chasing Rotation
+		AnimalMotion->ChasingAnimalRotation();
+
+		//Increase Exhaustion when moving
+		if (AnimalMotion->GetExhaustion() < AnimalMotion->GetMaxExhaustion())
+		{
+			AnimalMotion->IncrementExhaustion();
+		}
+	}
+	else
+	{
+		//Decrease Exhaustion when stationary at TargetFleeDistance
+		if (AnimalMotion->GetExhaustion() > 0.0f)
+		{
+			AnimalMotion->DecrementExhaustion();
+		}
+
+		//DamagingPlayer
+		if (AnimalMotion->GetAnimalToPlayerVector().Size() < AnimalMotion->GetTargetChasingDistance() + 50.0f)
+		{
+			if (FrameCount > IdleAttackRate)
+			{
+				PlayerStats->DecrPlayerHealth(AnimalAttackDamage);
+				FrameCount = 0;
+			}
+			FrameCount++;
+		}
+	}
+	UE_LOG(LogTemp, Log, TEXT("PlayerHealth: %f/%f"), PlayerStats->GetPlayerHealth(), PlayerStats->GetMaxPlayerHealth());
+	UE_LOG(LogTemp, Log, TEXT("FrameCount: %d"), FrameCount);
 }

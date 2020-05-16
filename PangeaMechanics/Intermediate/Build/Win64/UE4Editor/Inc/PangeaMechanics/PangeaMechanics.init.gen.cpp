@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodePangeaMechanics_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAAB896EB,
-				0xF3978AED,
+				0x4AE3BA36,
+				0x26E44BAA,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -38,47 +38,43 @@ void UAnimalMotion::CalculateAnimalToPlayerVector()
 //Movement
 void UAnimalMotion::TamedAnimalMovement()
 {
-	CalcTamedAnimalSingleAxisPos(AnimalToPlayerVector.X, FVector(AnimalMovementSpeed, 0.0f, 0.0f));
-	CalcTamedAnimalSingleAxisPos(AnimalToPlayerVector.Y, FVector(0.0f, AnimalMovementSpeed, 0.0f));
+	AnimalMovement("Tamed");
 }
 void UAnimalMotion::FleeingAnimalMovement()
 {
-	CalcFleeingAnimalSingleAxisPos(AnimalToPlayerVector.X, FVector(AnimalFleeSpeed, 0.0f, 0.0f));
-	CalcFleeingAnimalSingleAxisPos(AnimalToPlayerVector.Y, FVector(0.0f, AnimalFleeSpeed, 0.0f));
+	AnimalMovement("Fleeing");
 }
-
-//Functions used to calculate Movement
-void UAnimalMotion::CalcTamedAnimalSingleAxisPos(float AnimalToPlayerAxisDistance, FVector SignlessAdjustVec)
+void UAnimalMotion::ChasingAnimalMovement()
 {
-	if (FMath::Abs(AnimalToPlayerAxisDistance) > TargetAnimalPlayerDistance)
+	AnimalMovement("Chasing");
+}
+void UAnimalMotion::AnimalMovement(FString MovementType)
+{
+	FVector UnitVector = MakeUnitVectorWithZeroZComponent(AnimalToPlayerVector);
+	if (MovementType == "Tamed")
 	{
-		if (AnimalToPlayerAxisDistance > 0)
+		//Tamed
+		if (AnimalToPlayerVector.Size() > TargetTamedDistance)
 		{
-			UpdateAnimalPos(SignlessAdjustVec);
-		}
-		else
-		{
-			UpdateAnimalPos(-SignlessAdjustVec);
+			GetOwner()->SetActorLocation(GetOwner()->GetActorLocation() + (AnimalTamedSpeed * UnitVector));
 		}
 	}
-}
-void UAnimalMotion::CalcFleeingAnimalSingleAxisPos(float AnimalToPlayerAxisDistance, FVector SignlessAdjustVec)
-{
-	if (FMath::Abs(AnimalToPlayerAxisDistance) < TargetFleeDistance)
+	else if (MovementType == "Fleeing")
 	{
-		if (AnimalToPlayerAxisDistance > 0)
+		//Fleeing
+		if (AnimalToPlayerVector.Size() < TargetFleeDistance)
 		{
-			UpdateAnimalPos(-SignlessAdjustVec);
-		}
-		else
-		{
-			UpdateAnimalPos(SignlessAdjustVec);
+			GetOwner()->SetActorLocation(GetOwner()->GetActorLocation() - (AnimalFleeSpeed * UnitVector));
 		}
 	}
-}
-void UAnimalMotion::UpdateAnimalPos(FVector SignedAdjustVec)
-{
-	GetOwner()->SetActorLocation(GetOwner()->GetActorLocation() + SignedAdjustVec);
+	else if (MovementType == "Chasing")
+	{
+		//Chasing
+		if (AnimalToPlayerVector.Size() > TargetChasingDistance)
+		{
+			GetOwner()->SetActorLocation(GetOwner()->GetActorLocation() + (AnimalTamedSpeed * UnitVector));
+		}
+	}
 }
 
 //Rotation
@@ -90,12 +86,10 @@ void UAnimalMotion::FleeingAnimalRotation()
 {
 	AnimalRotation(-1.0f);
 }
-bool UAnimalMotion::GetIsFinishedTurning()
+void UAnimalMotion::ChasingAnimalRotation()
 {
-	return IsFinishedTurning;
+	AnimalRotation(1.0f);
 }
-
-//Functions used to calculate Rotation
 void UAnimalMotion::AnimalRotation(float DirectionMultiplier)
 {
 	//Vectors used
@@ -129,6 +123,8 @@ void UAnimalMotion::AnimalRotation(float DirectionMultiplier)
 		UpdateAnimalRot(TurnDirectionMultiplier);
 	}
 }
+
+//Functions used to calculate Rotation
 float UAnimalMotion::RadiansToDegrees(float RadiansInput)
 {
 	float DegreesOutput = (RadiansInput * 180.0f) / UKismetMathLibrary::GetPI();
@@ -191,15 +187,9 @@ void UAnimalMotion::UpdateAnimalRot(float TurnDirectionMultiplier)
 	GetOwner()->SetActorRotation(GetOwner()->GetActorRotation()
 		+ (TurnDirectionMultiplier * FRotator(0.0f, AnimalRotationSpeed, 0.0f)));
 }
-
-//Movement getters
-FVector UAnimalMotion::GetAnimalToPlayerVector()
+bool UAnimalMotion::GetIsFinishedTurning()
 {
-	return AnimalToPlayerVector;
-}
-float UAnimalMotion::GetAnimalMovementSpeed()
-{
-	return AnimalMovementSpeed;
+	return IsFinishedTurning;
 }
 
 //Animal States
@@ -244,6 +234,24 @@ void UAnimalMotion::SetIsGrounded(bool InputBool)
 	IsGrounded = InputBool;
 }
 
+//Movement General
+FVector UAnimalMotion::GetAnimalToPlayerVector()
+{
+	return AnimalToPlayerVector;
+}
+FVector UAnimalMotion::MakeUnitVectorWithZeroZComponent(FVector InputVector)
+{
+	FVector UnitVector = InputVector / FMath::Sqrt(FMath::Square(InputVector.X) + FMath::Square(InputVector.Y) + FMath::Square(InputVector.Z));
+	UnitVector = FVector(UnitVector.X, UnitVector.Y, 0.0f);
+	return UnitVector;
+}
+
+//Tamed
+float UAnimalMotion::GetAnimalTamedSpeed()
+{
+	return AnimalTamedSpeed;
+}
+
 //Fleeing
 float UAnimalMotion::GetTargetFleeDistance()
 {
@@ -282,4 +290,8 @@ void UAnimalMotion::DecrementExhaustion()
 	Exhaustion -= ExhaustionDecrSpeed;
 }
 
-
+//Chasing
+float UAnimalMotion::GetTargetChasingDistance()
+{
+	return TargetChasingDistance;
+}

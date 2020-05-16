@@ -32,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbandonHuntDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AbandonHuntDistance;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxExhaustion_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxExhaustion;
@@ -44,9 +48,13 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ExhaustionIncrSpeed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AbandonHuntDistance_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetChasingDistance_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AbandonHuntDistance;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TargetChasingDistance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimalChasingSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AnimalChasingSpeed;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetFleeDistance_MetaData[];
 #endif
@@ -56,17 +64,17 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AnimalFleeSpeed;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetTamedDistance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TargetTamedDistance;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimalTamedSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AnimalTamedSpeed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimalRotationSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AnimalRotationSpeed;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetAnimalPlayerDistance_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TargetAnimalPlayerDistance;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AnimalMovementSpeed_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AnimalMovementSpeed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -83,6 +91,15 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 		{ "ModuleRelativePath", "AnimalMotion.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance_MetaData[] = {
+		{ "Category", "AnimalMotion" },
+		{ "Comment", "//Other\n" },
+		{ "ModuleRelativePath", "AnimalMotion.h" },
+		{ "ToolTip", "Other" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance = { "AbandonHuntDistance", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, AbandonHuntDistance), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_MaxExhaustion_MetaData[] = {
 		{ "Category", "AnimalMotion" },
@@ -105,12 +122,21 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_ExhaustionIncrSpeed = { "ExhaustionIncrSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, ExhaustionIncrSpeed), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_ExhaustionIncrSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_ExhaustionIncrSpeed_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetChasingDistance_MetaData[] = {
 		{ "Category", "AnimalMotion" },
 		{ "ModuleRelativePath", "AnimalMotion.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance = { "AbandonHuntDistance", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, AbandonHuntDistance), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetChasingDistance = { "TargetChasingDistance", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, TargetChasingDistance), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetChasingDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetChasingDistance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalChasingSpeed_MetaData[] = {
+		{ "Category", "AnimalMotion" },
+		{ "Comment", "//Chasing\n" },
+		{ "ModuleRelativePath", "AnimalMotion.h" },
+		{ "ToolTip", "Chasing" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalChasingSpeed = { "AnimalChasingSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, AnimalChasingSpeed), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalChasingSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalChasingSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetFleeDistance_MetaData[] = {
 		{ "Category", "AnimalMotion" },
@@ -128,6 +154,22 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalFleeSpeed = { "AnimalFleeSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, AnimalFleeSpeed), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalFleeSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalFleeSpeed_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetTamedDistance_MetaData[] = {
+		{ "Category", "AnimalMotion" },
+		{ "ModuleRelativePath", "AnimalMotion.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetTamedDistance = { "TargetTamedDistance", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, TargetTamedDistance), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetTamedDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetTamedDistance_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalTamedSpeed_MetaData[] = {
+		{ "Category", "AnimalMotion" },
+		{ "Comment", "//Tamed\n" },
+		{ "ModuleRelativePath", "AnimalMotion.h" },
+		{ "ToolTip", "Tamed" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalTamedSpeed = { "AnimalTamedSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, AnimalTamedSpeed), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalTamedSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalTamedSpeed_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalRotationSpeed_MetaData[] = {
 		{ "Category", "AnimalMotion" },
 		{ "Comment", "//Rotation\n" },
@@ -136,32 +178,18 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalRotationSpeed = { "AnimalRotationSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, AnimalRotationSpeed), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalRotationSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalRotationSpeed_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetAnimalPlayerDistance_MetaData[] = {
-		{ "Category", "AnimalMotion" },
-		{ "ModuleRelativePath", "AnimalMotion.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetAnimalPlayerDistance = { "TargetAnimalPlayerDistance", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, TargetAnimalPlayerDistance), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetAnimalPlayerDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetAnimalPlayerDistance_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalMovementSpeed_MetaData[] = {
-		{ "Category", "AnimalMotion" },
-		{ "Comment", "//Movement\n//Maybe add a separate speed for fleeing?\n" },
-		{ "ModuleRelativePath", "AnimalMotion.h" },
-		{ "ToolTip", "Movement\nMaybe add a separate speed for fleeing?" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalMovementSpeed = { "AnimalMovementSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAnimalMotion, AnimalMovementSpeed), METADATA_PARAMS(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalMovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalMovementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UAnimalMotion_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_MaxExhaustion,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_ExhaustionDecrSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_ExhaustionIncrSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AbandonHuntDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetChasingDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalChasingSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetFleeDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalFleeSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetTamedDistance,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalTamedSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalRotationSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_TargetAnimalPlayerDistance,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAnimalMotion_Statics::NewProp_AnimalMovementSpeed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UAnimalMotion_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UAnimalMotion>::IsAbstract,
@@ -190,7 +218,7 @@ void EmptyLinkFunctionForGeneratedCodeAnimalMotion() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAnimalMotion, 106101640);
+	IMPLEMENT_CLASS(UAnimalMotion, 2427158564);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<UAnimalMotion>()
 	{
 		return UAnimalMotion::StaticClass();

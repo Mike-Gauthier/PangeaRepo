@@ -366,10 +366,12 @@
   <ItemGroup>
     <ClCompile Include="..\..\Source\PangeaMechanics\AnimalMotion.cpp" />
     <ClCompile Include="..\..\Source\PangeaMechanics\AnimalSight.cpp" />
+    <ClCompile Include="..\..\Source\PangeaMechanics\PlayerStats.cpp" />
     <ClCompile Include="..\..\Source\PangeaMechanics\RideAnimal.cpp" />
     <ClCompile Include="..\..\Source\PangeaMechanics\TameAnimal.cpp" />
     <ClInclude Include="..\..\Source\PangeaMechanics\AnimalMotion.h" />
     <ClInclude Include="..\..\Source\PangeaMechanics\AnimalSight.h" />
+    <ClInclude Include="..\..\Source\PangeaMechanics\PlayerStats.h" />
     <ClInclude Include="..\..\Source\PangeaMechanics\RideAnimal.h" />
     <ClInclude Include="..\..\Source\PangeaMechanics\TameAnimal.h" />
     <None Include="..\..\PangeaMechanics.uproject" />
