@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePangeaMechanics_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9C6B3F99,
+				0xEA45B2F8,
 				0x704B762D,
 				METADATA_PARAMS(nullptr, 0)
 			};

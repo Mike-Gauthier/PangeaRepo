@@ -92,3 +92,9 @@ D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\
 D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
 D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
 D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+D:\Unreal_Engine\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+D:\Unreal_Engine\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h

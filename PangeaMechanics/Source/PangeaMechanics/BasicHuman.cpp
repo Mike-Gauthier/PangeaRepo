@@ -10,6 +10,10 @@
 #include "AIController.h"
 #include "NavigationPath.h"
 #include "Math/UnrealMathUtility.h"
+#include "Engine/StaticMeshActor.h"
+#include "Engine/StaticMesh.h"
+#include "UObject/NoExportTypes.h"
+#include "Math/Box.h"
 
 void ABasicHuman::CheckIfOwnerIsNear()
 {
@@ -73,10 +77,43 @@ FVector ABasicHuman::GetRandomPointNearOwner()
 	//Modifiers are added to the Owner's location to ensure that the center of the circle is the Owner AActor
 	finalLoc.X += locationMod.X;
 	finalLoc.Y += locationMod.Y;
-	
-	// Set the z component of the finalLoc to the Owner's Z-Axis to ensure no clipping through floors.
-	finalLoc.Z = MyOwner->GetActorLocation().Z;
 
-	//Return the finalLoc with modifiers added.
-	return finalLoc;
+	finalLoc.Z = MyOwner->GetActorLocation().Z;
+	
+	FHitResult hit(ForceInit);
+
+	FCollisionQueryParams traceParams(SCENE_QUERY_STAT(GetRandomPointNearOwner), true, OwnerActor);
+
+	GetWorld()->LineTraceSingleByChannel(hit, ownerLoc, finalLoc, ECC_WorldStatic, traceParams);
+	
+
+	AActor* hitActor = hit.GetActor();
+
+
+	if (!hitActor) { return finalLoc; }
+	else 
+	{
+		AStaticMeshActor* hitMesh = Cast<AStaticMeshActor>(hitActor);
+
+		if (!hitMesh) { return finalLoc; }
+
+		UStaticMesh* hitStaticMesh = Cast<UStaticMesh>(hitMesh);
+
+		if (!hitStaticMesh) { return finalLoc; }
+
+		FBox meshBounds = hitStaticMesh->GetBoundingBox();
+
+		FVector meshDimensions = meshBounds.GetSize();
+
+		float meshHeight = meshDimensions.Z;
+
+		if (hitMesh->ActorHasTag("Environment Deco"))
+		{
+			finalLoc.Z = (hitActor->GetActorLocation().Z + meshHeight);
+		}
+
+	
+		//Return the finalLoc with modifiers added.
+		return finalLoc;
+	}
 }

@@ -52,7 +52,9 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasicHuman_CheckIfOwnerIsNear_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Custom Navigation" },
+		{ "Comment", "//A blueprint function that checks distance to owner, and if greater than the owners 'InfluenceRadius' triggers the onOwnerMoveOutOfRange event.\n" },
 		{ "ModuleRelativePath", "BasicHuman.h" },
+		{ "ToolTip", "A blueprint function that checks distance to owner, and if greater than the owners 'InfluenceRadius' triggers the onOwnerMoveOutOfRange event." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasicHuman_CheckIfOwnerIsNear_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasicHuman, nullptr, "CheckIfOwnerIsNear", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasicHuman_CheckIfOwnerIsNear_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_CheckIfOwnerIsNear_Statics::Function_MetaDataParams)) };
@@ -86,7 +88,9 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintGetter", "" },
 		{ "Category", "Custom Navigation" },
+		{ "Comment", "// TODO: Check to see if redundant with CheckIfOwnerIsNear(), very possible to neated up.\n" },
 		{ "ModuleRelativePath", "BasicHuman.h" },
+		{ "ToolTip", "TODO: Check to see if redundant with CheckIfOwnerIsNear(), very possible to neated up." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasicHuman, nullptr, "GetDistanceToOwner", nullptr, nullptr, sizeof(BasicHuman_eventGetDistanceToOwner_Parms), Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner_Statics::Function_MetaDataParams)) };
@@ -120,7 +124,9 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasicHuman_GetMyOwner_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintGetter", "" },
 		{ "Category", "Custom Navigation" },
+		{ "Comment", "//Simple blueprint getter that returns the AActor* for MyOwner.\n" },
 		{ "ModuleRelativePath", "BasicHuman.h" },
+		{ "ToolTip", "Simple blueprint getter that returns the AActor* for MyOwner." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasicHuman_GetMyOwner_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasicHuman, nullptr, "GetMyOwner", nullptr, nullptr, sizeof(BasicHuman_eventGetMyOwner_Parms), Z_Construct_UFunction_ABasicHuman_GetMyOwner_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_GetMyOwner_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasicHuman_GetMyOwner_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_GetMyOwner_Statics::Function_MetaDataParams)) };
@@ -154,7 +160,9 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner_Statics::Function_MetaDataParams[] = {
 		{ "BlueprintGetter", "" },
 		{ "Category", "Custom Navigation" },
+		{ "Comment", "//Grabs an FVector of a random point in a circle around the player with a radius equal to the owner's 'Influence Radius'.\n" },
 		{ "ModuleRelativePath", "BasicHuman.h" },
+		{ "ToolTip", "Grabs an FVector of a random point in a circle around the player with a radius equal to the owner's 'Influence Radius'." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasicHuman, nullptr, "GetRandomPointNearOwner", nullptr, nullptr, sizeof(BasicHuman_eventGetRandomPointNearOwner_Parms), Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner_Statics::Function_MetaDataParams)) };
@@ -176,7 +184,9 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasicHuman_onOwnerMoveOutOfRange_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//A blueprint event that signals the creature is now too far from it's owner.\n" },
 		{ "ModuleRelativePath", "BasicHuman.h" },
+		{ "ToolTip", "A blueprint event that signals the creature is now too far from it's owner." },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasicHuman_onOwnerMoveOutOfRange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasicHuman, nullptr, "onOwnerMoveOutOfRange", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasicHuman_onOwnerMoveOutOfRange_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABasicHuman_onOwnerMoveOutOfRange_Statics::Function_MetaDataParams)) };
@@ -217,11 +227,11 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PangeaMechanics,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABasicHuman_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ABasicHuman_CheckIfOwnerIsNear, "CheckIfOwnerIsNear" }, // 4019445315
-		{ &Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner, "GetDistanceToOwner" }, // 1420566095
-		{ &Z_Construct_UFunction_ABasicHuman_GetMyOwner, "GetMyOwner" }, // 2805045295
-		{ &Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner, "GetRandomPointNearOwner" }, // 1236188687
-		{ &Z_Construct_UFunction_ABasicHuman_onOwnerMoveOutOfRange, "onOwnerMoveOutOfRange" }, // 215400150
+		{ &Z_Construct_UFunction_ABasicHuman_CheckIfOwnerIsNear, "CheckIfOwnerIsNear" }, // 1315801201
+		{ &Z_Construct_UFunction_ABasicHuman_GetDistanceToOwner, "GetDistanceToOwner" }, // 728046967
+		{ &Z_Construct_UFunction_ABasicHuman_GetMyOwner, "GetMyOwner" }, // 2662288052
+		{ &Z_Construct_UFunction_ABasicHuman_GetRandomPointNearOwner, "GetRandomPointNearOwner" }, // 2687615872
+		{ &Z_Construct_UFunction_ABasicHuman_onOwnerMoveOutOfRange, "onOwnerMoveOutOfRange" }, // 2173605845
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicHuman_Statics::Class_MetaDataParams[] = {
@@ -234,14 +244,18 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicHuman_Statics::NewProp_OwnerActor_MetaData[] = {
 		{ "Category", "Pet Information" },
+		{ "Comment", "//AActor pointer to the player that 'owns' this creature.\n" },
 		{ "ModuleRelativePath", "BasicHuman.h" },
+		{ "ToolTip", "AActor pointer to the player that 'owns' this creature." },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABasicHuman_Statics::NewProp_OwnerActor = { "OwnerActor", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasicHuman, OwnerActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABasicHuman_Statics::NewProp_OwnerActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABasicHuman_Statics::NewProp_OwnerActor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicHuman_Statics::NewProp_MyOwner_MetaData[] = {
 		{ "Category", "Pet Information" },
+		{ "Comment", "//Mostly a redundant variable, planning on deleting.\n" },
 		{ "ModuleRelativePath", "BasicHuman.h" },
+		{ "ToolTip", "Mostly a redundant variable, planning on deleting." },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABasicHuman_Statics::NewProp_MyOwner = { "MyOwner", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasicHuman, MyOwner), Z_Construct_UClass_APangeaMechanicsCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABasicHuman_Statics::NewProp_MyOwner_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABasicHuman_Statics::NewProp_MyOwner_MetaData)) };
@@ -276,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicHuman() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasicHuman, 3899378835);
+	IMPLEMENT_CLASS(ABasicHuman, 2629167101);
 	template<> PANGEAMECHANICS_API UClass* StaticClass<ABasicHuman>()
 	{
 		return ABasicHuman::StaticClass();
