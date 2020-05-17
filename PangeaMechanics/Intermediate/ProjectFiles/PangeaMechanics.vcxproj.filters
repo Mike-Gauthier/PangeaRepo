@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PangeaMechanics.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{981A8F21-1EF2-4B62-96F1-33A7A6DB57D9}</UniqueIdentifier>
+      <UniqueIdentifier>{0E3C0393-E6D2-45A5-A180-4D2E8DD1E8F9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PangeaMechanics.Target.cs">
       <Filter>Source</Filter>
@@ -13,12 +13,15 @@
     </None>
     <None Include="..\..\CLEAN.bat" />
     <Filter Include="Config">
-      <UniqueIdentifier>{92436810-502E-4B6E-9FCE-834BB30B6632}</UniqueIdentifier>
+      <UniqueIdentifier>{0BD66FC5-B191-432B-A228-CEB7A0C9C022}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -31,8 +34,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PangeaMechanics">
-      <UniqueIdentifier>{F372AA12-D0D4-47EA-ABBF-4B9D2BF8EDBF}</UniqueIdentifier>
+      <UniqueIdentifier>{3DB3C8E9-B68C-44F1-8FE5-27EE3183B6C9}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PangeaMechanics\BearTrapItem.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PangeaMechanics\BearTrapItem.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PangeaMechanics\Item.cpp">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PangeaMechanics\Item.h">
+      <Filter>Source\PangeaMechanics</Filter>
+    </ClInclude>
     <None Include="..\..\Source\PangeaMechanics\PangeaMechanics.Build.cs">
       <Filter>Source\PangeaMechanics</Filter>
     </None>
@@ -54,27 +69,11 @@
     <ClInclude Include="..\..\Source\PangeaMechanics\PangeaMechanicsGameMode.h">
       <Filter>Source\PangeaMechanics</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\PangeaMechanics\Item.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PangeaMechanics\WeaponItem.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PangeaMechanics\BearTrapItem.h">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\PangeaMechanics\Item.cpp">
-      <Filter>Source\PangeaMechanics</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\PangeaMechanics\WeaponItem.cpp">
       <Filter>Source\PangeaMechanics</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PangeaMechanics\BearTrapItem.cpp">
+    <ClInclude Include="..\..\Source\PangeaMechanics\WeaponItem.h">
       <Filter>Source\PangeaMechanics</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
