@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\aleja\\Documents\\GitHub\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanics\\PangeaMechanics.Build.cs",
-		"C:\\Users\\aleja\\Documents\\GitHub\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanics.Target.cs",
-		"C:\\Users\\aleja\\Documents\\GitHub\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanicsEditor.Target.cs"
+		"D:\\Pangea Beyond Extinction\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanics\\PangeaMechanics.Build.cs",
+		"D:\\Pangea Beyond Extinction\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanics.Target.cs",
+		"D:\\Pangea Beyond Extinction\\PangeaRepo\\PangeaMechanics\\Source\\PangeaMechanicsEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
