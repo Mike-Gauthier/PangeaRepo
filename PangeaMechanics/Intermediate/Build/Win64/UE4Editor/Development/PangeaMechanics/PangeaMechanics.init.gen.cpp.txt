@@ -1,3 +1,3 @@
-C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\05_Files\Github\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

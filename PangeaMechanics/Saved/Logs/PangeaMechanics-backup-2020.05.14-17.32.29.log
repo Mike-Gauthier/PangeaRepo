@@ -1,0 +1,1070 @@
+﻿Log file open, 05/14/20 19:20:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PangeaMechanics
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.150966
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MegascansPlugin
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [D:/02_Programme/EpicGames/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="D:/05_Files/Github/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" -Output="D:/05_Files/Github/PangeaRepo/PangeaMechanics/Intermediate/TargetInfo.json"]
+LogInit: Warning: Incompatible or missing module: PangeaMechanics
+Running D:/02_Programme/EpicGames/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/05_Files/Github/PangeaRepo/PangeaMechanics/PangeaMechanics.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\05_Files\Github\PangeaRepo).
+Creating makefile for PangeaMechanicsEditor (no existing makefile)
+@progress push 5%
+Parsing headers for PangeaMechanicsEditor
+  Running UnrealHeaderTool "D:\05_Files\Github\PangeaRepo\PangeaMechanics\PangeaMechanics.uproject" "D:\05_Files\Github\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\PangeaMechanicsEditor\Development\PangeaMechanicsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for PangeaMechanicsEditor in 13,402601 seconds
+@progress pop
+Building PangeaMechanicsEditor...
+Using Visual Studio 2017 14.16.27040 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 17 actions with 16 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 6%
+  [1/17] Default.rc2
+  @progress 'Compiling C++ source code...' 12%
+  [2/17] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 18%
+  [3/17] PangeaMechanics.init.gen.cpp
+  @progress 'Compiling C++ source code...' 24%
+  [4/17] PangeaMechanics.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [5/17] BearTrapItem.cpp
+  @progress 'Compiling C++ source code...' 35%
+  [6/17] PangeaMechanicsGameMode.gen.cpp
+  @progress 'Compiling C++ source code...' 41%
+  [7/17] WeaponItem.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [8/17] PangeaMechanicsGameMode.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [9/17] PangeaMechanicsCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 59%
+  [10/17] BearTrapItem.gen.cpp
+  @progress 'Compiling C++ source code...' 65%
+  [11/17] Item.gen.cpp
+  @progress 'Compiling C++ source code...' 71%
+  [12/17] WeaponItem.gen.cpp
+  @progress 'Compiling C++ source code...' 76%
+  [13/17] Item.cpp
+  @progress 'Compiling C++ source code...' 82%
+  [14/17] PangeaMechanicsCharacter.cpp
+  @progress 'Compiling C++ source code...' 88%
+  [15/17] UE4Editor-PangeaMechanics.lib
+     Bibliothek "D:\05_Files\Github\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics.lib" und Objekt "D:\05_Files\Github\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics.exp" werden erstellt.
+  @progress 'Compiling C++ source code...' 94%
+  [16/17] UE4Editor-PangeaMechanics.dll
+     Bibliothek "D:\05_Files\Github\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics.suppressed.lib" und Objekt "D:\05_Files\Github\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\UE4Editor-PangeaMechanics.suppressed.exp" werden erstellt.
+  @progress 'Compiling C++ source code...' 100%
+  [17/17] PangeaMechanicsEditor.target
+Total time in Parallel executor: 62,08 seconds
+Total execution time: 79,76 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Xeon(R) CPU           E5520  @ 2.27GHz, GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/02_Programme/EpicGames/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-17.21.42:404][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.14-17.21.42:404][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.14-17.21.42:405][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-17.21.42:405][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-17.21.42:413][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:413][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.14-17.21.42:413][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.14-17.21.42:413][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:413][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.14-17.21.42:413][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.14-17.21.42:414][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.14-17.21.42:415][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.14-17.21.42:416][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.14-17.21.42:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.14-17.21.42:417][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.14-17.21.42:417][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.14-17.21.42:422][  0]LogHAL: Display: Platform has ~ 64 GB [68709957632 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.14-17.21.42:422][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.14-17.21.42:422][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.14-17.21.42:423][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2020.05.14-17.21.42:424][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2020.05.14-17.21.42:425][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2020.05.14-17.21.42:426][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.14-17.21.42:427][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.14-17.21.42:427][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.14-17.21.42:427][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Config/Windows/Engine.ini]
+[2020.05.14-17.21.42:427][  0]LogInit: Computer: DESKTOP-ST3EN8P
+[2020.05.14-17.21.42:427][  0]LogInit: User: temp
+[2020.05.14-17.21.42:427][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.05.14-17.21.42:427][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.14-17.21.42:427][  0]LogMemory: Memory total: Physical=64.0GB (64GB approx)
+[2020.05.14-17.21.42:427][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.14-17.21.42:428][  0]LogMemory: Process Physical Memory: 115.85 MB used, 115.86 MB peak
+[2020.05.14-17.21.42:428][  0]LogMemory: Process Virtual Memory: 105.59 MB used, 105.59 MB peak
+[2020.05.14-17.21.42:428][  0]LogMemory: Physical Memory: 10633.36 MB used,  54893.56 MB free, 65526.92 MB total
+[2020.05.14-17.21.42:428][  0]LogMemory: Virtual Memory: 5213.12 MB used,  134212512.00 MB free, 134217728.00 MB total
+[2020.05.14-17.21.42:433][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.14-17.21.42:470][  0]LogInit: Using OS detected language (de-DE).
+[2020.05.14-17.21.42:470][  0]LogInit: Using OS detected locale (de-DE).
+[2020.05.14-17.21.42:472][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2020.05.14-17.21.42:472][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2020.05.14-17.21.42:472][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2020.05.14-17.21.42:473][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2020.05.14-17.21.42:473][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2020.05.14-17.21.42:473][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2020.05.14-17.21.42:473][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2020.05.14-17.21.42:474][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2020.05.14-17.21.42:475][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.14-17.21.42:532][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.14-17.21.42:532][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.14-17.21.42:803][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.14-17.21.42:803][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.14-17.21.42:804][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.14-17.21.42:804][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.14-17.21.42:938][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.05.14-17.21.42:938][  0]LogD3D11RHI:       8010/0/32763 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.05.14-17.21.42:945][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.14-17.21.42:945][  0]LogD3D11RHI:       0/0/32763 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.14-17.21.42:945][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.14-17.21.42:960][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.14-17.21.42:961][  0]LogD3D11RHI:     GPU DeviceId: 0x1e82 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.14-17.21.42:961][  0]LogWindows: EnumDisplayDevices:
+[2020.05.14-17.21.42:961][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.05.14-17.21.42:962][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.05.14-17.21.42:962][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.05.14-17.21.42:963][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.05.14-17.21.42:963][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.05.14-17.21.42:963][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.05.14-17.21.42:963][  0]LogD3D11RHI:   Driver Version: 441.87 (internal:26.21.14.4187, unified:441.87)
+[2020.05.14-17.21.42:963][  0]LogD3D11RHI:      Driver Date: 12-24-2019
+[2020.05.14-17.21.42:963][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.05.14-17.21.43:064][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.14-17.21.43:064][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.14-17.21.43:085][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.05.14-17.21.43:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.14-17.21.43:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.14-17.21.43:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.14-17.21.43:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.14-17.21.43:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.14-17.21.43:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.14-17.21.43:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.14-17.21.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.14-17.21.43:786][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.14-17.21.43:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.14-17.21.43:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.14-17.21.43:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.14-17.21.43:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.14-17.21.43:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.14-17.21.43:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.14-17.21.43:931][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.14-17.21.43:931][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.14-17.21.43:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.14-17.21.43:963][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.14-17.21.43:979][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.14-17.21.43:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.14-17.21.44:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.14-17.21.44:026][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.14-17.21.44:026][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.14-17.21.44:033][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.14-17.21.44:085][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Intermediate/Shaders/WorkingDirectory/15348/).
+[2020.05.14-17.21.44:085][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/temp/AppData/Local/Temp/UnrealShaderWorkingDir/57107A104DD8C0418AA831A54B11393D/'.
+[2020.05.14-17.21.44:086][  0]LogXGEController: Cleaning working directory: C:/Users/temp/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.14-17.21.44:087][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.14-17.21.44:087][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.14-17.21.44:087][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.14-17.21.45:569][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.14-17.21.45:682][  0]LogDerivedDataCache: Loaded boot cache 0.11s 82MB C:/Users/temp/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.14-17.21.45:682][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/temp/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.14-17.21.45:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.14-17.21.45:682][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.14-17.21.45:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.14-17.21.45:682][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.14-17.21.45:701][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.14-17.21.45:701][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.14-17.21.45:701][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.14-17.21.45:704][  0]LogDerivedDataCache: Using Local data cache path C:/Users/temp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.14-17.21.45:704][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.14-17.21.45:704][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.14-17.21.45:758][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.14-17.21.45:764][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.14-17.21.45:765][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.14-17.21.45:863][  0]LogAssetRegistry: FAssetRegistry took 0.0045 seconds to start up
+[2020.05.14-17.21.46:482][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.14-17.21.46:818][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.14-17.21.46:818][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.14-17.21.46:818][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.14-17.21.46:818][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.14-17.21.46:818][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.14-17.21.46:846][  0]LogNetVersion: PangeaMechanics 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2073095031)
+[2020.05.14-17.21.48:876][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.086346 seconds
+[2020.05.14-17.21.48:891][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.14-17.21.48:891][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.14-17.21.48:891][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.14-17.21.49:647][  0]LogPython: Using Python 2.7.14
+[2020.05.14-17.21.51:078][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.14-17.21.51:135][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.14-17.21.51:610][  0]SourceControl: Source control is disabled
+[2020.05.14-17.21.51:610][  0]SourceControl: Source control is disabled
+[2020.05.14-17.21.51:612][  0]SourceControl: Source control is disabled
+[2020.05.14-17.21.51:614][  0]SourceControl: Source control is disabled
+[2020.05.14-17.21.51:616][  0]SourceControl: Source control is disabled
+[2020.05.14-17.21.51:868][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.14-17.21.51:909][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.14-17.21.51:909][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.14-17.21.52:129][  0]LogOcInput: OculusInput pre-init called
+[2020.05.14-17.21.52:143][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.14-17.21.52:143][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.14-17.21.54:379][  0]LogEngine: Initializing Engine...
+[2020.05.14-17.21.54:382][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.14-17.21.54:383][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.14-17.21.55:082][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.14-17.21.55:098][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.14-17.21.55:119][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-17.21.55:119][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-17.21.55:119][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-17.21.55:119][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-17.21.55:119][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-17.21.55:120][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-17.21.55:120][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-17.21.55:120][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-17.21.55:120][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-17.21.55:120][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: Name: Lautsprecher (USB Audio Device)
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.14-17.21.55:186][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-17.21.55:187][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-17.21.55:231][  0]LogAudioMixer: Display: Using Audio Device Lautsprecher (USB Audio Device)
+[2020.05.14-17.21.55:237][  0]LogInit: FAudioDevice initialized.
+[2020.05.14-17.21.55:238][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.14-17.21.55:411][  0]LogDerivedDataCache: Saved boot cache 0.17s 82MB C:/Users/temp/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.14-17.21.55:414][  0]LogInit: Texture streaming: Enabled
+[2020.05.14-17.21.55:436][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.14-17.21.55:436][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={6229CBA4-47C3-7A01-3BA5-FF939098487C}
+[2020.05.14-17.21.55:436][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.14-17.21.55:441][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.14-17.21.55:784][  0]LogInit: Transaction tracking system initialized
+[2020.05.14-17.21.55:807][  0]BlueprintLog: New page: Editor Load
+[2020.05.14-17.21.55:873][  0]LocalizationService: Localization service is disabled
+[2020.05.14-17.21.56:491][  0]LogFileCache: Scanning file cache for directory 'D:/05_Files/Github/PangeaRepo/PangeaMechanics/Content/' took 0.01s
+[2020.05.14-17.21.56:491][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.14-17.21.56:491][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.14-17.21.57:820][  0]SourceControl: Source control is disabled
+[2020.05.14-17.21.57:873][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/02_Programme/EpicGames/UE_4.24/FeaturePacks/StarterContent.upack)
+[2020.05.14-17.21.58:064][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2020.05.14-17.21.58:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2020.05.14-17.21.58:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2020.05.14-17.21.58:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2020.05.14-17.21.58:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2020.05.14-17.21.58:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2020.05.14-17.21.58:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2020.05.14-17.21.58:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2020.05.14-17.21.58:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2020.05.14-17.21.58:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2020.05.14-17.21.58:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2020.05.14-17.21.58:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2020.05.14-17.21.58:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Collapse01.uasset"
+[2020.05.14-17.21.58:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Collapse02.uasset"
+[2020.05.14-17.21.58:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2020.05.14-17.21.58:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Explosion01.uasset"
+[2020.05.14-17.21.58:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Explosion02.uasset"
+[2020.05.14-17.21.58:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2020.05.14-17.21.58:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Fire01.uasset"
+[2020.05.14-17.21.58:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2020.05.14-17.21.58:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2020.05.14-17.21.58:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2020.05.14-17.21.58:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Light01.uasset"
+[2020.05.14-17.21.58:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2020.05.14-17.21.58:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Light02.uasset"
+[2020.05.14-17.21.58:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2020.05.14-17.21.58:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Smoke01.uasset"
+[2020.05.14-17.21.58:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2020.05.14-17.21.58:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2020.05.14-17.21.58:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2020.05.14-17.21.59:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2020.05.14-17.21.59:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2020.05.14-17.21.59:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2020.05.14-17.21.59:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2020.05.14-17.21.59:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Steam01.uasset"
+[2020.05.14-17.21.59:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2020.05.14-17.21.59:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2020.05.14-17.21.59:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2020.05.14-17.21.59:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2020.05.14-17.21.59:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2020.05.14-17.21.59:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2020.05.14-17.21.59:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2020.05.14-17.21.59:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2020.05.14-17.21.59:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2020.05.14-17.21.59:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2020.05.14-17.21.59:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2020.05.14-17.21.59:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2020.05.14-17.21.59:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2020.05.14-17.21.59:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2020.05.14-17.21.59:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2020.05.14-17.21.59:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2020.05.14-17.21.59:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2020.05.14-17.22.00:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2020.05.14-17.22.00:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2020.05.14-17.22.00:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2020.05.14-17.22.00:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Maps/Minimal_Default.umap"
+[2020.05.14-17.22.00:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2020.05.14-17.22.00:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Maps/StarterMap.umap"
+[2020.05.14-17.22.01:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2020.05.14-17.22.01:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2020.05.14-17.22.01:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2020.05.14-17.22.01:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2020.05.14-17.22.01:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2020.05.14-17.22.01:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2020.05.14-17.22.01:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2020.05.14-17.22.01:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2020.05.14-17.22.01:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2020.05.14-17.22.01:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2020.05.14-17.22.01:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2020.05.14-17.22.01:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2020.05.14-17.22.01:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2020.05.14-17.22.01:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2020.05.14-17.22.01:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2020.05.14-17.22.01:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2020.05.14-17.22.01:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2020.05.14-17.22.01:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2020.05.14-17.22.01:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Glass.uasset"
+[2020.05.14-17.22.01:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2020.05.14-17.22.01:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2020.05.14-17.22.01:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2020.05.14-17.22.01:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2020.05.14-17.22.01:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2020.05.14-17.22.01:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2020.05.14-17.22.01:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2020.05.14-17.22.01:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2020.05.14-17.22.01:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2020.05.14-17.22.01:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2020.05.14-17.22.01:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2020.05.14-17.22.01:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2020.05.14-17.22.01:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2020.05.14-17.22.01:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2020.05.14-17.22.02:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2020.05.14-17.22.02:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2020.05.14-17.22.02:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2020.05.14-17.22.02:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2020.05.14-17.22.02:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2020.05.14-17.22.02:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2020.05.14-17.22.02:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2020.05.14-17.22.02:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2020.05.14-17.22.02:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2020.05.14-17.22.02:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2020.05.14-17.22.02:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2020.05.14-17.22.02:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2020.05.14-17.22.02:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/P_Explosion.uasset"
+[2020.05.14-17.22.02:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/P_Fire.uasset"
+[2020.05.14-17.22.02:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/P_Smoke.uasset"
+[2020.05.14-17.22.02:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/P_Sparks.uasset"
+[2020.05.14-17.22.02:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2020.05.14-17.22.02:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2020.05.14-17.22.02:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2020.05.14-17.22.02:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2020.05.14-17.22.02:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2020.05.14-17.22.02:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2020.05.14-17.22.02:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2020.05.14-17.22.02:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2020.05.14-17.22.02:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2020.05.14-17.22.02:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2020.05.14-17.22.02:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2020.05.14-17.22.02:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/MaterialSphere.uasset"
+[2020.05.14-17.22.02:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Bush.uasset"
+[2020.05.14-17.22.02:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Chair.uasset"
+[2020.05.14-17.22.02:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2020.05.14-17.22.02:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Couch.uasset"
+[2020.05.14-17.22.02:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Door.uasset"
+[2020.05.14-17.22.02:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2020.05.14-17.22.02:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2020.05.14-17.22.02:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2020.05.14-17.22.02:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2020.05.14-17.22.02:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2020.05.14-17.22.02:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2020.05.14-17.22.03:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2020.05.14-17.22.03:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Rock.uasset"
+[2020.05.14-17.22.03:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Shelf.uasset"
+[2020.05.14-17.22.03:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Stairs.uasset"
+[2020.05.14-17.22.03:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_Statue.uasset"
+[2020.05.14-17.22.03:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_TableRound.uasset"
+[2020.05.14-17.22.03:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2020.05.14-17.22.03:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2020.05.14-17.22.03:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2020.05.14-17.22.03:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2020.05.14-17.22.03:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2020.05.14-17.22.03:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2020.05.14-17.22.03:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2020.05.14-17.22.03:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2020.05.14-17.22.03:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2020.05.14-17.22.03:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2020.05.14-17.22.03:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2020.05.14-17.22.03:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2020.05.14-17.22.03:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2020.05.14-17.22.03:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2020.05.14-17.22.03:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2020.05.14-17.22.03:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2020.05.14-17.22.03:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2020.05.14-17.22.03:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2020.05.14-17.22.03:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2020.05.14-17.22.03:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2020.05.14-17.22.03:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2020.05.14-17.22.03:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2020.05.14-17.22.03:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2020.05.14-17.22.03:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2020.05.14-17.22.03:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2020.05.14-17.22.03:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2020.05.14-17.22.03:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2020.05.14-17.22.03:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2020.05.14-17.22.03:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2020.05.14-17.22.03:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2020.05.14-17.22.03:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2020.05.14-17.22.03:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2020.05.14-17.22.04:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2020.05.14-17.22.04:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2020.05.14-17.22.04:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2020.05.14-17.22.04:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2020.05.14-17.22.04:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2020.05.14-17.22.04:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2020.05.14-17.22.04:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2020.05.14-17.22.05:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2020.05.14-17.22.05:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2020.05.14-17.22.05:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2020.05.14-17.22.05:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2020.05.14-17.22.05:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2020.05.14-17.22.05:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2020.05.14-17.22.05:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2020.05.14-17.22.05:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2020.05.14-17.22.05:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2020.05.14-17.22.05:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2020.05.14-17.22.05:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2020.05.14-17.22.05:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2020.05.14-17.22.06:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2020.05.14-17.22.06:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2020.05.14-17.22.06:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2020.05.14-17.22.06:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2020.05.14-17.22.06:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2020.05.14-17.22.06:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2020.05.14-17.22.06:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2020.05.14-17.22.06:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2020.05.14-17.22.06:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2020.05.14-17.22.07:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2020.05.14-17.22.07:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2020.05.14-17.22.07:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2020.05.14-17.22.07:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2020.05.14-17.22.08:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2020.05.14-17.22.08:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2020.05.14-17.22.08:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2020.05.14-17.22.08:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2020.05.14-17.22.08:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2020.05.14-17.22.08:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2020.05.14-17.22.08:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2020.05.14-17.22.08:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Door_M.uasset"
+[2020.05.14-17.22.08:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Door_N.uasset"
+[2020.05.14-17.22.09:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2020.05.14-17.22.09:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2020.05.14-17.22.09:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2020.05.14-17.22.09:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2020.05.14-17.22.09:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2020.05.14-17.22.09:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2020.05.14-17.22.09:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2020.05.14-17.22.09:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2020.05.14-17.22.09:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2020.05.14-17.22.09:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2020.05.14-17.22.10:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2020.05.14-17.22.10:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2020.05.14-17.22.10:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2020.05.14-17.22.10:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2020.05.14-17.22.10:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2020.05.14-17.22.11:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2020.05.14-17.22.11:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2020.05.14-17.22.12:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2020.05.14-17.22.12:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2020.05.14-17.22.12:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2020.05.14-17.22.12:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2020.05.14-17.22.12:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2020.05.14-17.22.12:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2020.05.14-17.22.12:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2020.05.14-17.22.13:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2020.05.14-17.22.13:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2020.05.14-17.22.13:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2020.05.14-17.22.13:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2020.05.14-17.22.13:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2020.05.14-17.22.13:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2020.05.14-17.22.13:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2020.05.14-17.22.14:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2020.05.14-17.22.14:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2020.05.14-17.22.14:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2020.05.14-17.22.15:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2020.05.14-17.22.15:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2020.05.14-17.22.15:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2020.05.14-17.22.15:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2020.05.14-17.22.15:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2020.05.14-17.22.15:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2020.05.14-17.22.15:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2020.05.14-17.22.15:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2020.05.14-17.22.15:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2020.05.14-17.22.15:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2020.05.14-17.22.16:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2020.05.14-17.22.16:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2020.05.14-17.22.16:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2020.05.14-17.22.16:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2020.05.14-17.22.16:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2020.05.14-17.22.16:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2020.05.14-17.22.16:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2020.05.14-17.22.16:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Water_M.uasset"
+[2020.05.14-17.22.16:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Water_N.uasset"
+[2020.05.14-17.22.16:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2020.05.14-17.22.16:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2020.05.14-17.22.17:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2020.05.14-17.22.17:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2020.05.14-17.22.17:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2020.05.14-17.22.17:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2020.05.14-17.22.17:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2020.05.14-17.22.17:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2020.05.14-17.22.17:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2020.05.14-17.22.18:514][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2020.05.14-17.22.18:563][  0]LogStaticMesh: Built static mesh [0.05s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.05.14-17.22.18:909][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.05.14-17.22.19:080][  0]LogSavePackage: Moving '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Floor_400x400391B32E149DE8F18E9E8C699D7B10C39.tmp' to '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2020.05.14-17.22.19:097][  0]LogFeaturePack: Warning: Inserted 2 feature packs
+[2020.05.14-17.22.19:099][  0]Cmd: MAP LOAD FILE="../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.14-17.22.19:100][  0]LightingResults: New page: Lighting Build
+[2020.05.14-17.22.19:102][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-17.22.19:102][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-17.22.19:102][  0]MapCheck: New page: Map Check
+[2020.05.14-17.22.19:102][  0]LightingResults: New page: Lighting Build
+[2020.05.14-17.22.19:175][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.81ms
+[2020.05.14-17.22.19:194][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:195][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:199][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:199][  0]LogLinker: Warning: While loading '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:202][  0]LogLinker: Warning: While loading '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:203][  0]LogLinker: Warning: While loading '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:203][  0]LogLinker: Warning: While loading '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:203][  0]LogLinker: Warning: While loading '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:207][  0]LogLinker: Warning: While loading '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:207][  0]LoadErrors: Failed to load /Game/SkyMaterial.SkyMaterial Referenced by K2Node_CallFunction_40283
+[2020.05.14-17.22.19:207][  0]LogLinker: Warning: While loading '../../../../../../05_Files/Github/PangeaRepo/PangeaMechanics/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap' failed to load '/Game/SkyMaterial': Can't find file.
+[2020.05.14-17.22.19:207][  0]LoadErrors: Failed to load /Game/SkyMaterial.SkyMaterial Referenced by K2Node_CallFunction_40283
+[2020.05.14-17.22.19:356][  0]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.05.14-17.22.20:523][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.168 s
+[2020.05.14-17.22.20:523][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: 
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: Ensure condition failed: InParent == nullptr || !InParent->IsAttachedTo(this) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/SceneComponent.cpp] [Line: 1729]
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: Setting up attachment would create a cycle.
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: Stack: 
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa457c3f49 UE4Editor-Engine.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa44420dcd UE4Editor-Engine.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa43f85fbd UE4Editor-Engine.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa46f4ba57 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa46f6ba26 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa46f4ba57 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa47008f11 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa46ff3177 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa47018e7c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa47017dea UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa42093e87 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa4208429f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa4206bf75 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa42831892 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa423b3950 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa423b372b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa4286fde4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa4282cd49 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ff64a07c260 UE4Editor.exe!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ff64a07c4ca UE4Editor.exe!UnknownFunction []
+[2020.05.14-17.22.20:524][  0]LogOutputDevice: Error: [Callstack] 0x00007ff64a08ceae UE4Editor.exe!UnknownFunction []
+[2020.05.14-17.22.20:525][  0]LogOutputDevice: Error: [Callstack] 0x00007ff64a08fcbe UE4Editor.exe!UnknownFunction []
+[2020.05.14-17.22.20:525][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa83567bd4 KERNEL32.DLL!UnknownFunction []
+[2020.05.14-17.22.20:525][  0]LogOutputDevice: Error: [Callstack] 0x00007ffa84e0ce51 ntdll.dll!UnknownFunction []
+[2020.05.14-17.22.20:525][  0]LogOutputDevice: Error: 
+[2020.05.14-17.22.20:559][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.05.14-17.22.23:855][  0]LogStats:                    SendNewReport -  3.297 s
+[2020.05.14-17.22.23:856][  0]LogStats:             FDebug::EnsureFailed -  4.500 s
+[2020.05.14-17.22.23:882][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.14-17.22.23:884][  0]LogLevel: Warning: Found loop in attachment hierarchy: BP_Item_2 -> BP_Item_2
+[2020.05.14-17.22.23:893][  0]PIE: Warning: AttachTo: '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Item_2.SM_TBox' root component cannot be attached to other components in the same actor. Aborting.
+[2020.05.14-17.22.23:895][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.14-17.22.23:968][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2020.05.14-17.22.23:969][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.14-17.22.23:969][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,261ms to complete.
+[2020.05.14-17.22.23:969][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.870
+[2020.05.14-17.22.24:132][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-17.22.24:146][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-17.22.24:159][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-17.22.24:173][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-17.22.24:197][  0]LogCollectionManager: Loaded 0 collections in 0.001906 seconds
+[2020.05.14-17.22.24:222][  0]LogFileCache: Scanning file cache for directory 'D:/05_Files/Github/PangeaRepo/PangeaMechanics/Saved/Collections/' took 0.00s
+[2020.05.14-17.22.24:222][  0]LogFileCache: Scanning file cache for directory 'D:/05_Files/Github/PangeaRepo/PangeaMechanics/Content/Developers/temp/Collections/' took 0.00s
+[2020.05.14-17.22.24:222][  0]LogFileCache: Scanning file cache for directory 'D:/05_Files/Github/PangeaRepo/PangeaMechanics/Content/Collections/' took 0.00s
+[2020.05.14-17.22.24:222][  0]LogContentBrowser: Native class hierarchy populated in 0.0184 seconds. Added 3045 classes and 732 folders.
+[2020.05.14-17.22.24:228][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.05.14-17.22.24:364][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.05.14-17.22.24:404][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.14-17.22.24:408][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.14-17.22.24:418][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.14-17.22.24:515][  0]LogRenderer: Reallocating scene render targets to support 1272x628 Format 10 NumSamples 1 (Frame:1).
+[2020.05.14-17.22.24:589][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.14-17.22.24:681][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.05.14-17.22.24:681][  0]LogLoad: (Engine Initialization) Total time: 128.55 seconds
+[2020.05.14-17.22.24:682][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.14-17.22.24:707][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2020.05.14-17.22.24:707][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.05.14-17.22.26:821][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2020.05.14-17.22.26:825][  0]LogTemp: Resetting audio stream to device id 
+[2020.05.14-17.22.26:892][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.14-17.22.26:892][  0]LogAudioMixer: Display: Name: Lautsprecher (USB Audio Device)
+[2020.05.14-17.22.26:892][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.14-17.22.26:892][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.14-17.22.26:892][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.14-17.22.26:892][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.14-17.22.26:893][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.14-17.22.26:893][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-17.22.26:893][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-17.22.27:054][  1]LogAssetRegistry: Asset discovery search completed in 41.1924 seconds
+[2020.05.14-17.22.27:061][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2020.05.14-17.22.29:014][187]LogSlate: Window 'Message Log' being destroyed
+[2020.05.14-17.22.29:024][187]LogSlate: Window 'Message Log' being destroyed
+[2020.05.14-17.22.35:961][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.05.14-17.23.07:832][981]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.14-17.23.07:860][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.14-17.23.07:860][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.14-17.23.07:864][981]PIE: New page: PIE session: ThirdPersonExampleMap (14.05.2020, 21:23:07)
+[2020.05.14-17.23.07:883][981]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.14-17.23.07:898][981]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.14-17.23.07:899][981]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.14-17.23.07:929][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028687s)
+[2020.05.14-17.23.07:932][981]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.14-17.23.07:932][981]LogPlayLevel: PIE: World Init took: (0.003033s)
+[2020.05.14-17.23.07:933][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034303s)
+[2020.05.14-17.23.08:006][981]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.05.14-17.23.08:009][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-17.23.08:009][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-17.23.08:010][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-17.23.08:012][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-17.23.08:014][981]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-17.23.08:016][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-17.23.08:018][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-17.23.08:020][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-17.23.08:023][981]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-17.23.08:024][981]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-17.23.08:084][981]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.14-17.23.08:084][981]LogAudioMixer: Display: Name: Lautsprecher (USB Audio Device)
+[2020.05.14-17.23.08:085][981]LogAudioMixer: Display: Is Default: Yes
+[2020.05.14-17.23.08:086][981]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.14-17.23.08:088][981]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.14-17.23.08:090][981]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.14-17.23.08:091][981]LogAudioMixer: Display: Channel Order:
+[2020.05.14-17.23.08:092][981]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-17.23.08:094][981]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-17.23.08:122][981]LogAudioMixer: Display: Using Audio Device Lautsprecher (USB Audio Device)
+[2020.05.14-17.23.08:126][981]LogInit: FAudioDevice initialized.
+[2020.05.14-17.23.08:143][981]LogLoad: Game class is 'PangeaMechanicsGameMode'
+[2020.05.14-17.23.08:149][981]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.05.14-19.23.08
+[2020.05.14-17.23.08:166][981]LogWorld: Bringing up level for play took: 0.020997
+[2020.05.14-17.23.08:167][981]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.14-17.23.08:345][981]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2020.05.14-17.23.08:347][981]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0,503
+[2020.05.14-17.23.08:347][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.14-17.23.21:074][360]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-17.23.21:074][360]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-17.23.21:075][360]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.14-17.23.21:096][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-17.23.21:096][360]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.05.14-17.23.21:097][360]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-17.23.21:099][360]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-17.23.21:101][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-17.23.21:114][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.14-17.23.21:115][360]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.05.14-17.23.21:122][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-17.23.21:182][360]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-17.23.21:187][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-17.23.21:193][360]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.05.14-17.23.21:217][361]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.14-17.32.29:475][175]LogSlate: Took 0.000646 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)

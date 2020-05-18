@@ -1,11 +1,11 @@
-C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\aleja\Documents\GitHub\PangeaRepo\PangeaMechanics\Source\PangeaMechanics/Item.h
-c:\users\aleja\documents\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanicsCharacter.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-c:\users\aleja\documents\github\pangearepo\pangeamechanics\intermediate\build\win64\ue4editor\inc\pangeamechanics\PangeaMechanicsCharacter.generated.h
-c:\users\aleja\documents\github\pangearepo\pangeamechanics\intermediate\build\win64\ue4editor\inc\pangeamechanics\Item.generated.h
+D:\05_Files\Github\PangeaRepo\PangeaMechanics\Intermediate\Build\Win64\UE4Editor\Development\PangeaMechanics\Definitions.PangeaMechanics.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\05_Files\Github\PangeaRepo\PangeaMechanics\Source\PangeaMechanics/Item.h
+d:\05_files\github\pangearepo\pangeamechanics\source\pangeamechanics\PangeaMechanicsCharacter.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\02_Programme\EpicGames\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+d:\05_files\github\pangearepo\pangeamechanics\intermediate\build\win64\ue4editor\inc\pangeamechanics\PangeaMechanicsCharacter.generated.h
+d:\05_files\github\pangearepo\pangeamechanics\intermediate\build\win64\ue4editor\inc\pangeamechanics\Item.generated.h
