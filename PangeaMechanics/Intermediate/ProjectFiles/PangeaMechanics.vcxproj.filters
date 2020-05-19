@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PangeaMechanics.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0E3C0393-E6D2-45A5-A180-4D2E8DD1E8F9}</UniqueIdentifier>
+      <UniqueIdentifier>{7A063F92-70F3-444A-B7DB-63F8FFF04D9A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PangeaMechanics.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\CLEAN.bat" />
     <Filter Include="Config">
-      <UniqueIdentifier>{0BD66FC5-B191-432B-A228-CEB7A0C9C022}</UniqueIdentifier>
+      <UniqueIdentifier>{6FFB9367-5007-4FDB-93D3-FB892430C38F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PangeaMechanics">
-      <UniqueIdentifier>{3DB3C8E9-B68C-44F1-8FE5-27EE3183B6C9}</UniqueIdentifier>
+      <UniqueIdentifier>{5E94FD01-9B54-476C-A0DC-23E7E9349A65}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PangeaMechanics\BearTrapItem.cpp">
       <Filter>Source\PangeaMechanics</Filter>
