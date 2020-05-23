@@ -35,6 +35,9 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	AItem* StaticInventory[9];
 
+	UPROPERTY(VisibleAnywhere)
+	AItem* equippedItem = nullptr;
+
 	UFUNCTION()
 	bool IsInventorySlotEmpty(int &slot);
 

@@ -10,6 +10,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Engine.h"
 #include "Item.h"
+#include "WeaponItem.h"
 
 #define MAX_INVENTORY_ITEMS 4
 
@@ -262,8 +263,30 @@ void APangeaMechanicsCharacter::ChangeActiveSlot(float Value)
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Active Item: None")));
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::FromInt(activeSlot));
 	}
+	
+	// EQUIP ITEM
+	// Weapon spawns in hand (If active slot = Weapon)
+	if (Cast<AWeaponItem>(StaticInventory[activeSlot]) != nullptr)
+	{
+		// If has an equipped item, detach it
+		if (equippedItem != nullptr) {
+			equippedItem->DisableActor(true);
+			equippedItem->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+		}
+		
+		// Equip new selected Item
+		equippedItem = StaticInventory[activeSlot];
+		StaticInventory[activeSlot]->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, FName("socketWeapon"));
+		StaticInventory[activeSlot]->DisableActor(false);
+		StaticInventory[activeSlot]->SM_TBox->SetSimulatePhysics(false);
+	}
+	// But if active slot = non equipable item, detach actual equipped item
+	else if (equippedItem != nullptr) {
+		equippedItem->DisableActor(true);
+		equippedItem->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+		equippedItem = nullptr;
+	}
 }
-
 
 // Use
 void APangeaMechanicsCharacter::Use()
@@ -287,7 +310,6 @@ void APangeaMechanicsCharacter::ItemInfo()
 	else
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You don't have any active item!")));
 }
-
 
 void APangeaMechanicsCharacter::BeginPlay()
 {
